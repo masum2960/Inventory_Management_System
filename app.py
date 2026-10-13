@@ -2,6 +2,8 @@
 from flask import Flask, jsonify, make_response, request
 from pymongo import MongoClient
 
+from datetime import date
+
 app = Flask(__name__)
 
 # Mongo connection
@@ -123,6 +125,45 @@ def add_product():
                 400
             )
 
+
+
+    # Validate the restock date
+    try:
+        date.fromisoformat(new_product["Restock_Date"])
+    except (ValueError, TypeError):
+        return make_response(
+            jsonify({
+                "error": "Restock_Date must be a valid date in YYYY-MM-DD format"
+            }),
+            400
+        )
+
+    # Validate availability
+    allowed_availability = [
+        "In Stock",
+        "Low Stock",
+        "Out of Stock"
+    ]
+
+    if new_product["Availability"] not in allowed_availability:
+        return make_response(
+            jsonify({
+                "error": "Availability must be In Stock, Low Stock, or Out of Stock"
+            }),
+            400
+        )
+
+
+
+
+
+
+
+
+
+
+
+
     # Check for duplicate product ID or SKU
     if products.find_one({
         "$or": [
@@ -211,6 +252,43 @@ def delete_product(product_id):
 
 
 
+
+# Search and filter products
+@app.route("/api/v1.0/products/search", methods=["GET"])
+def search_products():
+    query = {}
+
+    # Search by product name
+    name = request.args.get("name")
+    if name:
+        query["Product_Name"] = {
+            "$regex": name,
+            "$options": "i"
+        }
+
+    # Filter by category
+    category = request.args.get("category")
+    if category:
+        query["Category"] = category
+
+    # Filter by availability
+    availability = request.args.get("availability")
+    if availability:
+        query["Availability"] = availability
+
+    data_to_return = []
+
+    for product in products.find(query).limit(100):
+        product["_id"] = str(product["_id"])
+        data_to_return.append(product)
+
+    return make_response(
+        jsonify({
+            "total": len(data_to_return),
+            "products": data_to_return
+        }),
+        200
+    )
 
 
 
