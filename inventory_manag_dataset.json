@@ -4,1399 +4,3399 @@
     "SKU": "SKU-1001",
     "Product_Name": "Wireless Keyboard",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Logitech",
-    "Price_GBP": 80.21,
-    "Quantity": 237,
-    "Reorder_Level": 10,
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 88.35,
+    "Quantity": 9,
+    "Reorder_Level": 12,
     "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-10-11",
-    "Availability": "In Stock",
-    "Description": "Wireless Keyboard for business and office use."
+    "Restock_Date": "2026-11-09",
+    "Availability": "Low Stock",
+    "Description": "Wireless Keyboard for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 64.9,
+        "Width": 45.9,
+        "Height": 16.7
+      }
+    },
+    "Created_At": "2026-08-16",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P002",
     "SKU": "SKU-1002",
     "Product_Name": "Wireless Mouse",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Logitech",
-    "Price_GBP": 47.2,
-    "Quantity": 204,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-10-29",
-    "Availability": "In Stock",
-    "Description": "Wireless Mouse for business and office use."
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 44.49,
+    "Quantity": 1,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-11-21",
+    "Availability": "Low Stock",
+    "Description": "Wireless Mouse for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 44.0,
+        "Width": 56.2,
+        "Height": 39.9
+      }
+    },
+    "Created_At": "2026-02-01",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P003",
     "SKU": "SKU-1003",
     "Product_Name": "USB-C Cable",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Anker",
-    "Price_GBP": 5.75,
-    "Quantity": 113,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-12-19",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 11.47,
+    "Quantity": 75,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-12-06",
     "Availability": "In Stock",
-    "Description": "USB-C Cable for business and office use."
+    "Description": "USB-C Cable for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 12.6,
+        "Width": 59.6,
+        "Height": 29.9
+      }
+    },
+    "Created_At": "2026-06-14",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P004",
     "SKU": "SKU-1004",
-    "Product_Name": "HDMI Cable",
+    "Product_Name": "USB Hub",
     "Category": "Electronics",
-    "Supplier": "Belkin",
-    "Price_GBP": 34.53,
-    "Quantity": 238,
+    "Category_ID": "CAT001",
+    "Supplier": "Anker",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 34.08,
+    "Quantity": 100,
     "Reorder_Level": 20,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-11-15",
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-11-03",
     "Availability": "In Stock",
-    "Description": "HDMI Cable for business and office use."
+    "Description": "USB Hub for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 27.9,
+        "Width": 26.8,
+        "Height": 37.2
+      }
+    },
+    "Created_At": "2026-03-03",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P005",
     "SKU": "SKU-1005",
-    "Product_Name": "Laptop Stand",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 41.77,
-    "Quantity": 238,
-    "Reorder_Level": 25,
+    "Product_Name": "A4 Copy Paper",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 3.44,
+    "Quantity": 4,
+    "Reorder_Level": 15,
     "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-11-17",
-    "Availability": "In Stock",
-    "Description": "Laptop Stand for business and office use."
+    "Restock_Date": "2026-10-22",
+    "Availability": "Low Stock",
+    "Description": "A4 Copy Paper for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 7.6,
+        "Width": 7.2,
+        "Height": 37.2
+      }
+    },
+    "Created_At": "2026-08-22",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P006",
     "SKU": "SKU-1006",
-    "Product_Name": "Office Chair",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 159.54,
-    "Quantity": 44,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-12-15",
+    "Product_Name": "Notebook Pack",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 6.43,
+    "Quantity": 125,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-15",
     "Availability": "In Stock",
-    "Description": "Office Chair for business and office use."
+    "Description": "Notebook Pack for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 24.1,
+        "Width": 37.2,
+        "Height": 39.7
+      }
+    },
+    "Created_At": "2026-01-10",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P007",
     "SKU": "SKU-1007",
-    "Product_Name": "Desk Lamp",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 35.92,
-    "Quantity": 167,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B3",
-    "Restock_Date": "2026-12-25",
+    "Product_Name": "Ballpoint Pens",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 2.99,
+    "Quantity": 237,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-10-27",
     "Availability": "In Stock",
-    "Description": "Desk Lamp for business and office use."
+    "Description": "Ballpoint Pens for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 34.7,
+        "Width": 37.1,
+        "Height": 6.4
+      }
+    },
+    "Created_At": "2026-06-05",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P008",
     "SKU": "SKU-1008",
-    "Product_Name": "Notebook A4",
-    "Category": "Stationery",
-    "Supplier": "Oxford",
-    "Price_GBP": 2.83,
-    "Quantity": 67,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-11-20",
+    "Product_Name": "Desk Organiser",
+    "Category": "Office Supplies",
+    "Category_ID": "CAT006",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 12.7,
+    "Quantity": 18,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-10-26",
     "Availability": "In Stock",
-    "Description": "Notebook A4 for business and office use."
+    "Description": "Desk Organiser for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 65.8,
+        "Width": 30.5,
+        "Height": 28.6
+      }
+    },
+    "Created_At": "2026-03-01",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P009",
     "SKU": "SKU-1009",
-    "Product_Name": "Ballpoint Pen Pack",
-    "Category": "Stationery",
-    "Supplier": "BIC",
-    "Price_GBP": 7.9,
-    "Quantity": 244,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-12-07",
-    "Availability": "In Stock",
-    "Description": "Ballpoint Pen Pack for business and office use."
+    "Product_Name": "Office Chair",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 122.94,
+    "Quantity": 1,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-10-18",
+    "Availability": "Low Stock",
+    "Description": "Office Chair for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 54.1,
+        "Width": 40.0,
+        "Height": 4.2
+      }
+    },
+    "Created_At": "2026-09-06",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P010",
     "SKU": "SKU-1010",
-    "Product_Name": "Whiteboard Markers",
-    "Category": "Stationery",
-    "Supplier": "Staedtler",
-    "Price_GBP": 4.04,
-    "Quantity": 187,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-10-06",
+    "Product_Name": "Filing Cabinet",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 168.49,
+    "Quantity": 50,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "C2",
+    "Restock_Date": "2026-10-15",
     "Availability": "In Stock",
-    "Description": "Whiteboard Markers for business and office use."
+    "Description": "Filing Cabinet for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 25.2,
+        "Width": 27.7,
+        "Height": 29.3
+      }
+    },
+    "Created_At": "2026-04-09",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P011",
     "SKU": "SKU-1011",
-    "Product_Name": "Printer Paper",
-    "Category": "Stationery",
-    "Supplier": "HP",
-    "Price_GBP": 19.54,
-    "Quantity": 129,
-    "Reorder_Level": 30,
+    "Product_Name": "Disinfectant Spray",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 8.51,
+    "Quantity": 18,
+    "Reorder_Level": 15,
     "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-11-23",
+    "Restock_Date": "2026-10-26",
     "Availability": "In Stock",
-    "Description": "Printer Paper for business and office use."
+    "Description": "Disinfectant Spray for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 74.7,
+        "Width": 14.5,
+        "Height": 40.6
+      }
+    },
+    "Created_At": "2026-02-02",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P012",
     "SKU": "SKU-1012",
-    "Product_Name": "Desk Organiser",
-    "Category": "Office",
-    "Supplier": "IKEA",
-    "Price_GBP": 12.6,
+    "Product_Name": "Microfibre Cloths",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 5.05,
     "Quantity": 100,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-11-03",
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-11-16",
     "Availability": "In Stock",
-    "Description": "Desk Organiser for business and office use."
+    "Description": "Microfibre Cloths for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 30.2,
+        "Width": 43.6,
+        "Height": 29.3
+      }
+    },
+    "Created_At": "2026-05-28",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P013",
     "SKU": "SKU-1013",
-    "Product_Name": "Webcam",
-    "Category": "Electronics",
-    "Supplier": "Logitech",
-    "Price_GBP": 99.03,
-    "Quantity": 150,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-12-25",
-    "Availability": "In Stock",
-    "Description": "Webcam for business and office use."
+    "Product_Name": "Cardboard Shipping Box",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 2.93,
+    "Quantity": 4,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-10-23",
+    "Availability": "Low Stock",
+    "Description": "Cardboard Shipping Box for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 62.4,
+        "Width": 9.4,
+        "Height": 32.2
+      }
+    },
+    "Created_At": "2026-01-13",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P014",
     "SKU": "SKU-1014",
-    "Product_Name": "USB Hub",
-    "Category": "Electronics",
-    "Supplier": "Anker",
-    "Price_GBP": 42.59,
-    "Quantity": 176,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-10-27",
-    "Availability": "In Stock",
-    "Description": "USB Hub for business and office use."
+    "Product_Name": "Bubble Wrap Roll",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 5.03,
+    "Quantity": 2,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-11-16",
+    "Availability": "Low Stock",
+    "Description": "Bubble Wrap Roll for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 17.6,
+        "Width": 49.2,
+        "Height": 41.2
+      }
+    },
+    "Created_At": "2026-01-14",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P015",
     "SKU": "SKU-1015",
-    "Product_Name": "Headset",
-    "Category": "Electronics",
-    "Supplier": "JBL",
-    "Price_GBP": 48.67,
-    "Quantity": 50,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-10-15",
-    "Availability": "In Stock",
-    "Description": "Headset for business and office use."
+    "Product_Name": "Monitor Stand",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Metro Business Goods",
+    "Supplier_ID": "SUP010",
+    "Price_GBP": 31.28,
+    "Quantity": 2,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-12-08",
+    "Availability": "Low Stock",
+    "Description": "Monitor Stand for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP010",
+      "Supplier_Name": "Metro Business Goods",
+      "Email": "sales@metrobusiness.example",
+      "Lead_Time_Days": 6
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 64.1,
+        "Width": 32.6,
+        "Height": 45.0
+      }
+    },
+    "Created_At": "2026-04-19",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P016",
     "SKU": "SKU-1016",
-    "Product_Name": "Monitor 24 inch",
+    "Product_Name": "Laptop Sleeve",
     "Category": "Electronics",
-    "Supplier": "Dell",
-    "Price_GBP": 221.73,
-    "Quantity": 89,
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 20.51,
+    "Quantity": 237,
     "Reorder_Level": 15,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-11-30",
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-10-05",
     "Availability": "In Stock",
-    "Description": "Monitor 24 inch for business and office use."
+    "Description": "Laptop Sleeve for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 51.6,
+        "Width": 10.2,
+        "Height": 9.4
+      }
+    },
+    "Created_At": "2026-05-24",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P017",
     "SKU": "SKU-1017",
-    "Product_Name": "Monitor Stand",
-    "Category": "Office",
-    "Supplier": "Dell",
-    "Price_GBP": 38.02,
-    "Quantity": 185,
+    "Product_Name": "HDMI Cable",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 16.89,
+    "Quantity": 0,
     "Reorder_Level": 10,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-11-29",
-    "Availability": "In Stock",
-    "Description": "Monitor Stand for business and office use."
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-12-01",
+    "Availability": "Out of Stock",
+    "Description": "HDMI Cable for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 43.6,
+        "Width": 31.2,
+        "Height": 2.6
+      }
+    },
+    "Created_At": "2026-09-28",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P018",
     "SKU": "SKU-1018",
-    "Product_Name": "Desk",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 92.14,
-    "Quantity": 88,
-    "Reorder_Level": 25,
+    "Product_Name": "Sticky Notes",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 3.55,
+    "Quantity": 237,
+    "Reorder_Level": 12,
     "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-11-08",
+    "Restock_Date": "2026-11-09",
     "Availability": "In Stock",
-    "Description": "Desk for business and office use."
+    "Description": "Sticky Notes for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 33.9,
+        "Width": 27.8,
+        "Height": 41.4
+      }
+    },
+    "Created_At": "2026-06-29",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P019",
     "SKU": "SKU-1019",
-    "Product_Name": "Filing Cabinet",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 113.08,
-    "Quantity": 34,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-12-21",
+    "Product_Name": "Whiteboard Markers",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 9.61,
+    "Quantity": 125,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-11-11",
     "Availability": "In Stock",
-    "Description": "Filing Cabinet for business and office use."
+    "Description": "Whiteboard Markers for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 33.6,
+        "Width": 10.4,
+        "Height": 24.9
+      }
+    },
+    "Created_At": "2026-04-03",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P020",
     "SKU": "SKU-1020",
-    "Product_Name": "Sticky Notes",
-    "Category": "Stationery",
-    "Supplier": "Post-it",
-    "Price_GBP": 1.48,
-    "Quantity": 21,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-11-30",
+    "Product_Name": "Hand Sanitiser",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 6.2,
+    "Quantity": 35,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "D2",
+    "Restock_Date": "2026-10-28",
     "Availability": "In Stock",
-    "Description": "Sticky Notes for business and office use."
+    "Description": "Hand Sanitiser for small-business office inventory; batch 1.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 69.5,
+        "Width": 27.9,
+        "Height": 45.8
+      }
+    },
+    "Created_At": "2026-03-08",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P021",
     "SKU": "SKU-1021",
-    "Product_Name": "Calculator",
-    "Category": "Stationery",
-    "Supplier": "Casio",
-    "Price_GBP": 24.28,
-    "Quantity": 221,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-11-04",
+    "Product_Name": "Wireless Keyboard - Model 2-1",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "Logitech",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 74.51,
+    "Quantity": 180,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-11-01",
     "Availability": "In Stock",
-    "Description": "Calculator for business and office use."
+    "Description": "Wireless Keyboard for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 44.6,
+        "Width": 7.9,
+        "Height": 28.3
+      }
+    },
+    "Created_At": "2026-07-26",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P022",
     "SKU": "SKU-1022",
-    "Product_Name": "Extension Lead",
+    "Product_Name": "Wireless Mouse - Model 2-2",
     "Category": "Electronics",
-    "Supplier": "Belkin",
-    "Price_GBP": 20.88,
-    "Quantity": 34,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-10-25",
-    "Availability": "In Stock",
-    "Description": "Extension Lead for business and office use."
+    "Category_ID": "CAT001",
+    "Supplier": "Logitech",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 25.14,
+    "Quantity": 7,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-11-30",
+    "Availability": "Low Stock",
+    "Description": "Wireless Mouse for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 10.2,
+        "Width": 45.4,
+        "Height": 35.6
+      }
+    },
+    "Created_At": "2026-07-19",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P023",
     "SKU": "SKU-1023",
-    "Product_Name": "Power Bank",
+    "Product_Name": "USB-C Cable - Model 2-3",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Anker",
-    "Price_GBP": 29.85,
-    "Quantity": 142,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-10-26",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 6.33,
+    "Quantity": 35,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-10-21",
     "Availability": "In Stock",
-    "Description": "Power Bank for business and office use."
+    "Description": "USB-C Cable for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 76.5,
+        "Width": 54.3,
+        "Height": 23.0
+      }
+    },
+    "Created_At": "2026-03-17",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P024",
     "SKU": "SKU-1024",
-    "Product_Name": "Phone Holder",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 18.8,
-    "Quantity": 235,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-11-29",
+    "Product_Name": "USB Hub - Model 2-4",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "Anker",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 39.73,
+    "Quantity": 25,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-10-25",
     "Availability": "In Stock",
-    "Description": "Phone Holder for business and office use."
+    "Description": "USB Hub for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 15.4,
+        "Width": 11.9,
+        "Height": 27.1
+      }
+    },
+    "Created_At": "2026-05-28",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P025",
     "SKU": "SKU-1025",
-    "Product_Name": "Stapler",
+    "Product_Name": "A4 Copy Paper - Model 2-5",
     "Category": "Stationery",
-    "Supplier": "Bostitch",
-    "Price_GBP": 13.95,
-    "Quantity": 206,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-11-16",
-    "Availability": "In Stock",
-    "Description": "Stapler for business and office use."
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 3.2,
+    "Quantity": 2,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-31",
+    "Availability": "Low Stock",
+    "Description": "A4 Copy Paper for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 51.2,
+        "Width": 6.4,
+        "Height": 3.4
+      }
+    },
+    "Created_At": "2026-08-09",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P026",
     "SKU": "SKU-1026",
-    "Product_Name": "Staples Box",
+    "Product_Name": "Notebook Pack - Model 2-1",
     "Category": "Stationery",
-    "Supplier": "Bostitch",
-    "Price_GBP": 3.01,
-    "Quantity": 195,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-11-18",
-    "Availability": "In Stock",
-    "Description": "Staples Box for business and office use."
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 9.22,
+    "Quantity": 9,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-15",
+    "Availability": "Low Stock",
+    "Description": "Notebook Pack for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 59.8,
+        "Width": 38.5,
+        "Height": 16.5
+      }
+    },
+    "Created_At": "2026-07-27",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P027",
     "SKU": "SKU-1027",
-    "Product_Name": "Storage Box",
-    "Category": "Office",
-    "Supplier": "Really Useful Box",
-    "Price_GBP": 12.9,
-    "Quantity": 147,
-    "Reorder_Level": 25,
+    "Product_Name": "Ballpoint Pens - Model 2-2",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 5.44,
+    "Quantity": 4,
+    "Reorder_Level": 15,
     "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-12-20",
-    "Availability": "In Stock",
-    "Description": "Storage Box for business and office use."
+    "Restock_Date": "2026-12-08",
+    "Availability": "Low Stock",
+    "Description": "Ballpoint Pens for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 71.7,
+        "Width": 6.4,
+        "Height": 5.9
+      }
+    },
+    "Created_At": "2026-06-29",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P028",
     "SKU": "SKU-1028",
-    "Product_Name": "Bookshelf",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 80.44,
-    "Quantity": 45,
+    "Product_Name": "Desk Organiser - Model 2-3",
+    "Category": "Office Supplies",
+    "Category_ID": "CAT006",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 18.83,
+    "Quantity": 237,
     "Reorder_Level": 20,
     "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-11-14",
+    "Restock_Date": "2026-10-29",
     "Availability": "In Stock",
-    "Description": "Bookshelf for business and office use."
+    "Description": "Desk Organiser for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 29.7,
+        "Width": 52.6,
+        "Height": 27.1
+      }
+    },
+    "Created_At": "2026-04-20",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P029",
     "SKU": "SKU-1029",
-    "Product_Name": "Laptop Bag",
-    "Category": "Office",
-    "Supplier": "Samsonite",
-    "Price_GBP": 106.12,
-    "Quantity": 162,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-10-04",
+    "Product_Name": "Office Chair - Model 2-4",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 94.77,
+    "Quantity": 18,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-10-13",
     "Availability": "In Stock",
-    "Description": "Laptop Bag for business and office use."
+    "Description": "Office Chair for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 56.8,
+        "Width": 34.2,
+        "Height": 3.0
+      }
+    },
+    "Created_At": "2026-04-05",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P030",
     "SKU": "SKU-1030",
-    "Product_Name": "Ethernet Cable",
-    "Category": "Electronics",
-    "Supplier": "TP-Link",
-    "Price_GBP": 12.09,
-    "Quantity": 156,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-12-22",
+    "Product_Name": "Filing Cabinet - Model 2-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 110.65,
+    "Quantity": 125,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "C2",
+    "Restock_Date": "2026-12-03",
     "Availability": "In Stock",
-    "Description": "Ethernet Cable for business and office use."
+    "Description": "Filing Cabinet for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 15.0,
+        "Width": 39.7,
+        "Height": 4.2
+      }
+    },
+    "Created_At": "2026-01-04",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P031",
     "SKU": "SKU-1031",
-    "Product_Name": "Bluetooth Speaker",
-    "Category": "Electronics",
-    "Supplier": "JBL",
-    "Price_GBP": 29.45,
-    "Quantity": 93,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "B3",
-    "Restock_Date": "2026-10-21",
-    "Availability": "In Stock",
-    "Description": "Bluetooth Speaker for business and office use."
+    "Product_Name": "Disinfectant Spray - Model 2-1",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 8.99,
+    "Quantity": 2,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-11-15",
+    "Availability": "Low Stock",
+    "Description": "Disinfectant Spray for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 12.8,
+        "Width": 56.7,
+        "Height": 43.8
+      }
+    },
+    "Created_At": "2026-07-11",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P032",
     "SKU": "SKU-1032",
-    "Product_Name": "Laptop 15 inch",
-    "Category": "Electronics",
-    "Supplier": "Dell",
-    "Price_GBP": 371.88,
-    "Quantity": 210,
-    "Reorder_Level": 25,
+    "Product_Name": "Microfibre Cloths - Model 2-2",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 3.57,
+    "Quantity": 12,
+    "Reorder_Level": 10,
     "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-12-08",
+    "Restock_Date": "2026-11-13",
     "Availability": "In Stock",
-    "Description": "Laptop 15 inch for business and office use."
+    "Description": "Microfibre Cloths for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 11.8,
+        "Width": 42.2,
+        "Height": 29.1
+      }
+    },
+    "Created_At": "2026-01-09",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P033",
     "SKU": "SKU-1033",
-    "Product_Name": "Tablet Stand",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 33.22,
-    "Quantity": 80,
+    "Product_Name": "Cardboard Shipping Box - Model 2-3",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 4.04,
+    "Quantity": 75,
     "Reorder_Level": 15,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-11-12",
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-11-07",
     "Availability": "In Stock",
-    "Description": "Tablet Stand for business and office use."
+    "Description": "Cardboard Shipping Box for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 7.8,
+        "Width": 35.5,
+        "Height": 20.4
+      }
+    },
+    "Created_At": "2026-07-26",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P034",
     "SKU": "SKU-1034",
-    "Product_Name": "A3 Paper Pack",
-    "Category": "Stationery",
-    "Supplier": "HP",
-    "Price_GBP": 14.37,
-    "Quantity": 229,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-11-17",
+    "Product_Name": "Bubble Wrap Roll - Model 2-4",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 9.22,
+    "Quantity": 25,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-10-05",
     "Availability": "In Stock",
-    "Description": "A3 Paper Pack for business and office use."
+    "Description": "Bubble Wrap Roll for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 35.5,
+        "Width": 19.7,
+        "Height": 7.0
+      }
+    },
+    "Created_At": "2026-01-29",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P035",
     "SKU": "SKU-1035",
-    "Product_Name": "Desk Mat",
-    "Category": "Office",
-    "Supplier": "Logitech",
-    "Price_GBP": 28.27,
-    "Quantity": 123,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-11-03",
+    "Product_Name": "Monitor Stand - Model 2-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Metro Business Goods",
+    "Supplier_ID": "SUP010",
+    "Price_GBP": 37.1,
+    "Quantity": 35,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-12-01",
     "Availability": "In Stock",
-    "Description": "Desk Mat for business and office use."
+    "Description": "Monitor Stand for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP010",
+      "Supplier_Name": "Metro Business Goods",
+      "Email": "sales@metrobusiness.example",
+      "Lead_Time_Days": 6
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 19.6,
+        "Width": 21.0,
+        "Height": 47.0
+      }
+    },
+    "Created_At": "2026-08-18",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P036",
     "SKU": "SKU-1036",
-    "Product_Name": "Filing Folders",
-    "Category": "Stationery",
-    "Supplier": "Oxford",
-    "Price_GBP": 2.11,
-    "Quantity": 236,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-12-01",
+    "Product_Name": "Laptop Sleeve - Model 2-1",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 29.59,
+    "Quantity": 75,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-10-18",
     "Availability": "In Stock",
-    "Description": "Filing Folders for business and office use."
+    "Description": "Laptop Sleeve for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 28.1,
+        "Width": 46.6,
+        "Height": 21.7
+      }
+    },
+    "Created_At": "2026-04-29",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P037",
     "SKU": "SKU-1037",
-    "Product_Name": "Ergonomic Mouse Pad",
-    "Category": "Office",
-    "Supplier": "Logitech",
-    "Price_GBP": 15.39,
-    "Quantity": 199,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-10-05",
+    "Product_Name": "HDMI Cable - Model 2-2",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 14.82,
+    "Quantity": 18,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-10-18",
     "Availability": "In Stock",
-    "Description": "Ergonomic Mouse Pad for business and office use."
+    "Description": "HDMI Cable for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 43.7,
+        "Width": 35.5,
+        "Height": 19.1
+      }
+    },
+    "Created_At": "2026-03-16",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P038",
     "SKU": "SKU-1038",
-    "Product_Name": "Rechargeable Batteries",
-    "Category": "Electronics",
-    "Supplier": "Duracell",
-    "Price_GBP": 17.53,
-    "Quantity": 172,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-12-02",
+    "Product_Name": "Sticky Notes - Model 2-3",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 3.69,
+    "Quantity": 180,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-27",
     "Availability": "In Stock",
-    "Description": "Rechargeable Batteries for business and office use."
+    "Description": "Sticky Notes for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 62.5,
+        "Width": 7.3,
+        "Height": 17.6
+      }
+    },
+    "Created_At": "2026-03-12",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P039",
     "SKU": "SKU-1039",
-    "Product_Name": "Label Printer",
-    "Category": "Electronics",
-    "Supplier": "Brother",
-    "Price_GBP": 129.1,
-    "Quantity": 119,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "B3",
-    "Restock_Date": "2026-11-23",
+    "Product_Name": "Whiteboard Markers - Model 2-4",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 7.25,
+    "Quantity": 12,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-12-13",
     "Availability": "In Stock",
-    "Description": "Label Printer for business and office use."
+    "Description": "Whiteboard Markers for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 39.5,
+        "Width": 45.2,
+        "Height": 48.4
+      }
+    },
+    "Created_At": "2026-05-25",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P040",
     "SKU": "SKU-1040",
-    "Product_Name": "Paper Shredder",
-    "Category": "Office",
-    "Supplier": "Fellowes",
-    "Price_GBP": 173.87,
-    "Quantity": 131,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-11-22",
+    "Product_Name": "Hand Sanitiser - Model 2-5",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 5.92,
+    "Quantity": 25,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "D2",
+    "Restock_Date": "2026-10-01",
     "Availability": "In Stock",
-    "Description": "Paper Shredder for business and office use."
+    "Description": "Hand Sanitiser for small-business office inventory; batch 2.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 16.4,
+        "Width": 52.2,
+        "Height": 30.6
+      }
+    },
+    "Created_At": "2026-01-27",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P041",
     "SKU": "SKU-1041",
-    "Product_Name": "Wireless Keyboard - Model 2",
+    "Product_Name": "Wireless Keyboard - Model 3-1",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Logitech",
-    "Price_GBP": 39.35,
-    "Quantity": 225,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-11-18",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 81.37,
+    "Quantity": 35,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-10-22",
     "Availability": "In Stock",
-    "Description": "Wireless Keyboard - Model 2 for business and office use."
+    "Description": "Wireless Keyboard for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 40.5,
+        "Width": 32.4,
+        "Height": 18.5
+      }
+    },
+    "Created_At": "2026-06-05",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P042",
     "SKU": "SKU-1042",
-    "Product_Name": "Wireless Mouse - Model 2",
+    "Product_Name": "Wireless Mouse - Model 3-2",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Logitech",
-    "Price_GBP": 16.94,
-    "Quantity": 4,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-10-24",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 28.53,
+    "Quantity": 12,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-10-09",
     "Availability": "Low Stock",
-    "Description": "Wireless Mouse - Model 2 for business and office use."
+    "Description": "Wireless Mouse for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 67.1,
+        "Width": 24.4,
+        "Height": 41.8
+      }
+    },
+    "Created_At": "2026-05-10",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P043",
     "SKU": "SKU-1043",
-    "Product_Name": "USB-C Cable - Model 2",
+    "Product_Name": "USB-C Cable - Model 3-3",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Anker",
-    "Price_GBP": 9.28,
-    "Quantity": 77,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-11-23",
-    "Availability": "In Stock",
-    "Description": "USB-C Cable - Model 2 for business and office use."
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 14.81,
+    "Quantity": 0,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-11-21",
+    "Availability": "Out of Stock",
+    "Description": "USB-C Cable for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 14.3,
+        "Width": 10.5,
+        "Height": 41.5
+      }
+    },
+    "Created_At": "2026-08-01",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P044",
     "SKU": "SKU-1044",
-    "Product_Name": "HDMI Cable - Model 2",
+    "Product_Name": "USB Hub - Model 3-4",
     "Category": "Electronics",
-    "Supplier": "Belkin",
-    "Price_GBP": 22.59,
-    "Quantity": 102,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-11-28",
+    "Category_ID": "CAT001",
+    "Supplier": "Anker",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 27.36,
+    "Quantity": 12,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-10-28",
     "Availability": "In Stock",
-    "Description": "HDMI Cable - Model 2 for business and office use."
+    "Description": "USB Hub for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 32.7,
+        "Width": 43.6,
+        "Height": 40.0
+      }
+    },
+    "Created_At": "2026-08-28",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P045",
     "SKU": "SKU-1045",
-    "Product_Name": "Laptop Stand - Model 2",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 29.51,
-    "Quantity": 24,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-12-28",
+    "Product_Name": "A4 Copy Paper - Model 3-5",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 3.11,
+    "Quantity": 35,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-21",
     "Availability": "In Stock",
-    "Description": "Laptop Stand - Model 2 for business and office use."
+    "Description": "A4 Copy Paper for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 44.7,
+        "Width": 38.3,
+        "Height": 16.8
+      }
+    },
+    "Created_At": "2026-08-01",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P046",
     "SKU": "SKU-1046",
-    "Product_Name": "Office Chair - Model 2",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 170.11,
-    "Quantity": 13,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-11-21",
-    "Availability": "Low Stock",
-    "Description": "Office Chair - Model 2 for business and office use."
+    "Product_Name": "Notebook Pack - Model 3-1",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 4.69,
+    "Quantity": 125,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-11-16",
+    "Availability": "In Stock",
+    "Description": "Notebook Pack for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 54.9,
+        "Width": 25.0,
+        "Height": 6.9
+      }
+    },
+    "Created_At": "2026-09-06",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P047",
     "SKU": "SKU-1047",
-    "Product_Name": "Desk Lamp - Model 2",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 35.91,
-    "Quantity": 197,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-10-30",
+    "Product_Name": "Ballpoint Pens - Model 3-2",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 3.4,
+    "Quantity": 75,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-10-27",
     "Availability": "In Stock",
-    "Description": "Desk Lamp - Model 2 for business and office use."
+    "Description": "Ballpoint Pens for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 47.4,
+        "Width": 11.2,
+        "Height": 9.6
+      }
+    },
+    "Created_At": "2026-05-22",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P048",
     "SKU": "SKU-1048",
-    "Product_Name": "Notebook A4 - Model 2",
-    "Category": "Stationery",
-    "Supplier": "Oxford",
-    "Price_GBP": 7.65,
-    "Quantity": 17,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-11-19",
-    "Availability": "Low Stock",
-    "Description": "Notebook A4 - Model 2 for business and office use."
+    "Product_Name": "Desk Organiser - Model 3-3",
+    "Category": "Office Supplies",
+    "Category_ID": "CAT006",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 8.71,
+    "Quantity": 35,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-10-18",
+    "Availability": "In Stock",
+    "Description": "Desk Organiser for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 56.0,
+        "Width": 34.1,
+        "Height": 5.0
+      }
+    },
+    "Created_At": "2026-03-27",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P049",
     "SKU": "SKU-1049",
-    "Product_Name": "Ballpoint Pen Pack - Model 2",
-    "Category": "Stationery",
-    "Supplier": "BIC",
-    "Price_GBP": 4.96,
-    "Quantity": 160,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-10-21",
+    "Product_Name": "Office Chair - Model 3-4",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 163.21,
+    "Quantity": 35,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-12-02",
     "Availability": "In Stock",
-    "Description": "Ballpoint Pen Pack - Model 2 for business and office use."
+    "Description": "Office Chair for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 24.8,
+        "Width": 59.0,
+        "Height": 1.3
+      }
+    },
+    "Created_At": "2026-03-30",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P050",
     "SKU": "SKU-1050",
-    "Product_Name": "Whiteboard Markers - Model 2",
-    "Category": "Stationery",
-    "Supplier": "Staedtler",
-    "Price_GBP": 14.45,
-    "Quantity": 26,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "B3",
-    "Restock_Date": "2026-11-27",
-    "Availability": "In Stock",
-    "Description": "Whiteboard Markers - Model 2 for business and office use."
+    "Product_Name": "Filing Cabinet - Model 3-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 145.93,
+    "Quantity": 4,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "C2",
+    "Restock_Date": "2026-10-27",
+    "Availability": "Low Stock",
+    "Description": "Filing Cabinet for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 57.8,
+        "Width": 30.8,
+        "Height": 41.8
+      }
+    },
+    "Created_At": "2026-08-18",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P051",
     "SKU": "SKU-1051",
-    "Product_Name": "Printer Paper - Model 2",
-    "Category": "Stationery",
-    "Supplier": "HP",
-    "Price_GBP": 7.3,
-    "Quantity": 84,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-10-25",
-    "Availability": "In Stock",
-    "Description": "Printer Paper - Model 2 for business and office use."
+    "Product_Name": "Disinfectant Spray - Model 3-1",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 5.88,
+    "Quantity": 0,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-11-21",
+    "Availability": "Out of Stock",
+    "Description": "Disinfectant Spray for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 23.2,
+        "Width": 34.8,
+        "Height": 22.7
+      }
+    },
+    "Created_At": "2026-06-23",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P052",
     "SKU": "SKU-1052",
-    "Product_Name": "Desk Organiser - Model 2",
-    "Category": "Office",
-    "Supplier": "IKEA",
-    "Price_GBP": 8.46,
-    "Quantity": 150,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-12-01",
+    "Product_Name": "Microfibre Cloths - Model 3-2",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 4.27,
+    "Quantity": 100,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-10-24",
     "Availability": "In Stock",
-    "Description": "Desk Organiser - Model 2 for business and office use."
+    "Description": "Microfibre Cloths for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 79.8,
+        "Width": 28.2,
+        "Height": 30.3
+      }
+    },
+    "Created_At": "2026-04-10",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P053",
     "SKU": "SKU-1053",
-    "Product_Name": "Webcam - Model 2",
-    "Category": "Electronics",
-    "Supplier": "Logitech",
-    "Price_GBP": 48.85,
-    "Quantity": 136,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-12-18",
+    "Product_Name": "Cardboard Shipping Box - Model 3-3",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 3.56,
+    "Quantity": 35,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-11-13",
     "Availability": "In Stock",
-    "Description": "Webcam - Model 2 for business and office use."
+    "Description": "Cardboard Shipping Box for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 10.7,
+        "Width": 34.3,
+        "Height": 44.7
+      }
+    },
+    "Created_At": "2026-03-13",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P054",
     "SKU": "SKU-1054",
-    "Product_Name": "USB Hub - Model 2",
-    "Category": "Electronics",
-    "Supplier": "Anker",
-    "Price_GBP": 11.39,
-    "Quantity": 155,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-12-08",
+    "Product_Name": "Bubble Wrap Roll - Model 3-4",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 14.93,
+    "Quantity": 35,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-10-22",
     "Availability": "In Stock",
-    "Description": "USB Hub - Model 2 for business and office use."
+    "Description": "Bubble Wrap Roll for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 46.2,
+        "Width": 13.9,
+        "Height": 25.3
+      }
+    },
+    "Created_At": "2026-03-18",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P055",
     "SKU": "SKU-1055",
-    "Product_Name": "Headset - Model 2",
-    "Category": "Electronics",
-    "Supplier": "JBL",
-    "Price_GBP": 19.09,
-    "Quantity": 6,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "B3",
-    "Restock_Date": "2026-10-21",
-    "Availability": "Low Stock",
-    "Description": "Headset - Model 2 for business and office use."
+    "Product_Name": "Monitor Stand - Model 3-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Metro Business Goods",
+    "Supplier_ID": "SUP010",
+    "Price_GBP": 57.09,
+    "Quantity": 180,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-10-08",
+    "Availability": "In Stock",
+    "Description": "Monitor Stand for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP010",
+      "Supplier_Name": "Metro Business Goods",
+      "Email": "sales@metrobusiness.example",
+      "Lead_Time_Days": 6
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 50.7,
+        "Width": 12.0,
+        "Height": 45.6
+      }
+    },
+    "Created_At": "2026-04-18",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P056",
     "SKU": "SKU-1056",
-    "Product_Name": "Monitor 24 inch - Model 2",
+    "Product_Name": "Laptop Sleeve - Model 3-1",
     "Category": "Electronics",
-    "Supplier": "Dell",
-    "Price_GBP": 224.71,
-    "Quantity": 241,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-11-18",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 16.58,
+    "Quantity": 237,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-11-19",
     "Availability": "In Stock",
-    "Description": "Monitor 24 inch - Model 2 for business and office use."
+    "Description": "Laptop Sleeve for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 54.2,
+        "Width": 11.7,
+        "Height": 40.0
+      }
+    },
+    "Created_At": "2026-01-31",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P057",
     "SKU": "SKU-1057",
-    "Product_Name": "Monitor Stand - Model 2",
-    "Category": "Office",
-    "Supplier": "Dell",
-    "Price_GBP": 48.48,
-    "Quantity": 187,
+    "Product_Name": "HDMI Cable - Model 3-2",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 9.11,
+    "Quantity": 50,
     "Reorder_Level": 5,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-11-21",
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-11-02",
     "Availability": "In Stock",
-    "Description": "Monitor Stand - Model 2 for business and office use."
+    "Description": "HDMI Cable for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 26.6,
+        "Width": 14.2,
+        "Height": 22.8
+      }
+    },
+    "Created_At": "2026-08-09",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P058",
     "SKU": "SKU-1058",
-    "Product_Name": "Desk - Model 2",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 224.54,
-    "Quantity": 27,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-10-04",
+    "Product_Name": "Sticky Notes - Model 3-3",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 1.45,
+    "Quantity": 100,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-12-03",
     "Availability": "In Stock",
-    "Description": "Desk - Model 2 for business and office use."
+    "Description": "Sticky Notes for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 59.3,
+        "Width": 49.7,
+        "Height": 19.2
+      }
+    },
+    "Created_At": "2026-09-06",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P059",
     "SKU": "SKU-1059",
-    "Product_Name": "Filing Cabinet - Model 2",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 46.23,
-    "Quantity": 130,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-12-03",
-    "Availability": "In Stock",
-    "Description": "Filing Cabinet - Model 2 for business and office use."
+    "Product_Name": "Whiteboard Markers - Model 3-4",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 8.94,
+    "Quantity": 2,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-12-01",
+    "Availability": "Low Stock",
+    "Description": "Whiteboard Markers for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 22.7,
+        "Width": 26.6,
+        "Height": 7.2
+      }
+    },
+    "Created_At": "2026-02-02",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P060",
     "SKU": "SKU-1060",
-    "Product_Name": "Sticky Notes - Model 2",
-    "Category": "Stationery",
-    "Supplier": "Post-it",
-    "Price_GBP": 4.48,
-    "Quantity": 209,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B4",
-    "Restock_Date": "2026-11-12",
+    "Product_Name": "Hand Sanitiser - Model 3-5",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 4.36,
+    "Quantity": 237,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "D2",
+    "Restock_Date": "2026-11-27",
     "Availability": "In Stock",
-    "Description": "Sticky Notes - Model 2 for business and office use."
+    "Description": "Hand Sanitiser for small-business office inventory; batch 3.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 27.3,
+        "Width": 30.2,
+        "Height": 7.8
+      }
+    },
+    "Created_At": "2026-09-20",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P061",
     "SKU": "SKU-1061",
-    "Product_Name": "Calculator - Model 2",
-    "Category": "Stationery",
-    "Supplier": "Casio",
-    "Price_GBP": 20.96,
-    "Quantity": 75,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-10-28",
+    "Product_Name": "Wireless Keyboard - Model 4-1",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "Logitech",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 84.35,
+    "Quantity": 237,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-10-08",
     "Availability": "In Stock",
-    "Description": "Calculator - Model 2 for business and office use."
+    "Description": "Wireless Keyboard for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 38.7,
+        "Width": 36.8,
+        "Height": 13.9
+      }
+    },
+    "Created_At": "2026-01-23",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P062",
     "SKU": "SKU-1062",
-    "Product_Name": "Extension Lead - Model 2",
+    "Product_Name": "Wireless Mouse - Model 4-2",
     "Category": "Electronics",
-    "Supplier": "Belkin",
-    "Price_GBP": 8.38,
-    "Quantity": 58,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-12-28",
-    "Availability": "In Stock",
-    "Description": "Extension Lead - Model 2 for business and office use."
+    "Category_ID": "CAT001",
+    "Supplier": "Logitech",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 38.42,
+    "Quantity": 12,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-10-23",
+    "Availability": "Low Stock",
+    "Description": "Wireless Mouse for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 69.1,
+        "Width": 50.7,
+        "Height": 26.1
+      }
+    },
+    "Created_At": "2026-07-16",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P063",
     "SKU": "SKU-1063",
-    "Product_Name": "Power Bank - Model 2",
+    "Product_Name": "USB-C Cable - Model 4-3",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Anker",
-    "Price_GBP": 16.4,
-    "Quantity": 211,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-10-24",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 11.99,
+    "Quantity": 75,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-11-24",
     "Availability": "In Stock",
-    "Description": "Power Bank - Model 2 for business and office use."
+    "Description": "USB-C Cable for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 66.7,
+        "Width": 58.2,
+        "Height": 41.6
+      }
+    },
+    "Created_At": "2026-09-01",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P064",
     "SKU": "SKU-1064",
-    "Product_Name": "Phone Holder - Model 2",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 10.19,
-    "Quantity": 184,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "B4",
-    "Restock_Date": "2026-11-17",
+    "Product_Name": "USB Hub - Model 4-4",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "Anker",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 52.81,
+    "Quantity": 180,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-12-06",
     "Availability": "In Stock",
-    "Description": "Phone Holder - Model 2 for business and office use."
+    "Description": "USB Hub for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 64.4,
+        "Width": 15.8,
+        "Height": 45.3
+      }
+    },
+    "Created_At": "2026-02-02",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P065",
     "SKU": "SKU-1065",
-    "Product_Name": "Stapler - Model 2",
+    "Product_Name": "A4 Copy Paper - Model 4-5",
     "Category": "Stationery",
-    "Supplier": "Bostitch",
-    "Price_GBP": 13.28,
-    "Quantity": 164,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-10-09",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 4.99,
+    "Quantity": 180,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-11-24",
     "Availability": "In Stock",
-    "Description": "Stapler - Model 2 for business and office use."
+    "Description": "A4 Copy Paper for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 13.7,
+        "Width": 7.3,
+        "Height": 35.2
+      }
+    },
+    "Created_At": "2026-04-19",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P066",
     "SKU": "SKU-1066",
-    "Product_Name": "Staples Box - Model 2",
+    "Product_Name": "Notebook Pack - Model 4-1",
     "Category": "Stationery",
-    "Supplier": "Bostitch",
-    "Price_GBP": 1.05,
-    "Quantity": 76,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-11-15",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 5.18,
+    "Quantity": 18,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-11-23",
     "Availability": "In Stock",
-    "Description": "Staples Box - Model 2 for business and office use."
+    "Description": "Notebook Pack for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 66.6,
+        "Width": 59.8,
+        "Height": 32.6
+      }
+    },
+    "Created_At": "2026-05-18",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P067",
     "SKU": "SKU-1067",
-    "Product_Name": "Storage Box - Model 2",
-    "Category": "Office",
-    "Supplier": "Really Useful Box",
-    "Price_GBP": 28.34,
-    "Quantity": 199,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-12-10",
-    "Availability": "In Stock",
-    "Description": "Storage Box - Model 2 for business and office use."
+    "Product_Name": "Ballpoint Pens - Model 4-2",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 5.41,
+    "Quantity": 2,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-11-05",
+    "Availability": "Low Stock",
+    "Description": "Ballpoint Pens for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 62.9,
+        "Width": 21.4,
+        "Height": 30.7
+      }
+    },
+    "Created_At": "2026-06-15",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P068",
     "SKU": "SKU-1068",
-    "Product_Name": "Bookshelf - Model 2",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 115.11,
-    "Quantity": 95,
+    "Product_Name": "Desk Organiser - Model 4-3",
+    "Category": "Office Supplies",
+    "Category_ID": "CAT006",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 20.15,
+    "Quantity": 4,
     "Reorder_Level": 10,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-11-20",
-    "Availability": "In Stock",
-    "Description": "Bookshelf - Model 2 for business and office use."
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-11-27",
+    "Availability": "Low Stock",
+    "Description": "Desk Organiser for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 55.9,
+        "Width": 37.1,
+        "Height": 25.6
+      }
+    },
+    "Created_At": "2026-08-23",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P069",
     "SKU": "SKU-1069",
-    "Product_Name": "Laptop Bag - Model 2",
-    "Category": "Office",
-    "Supplier": "Samsonite",
-    "Price_GBP": 57.49,
-    "Quantity": 4,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-12-13",
-    "Availability": "Low Stock",
-    "Description": "Laptop Bag - Model 2 for business and office use."
+    "Product_Name": "Office Chair - Model 4-4",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 144.34,
+    "Quantity": 18,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-11-11",
+    "Availability": "In Stock",
+    "Description": "Office Chair for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 40.6,
+        "Width": 23.2,
+        "Height": 22.0
+      }
+    },
+    "Created_At": "2026-02-22",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P070",
     "SKU": "SKU-1070",
-    "Product_Name": "Ethernet Cable - Model 2",
-    "Category": "Electronics",
-    "Supplier": "TP-Link",
-    "Price_GBP": 15.76,
-    "Quantity": 35,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-12-07",
-    "Availability": "In Stock",
-    "Description": "Ethernet Cable - Model 2 for business and office use."
+    "Product_Name": "Filing Cabinet - Model 4-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 137.9,
+    "Quantity": 1,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "C2",
+    "Restock_Date": "2026-11-04",
+    "Availability": "Low Stock",
+    "Description": "Filing Cabinet for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 57.2,
+        "Width": 13.9,
+        "Height": 24.5
+      }
+    },
+    "Created_At": "2026-07-26",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P071",
     "SKU": "SKU-1071",
-    "Product_Name": "Bluetooth Speaker - Model 2",
-    "Category": "Electronics",
-    "Supplier": "JBL",
-    "Price_GBP": 96.68,
-    "Quantity": 75,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-11-20",
+    "Product_Name": "Disinfectant Spray - Model 4-1",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 4.52,
+    "Quantity": 35,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-10-17",
     "Availability": "In Stock",
-    "Description": "Bluetooth Speaker - Model 2 for business and office use."
+    "Description": "Disinfectant Spray for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 30.1,
+        "Width": 56.7,
+        "Height": 44.3
+      }
+    },
+    "Created_At": "2026-06-13",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P072",
     "SKU": "SKU-1072",
-    "Product_Name": "Laptop 15 inch - Model 2",
-    "Category": "Electronics",
-    "Supplier": "Dell",
-    "Price_GBP": 693.1,
-    "Quantity": 0,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-10-05",
-    "Availability": "Out of Stock",
-    "Description": "Laptop 15 inch - Model 2 for business and office use."
+    "Product_Name": "Microfibre Cloths - Model 4-2",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 4.43,
+    "Quantity": 50,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-11-20",
+    "Availability": "In Stock",
+    "Description": "Microfibre Cloths for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 49.9,
+        "Width": 49.4,
+        "Height": 41.3
+      }
+    },
+    "Created_At": "2026-08-08",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P073",
     "SKU": "SKU-1073",
-    "Product_Name": "Tablet Stand - Model 2",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 21.0,
-    "Quantity": 121,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-11-05",
+    "Product_Name": "Cardboard Shipping Box - Model 4-3",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 4.56,
+    "Quantity": 100,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-11-04",
     "Availability": "In Stock",
-    "Description": "Tablet Stand - Model 2 for business and office use."
+    "Description": "Cardboard Shipping Box for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 38.4,
+        "Width": 19.5,
+        "Height": 7.9
+      }
+    },
+    "Created_At": "2026-04-07",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P074",
     "SKU": "SKU-1074",
-    "Product_Name": "A3 Paper Pack - Model 2",
-    "Category": "Stationery",
-    "Supplier": "HP",
-    "Price_GBP": 5.17,
-    "Quantity": 31,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "B4",
-    "Restock_Date": "2026-12-01",
+    "Product_Name": "Bubble Wrap Roll - Model 4-4",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 4.24,
+    "Quantity": 50,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-10-22",
     "Availability": "In Stock",
-    "Description": "A3 Paper Pack - Model 2 for business and office use."
+    "Description": "Bubble Wrap Roll for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 71.8,
+        "Width": 20.8,
+        "Height": 25.3
+      }
+    },
+    "Created_At": "2026-06-14",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P075",
     "SKU": "SKU-1075",
-    "Product_Name": "Desk Mat - Model 2",
-    "Category": "Office",
-    "Supplier": "Logitech",
-    "Price_GBP": 19.49,
-    "Quantity": 116,
+    "Product_Name": "Monitor Stand - Model 4-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Metro Business Goods",
+    "Supplier_ID": "SUP010",
+    "Price_GBP": 32.08,
+    "Quantity": 50,
     "Reorder_Level": 10,
-    "Warehouse_Zone": "A4",
+    "Warehouse_Zone": "C1",
     "Restock_Date": "2026-10-14",
     "Availability": "In Stock",
-    "Description": "Desk Mat - Model 2 for business and office use."
+    "Description": "Monitor Stand for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP010",
+      "Supplier_Name": "Metro Business Goods",
+      "Email": "sales@metrobusiness.example",
+      "Lead_Time_Days": 6
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 32.7,
+        "Width": 16.5,
+        "Height": 6.4
+      }
+    },
+    "Created_At": "2026-01-04",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P076",
     "SKU": "SKU-1076",
-    "Product_Name": "Filing Folders - Model 2",
-    "Category": "Stationery",
-    "Supplier": "Oxford",
-    "Price_GBP": 6.14,
-    "Quantity": 172,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-10-12",
-    "Availability": "In Stock",
-    "Description": "Filing Folders - Model 2 for business and office use."
+    "Product_Name": "Laptop Sleeve - Model 4-1",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 31.29,
+    "Quantity": 9,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-12-07",
+    "Availability": "Low Stock",
+    "Description": "Laptop Sleeve for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 64.4,
+        "Width": 57.0,
+        "Height": 1.2
+      }
+    },
+    "Created_At": "2026-03-23",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P077",
     "SKU": "SKU-1077",
-    "Product_Name": "Ergonomic Mouse Pad - Model 2",
-    "Category": "Office",
-    "Supplier": "Logitech",
-    "Price_GBP": 12.87,
-    "Quantity": 78,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-10-30",
-    "Availability": "In Stock",
-    "Description": "Ergonomic Mouse Pad - Model 2 for business and office use."
+    "Product_Name": "HDMI Cable - Model 4-2",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 14.33,
+    "Quantity": 4,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-11-26",
+    "Availability": "Low Stock",
+    "Description": "HDMI Cable for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 44.9,
+        "Width": 32.8,
+        "Height": 44.3
+      }
+    },
+    "Created_At": "2026-07-26",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P078",
     "SKU": "SKU-1078",
-    "Product_Name": "Rechargeable Batteries - Model 2",
-    "Category": "Electronics",
-    "Supplier": "Duracell",
-    "Price_GBP": 20.75,
-    "Quantity": 98,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-11-14",
+    "Product_Name": "Sticky Notes - Model 4-3",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 2.37,
+    "Quantity": 237,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-25",
     "Availability": "In Stock",
-    "Description": "Rechargeable Batteries - Model 2 for business and office use."
+    "Description": "Sticky Notes for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 9.6,
+        "Width": 53.2,
+        "Height": 13.4
+      }
+    },
+    "Created_At": "2026-09-10",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P079",
     "SKU": "SKU-1079",
-    "Product_Name": "Label Printer - Model 2",
-    "Category": "Electronics",
-    "Supplier": "Brother",
-    "Price_GBP": 91.63,
-    "Quantity": 142,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "C1",
-    "Restock_Date": "2026-10-19",
+    "Product_Name": "Whiteboard Markers - Model 4-4",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 5.15,
+    "Quantity": 75,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-11-08",
     "Availability": "In Stock",
-    "Description": "Label Printer - Model 2 for business and office use."
+    "Description": "Whiteboard Markers for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 51.0,
+        "Width": 31.9,
+        "Height": 3.4
+      }
+    },
+    "Created_At": "2026-01-08",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P080",
     "SKU": "SKU-1080",
-    "Product_Name": "Paper Shredder - Model 2",
-    "Category": "Office",
-    "Supplier": "Fellowes",
-    "Price_GBP": 195.86,
-    "Quantity": 119,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-12-26",
-    "Availability": "In Stock",
-    "Description": "Paper Shredder - Model 2 for business and office use."
+    "Product_Name": "Hand Sanitiser - Model 4-5",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 2.46,
+    "Quantity": 7,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "D2",
+    "Restock_Date": "2026-11-24",
+    "Availability": "Low Stock",
+    "Description": "Hand Sanitiser for small-business office inventory; batch 4.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 7.3,
+        "Width": 58.5,
+        "Height": 5.6
+      }
+    },
+    "Created_At": "2026-05-21",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P081",
     "SKU": "SKU-1081",
-    "Product_Name": "Wireless Keyboard - Model 3",
+    "Product_Name": "Wireless Keyboard - Model 5-1",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Logitech",
-    "Price_GBP": 18.12,
-    "Quantity": 238,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B2",
-    "Restock_Date": "2026-10-21",
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 76.19,
+    "Quantity": 9,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-10-16",
     "Availability": "In Stock",
-    "Description": "Wireless Keyboard - Model 3 for business and office use."
+    "Description": "Wireless Keyboard for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 39.8,
+        "Width": 56.4,
+        "Height": 3.3
+      }
+    },
+    "Created_At": "2026-01-01",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P082",
     "SKU": "SKU-1082",
-    "Product_Name": "Wireless Mouse - Model 3",
+    "Product_Name": "Wireless Mouse - Model 5-2",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Logitech",
-    "Price_GBP": 20.64,
-    "Quantity": 245,
+    "Supplier_ID": "SUP001",
+    "Price_GBP": 42.7,
+    "Quantity": 9,
     "Reorder_Level": 10,
-    "Warehouse_Zone": "A3",
-    "Restock_Date": "2026-12-13",
-    "Availability": "In Stock",
-    "Description": "Wireless Mouse - Model 3 for business and office use."
+    "Warehouse_Zone": "B1",
+    "Restock_Date": "2026-10-24",
+    "Availability": "Low Stock",
+    "Description": "Wireless Mouse for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP001",
+      "Supplier_Name": "Logitech",
+      "Email": "orders@logitech.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 77.3,
+        "Width": 42.1,
+        "Height": 42.7
+      }
+    },
+    "Created_At": "2026-01-11",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P083",
     "SKU": "SKU-1083",
-    "Product_Name": "USB-C Cable - Model 3",
+    "Product_Name": "USB-C Cable - Model 5-3",
     "Category": "Electronics",
+    "Category_ID": "CAT001",
     "Supplier": "Anker",
-    "Price_GBP": 14.19,
-    "Quantity": 155,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-12-15",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 8.12,
+    "Quantity": 237,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-12-03",
     "Availability": "In Stock",
-    "Description": "USB-C Cable - Model 3 for business and office use."
+    "Description": "USB-C Cable for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 52.4,
+        "Width": 36.9,
+        "Height": 36.6
+      }
+    },
+    "Created_At": "2026-09-08",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P084",
     "SKU": "SKU-1084",
-    "Product_Name": "HDMI Cable - Model 3",
+    "Product_Name": "USB Hub - Model 5-4",
     "Category": "Electronics",
-    "Supplier": "Belkin",
-    "Price_GBP": 33.65,
-    "Quantity": 247,
+    "Category_ID": "CAT001",
+    "Supplier": "Anker",
+    "Supplier_ID": "SUP002",
+    "Price_GBP": 20.11,
+    "Quantity": 2,
     "Reorder_Level": 15,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-10-28",
-    "Availability": "In Stock",
-    "Description": "HDMI Cable - Model 3 for business and office use."
+    "Warehouse_Zone": "B2",
+    "Restock_Date": "2026-10-03",
+    "Availability": "Low Stock",
+    "Description": "USB Hub for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP002",
+      "Supplier_Name": "Anker",
+      "Email": "sales@anker.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 9.7,
+        "Width": 14.0,
+        "Height": 24.3
+      }
+    },
+    "Created_At": "2026-03-24",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P085",
     "SKU": "SKU-1085",
-    "Product_Name": "Laptop Stand - Model 3",
-    "Category": "Office",
-    "Supplier": "Amazon Basics",
-    "Price_GBP": 24.45,
-    "Quantity": 0,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-12-17",
-    "Availability": "Out of Stock",
-    "Description": "Laptop Stand - Model 3 for business and office use."
+    "Product_Name": "A4 Copy Paper - Model 5-5",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 3.76,
+    "Quantity": 237,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-11-10",
+    "Availability": "In Stock",
+    "Description": "A4 Copy Paper for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 52.9,
+        "Width": 57.3,
+        "Height": 15.5
+      }
+    },
+    "Created_At": "2026-05-22",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P086",
     "SKU": "SKU-1086",
-    "Product_Name": "Office Chair - Model 3",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 79.36,
-    "Quantity": 225,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-10-22",
+    "Product_Name": "Notebook Pack - Model 5-1",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "PaperTrail Supplies",
+    "Supplier_ID": "SUP003",
+    "Price_GBP": 8.46,
+    "Quantity": 35,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-10-15",
     "Availability": "In Stock",
-    "Description": "Office Chair - Model 3 for business and office use."
+    "Description": "Notebook Pack for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP003",
+      "Supplier_Name": "PaperTrail Supplies",
+      "Email": "hello@papertrail.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 78.1,
+        "Width": 27.9,
+        "Height": 37.1
+      }
+    },
+    "Created_At": "2026-06-16",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P087",
     "SKU": "SKU-1087",
-    "Product_Name": "Desk Lamp - Model 3",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 45.77,
-    "Quantity": 168,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "B4",
-    "Restock_Date": "2026-11-24",
+    "Product_Name": "Ballpoint Pens - Model 5-2",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 5.61,
+    "Quantity": 50,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-10-21",
     "Availability": "In Stock",
-    "Description": "Desk Lamp - Model 3 for business and office use."
+    "Description": "Ballpoint Pens for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 50.2,
+        "Width": 6.9,
+        "Height": 24.0
+      }
+    },
+    "Created_At": "2026-08-26",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P088",
     "SKU": "SKU-1088",
-    "Product_Name": "Notebook A4 - Model 3",
-    "Category": "Stationery",
-    "Supplier": "Oxford",
-    "Price_GBP": 2.36,
-    "Quantity": 91,
-    "Reorder_Level": 15,
+    "Product_Name": "Desk Organiser - Model 5-3",
+    "Category": "Office Supplies",
+    "Category_ID": "CAT006",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 15.69,
+    "Quantity": 0,
+    "Reorder_Level": 12,
     "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-11-27",
-    "Availability": "In Stock",
-    "Description": "Notebook A4 - Model 3 for business and office use."
+    "Restock_Date": "2026-11-30",
+    "Availability": "Out of Stock",
+    "Description": "Desk Organiser for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 52.0,
+        "Width": 27.5,
+        "Height": 22.5
+      }
+    },
+    "Created_At": "2026-04-20",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P089",
     "SKU": "SKU-1089",
-    "Product_Name": "Ballpoint Pen Pack - Model 3",
-    "Category": "Stationery",
-    "Supplier": "BIC",
-    "Price_GBP": 5.53,
-    "Quantity": 159,
-    "Reorder_Level": 30,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-11-02",
+    "Product_Name": "Office Chair - Model 5-4",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 143.09,
+    "Quantity": 125,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-12-02",
     "Availability": "In Stock",
-    "Description": "Ballpoint Pen Pack - Model 3 for business and office use."
+    "Description": "Office Chair for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 64.4,
+        "Width": 27.3,
+        "Height": 17.1
+      }
+    },
+    "Created_At": "2026-01-10",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P090",
     "SKU": "SKU-1090",
-    "Product_Name": "Whiteboard Markers - Model 3",
-    "Category": "Stationery",
-    "Supplier": "Staedtler",
-    "Price_GBP": 10.52,
-    "Quantity": 2,
-    "Reorder_Level": 25,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-12-25",
-    "Availability": "Low Stock",
-    "Description": "Whiteboard Markers - Model 3 for business and office use."
+    "Product_Name": "Filing Cabinet - Model 5-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Workspace Direct",
+    "Supplier_ID": "SUP007",
+    "Price_GBP": 157.64,
+    "Quantity": 50,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "C2",
+    "Restock_Date": "2026-11-07",
+    "Availability": "In Stock",
+    "Description": "Filing Cabinet for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP007",
+      "Supplier_Name": "Workspace Direct",
+      "Email": "orders@workspace.example",
+      "Lead_Time_Days": 7
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 40.7,
+        "Width": 41.5,
+        "Height": 17.8
+      }
+    },
+    "Created_At": "2026-09-02",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P091",
     "SKU": "SKU-1091",
-    "Product_Name": "Printer Paper - Model 3",
-    "Category": "Stationery",
-    "Supplier": "HP",
-    "Price_GBP": 5.11,
-    "Quantity": 103,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "A2",
-    "Restock_Date": "2026-12-25",
+    "Product_Name": "Disinfectant Spray - Model 5-1",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 3.43,
+    "Quantity": 50,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-12-04",
     "Availability": "In Stock",
-    "Description": "Printer Paper - Model 3 for business and office use."
+    "Description": "Disinfectant Spray for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 64.8,
+        "Width": 31.5,
+        "Height": 36.5
+      }
+    },
+    "Created_At": "2026-07-18",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P092",
     "SKU": "SKU-1092",
-    "Product_Name": "Desk Organiser - Model 3",
-    "Category": "Office",
-    "Supplier": "IKEA",
-    "Price_GBP": 15.37,
-    "Quantity": 211,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "A4",
-    "Restock_Date": "2026-10-03",
+    "Product_Name": "Microfibre Cloths - Model 5-2",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 3.0,
+    "Quantity": 9,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "D1",
+    "Restock_Date": "2026-10-27",
     "Availability": "In Stock",
-    "Description": "Desk Organiser - Model 3 for business and office use."
+    "Description": "Microfibre Cloths for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 10.4,
+        "Width": 36.3,
+        "Height": 42.7
+      }
+    },
+    "Created_At": "2026-05-03",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P093",
     "SKU": "SKU-1093",
-    "Product_Name": "Webcam - Model 3",
-    "Category": "Electronics",
-    "Supplier": "Logitech",
-    "Price_GBP": 68.14,
-    "Quantity": 54,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "D1",
-    "Restock_Date": "2026-11-26",
+    "Product_Name": "Cardboard Shipping Box - Model 5-3",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 3.67,
+    "Quantity": 125,
+    "Reorder_Level": 12,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-11-22",
     "Availability": "In Stock",
-    "Description": "Webcam - Model 3 for business and office use."
+    "Description": "Cardboard Shipping Box for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 37.4,
+        "Width": 13.7,
+        "Height": 12.4
+      }
+    },
+    "Created_At": "2026-03-16",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P094",
     "SKU": "SKU-1094",
-    "Product_Name": "USB Hub - Model 3",
-    "Category": "Electronics",
-    "Supplier": "Anker",
-    "Price_GBP": 26.39,
-    "Quantity": 203,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "A1",
-    "Restock_Date": "2026-10-21",
+    "Product_Name": "Bubble Wrap Roll - Model 5-4",
+    "Category": "Packaging",
+    "Category_ID": "CAT005",
+    "Supplier": "PackRight UK",
+    "Supplier_ID": "SUP006",
+    "Price_GBP": 4.52,
+    "Quantity": 100,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "E1",
+    "Restock_Date": "2026-10-19",
     "Availability": "In Stock",
-    "Description": "USB Hub - Model 3 for business and office use."
+    "Description": "Bubble Wrap Roll for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP006",
+      "Supplier_Name": "PackRight UK",
+      "Email": "sales@packright.example",
+      "Lead_Time_Days": 4
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "pack",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 59.9,
+        "Width": 24.5,
+        "Height": 5.7
+      }
+    },
+    "Created_At": "2026-08-28",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P095",
     "SKU": "SKU-1095",
-    "Product_Name": "Headset - Model 3",
-    "Category": "Electronics",
-    "Supplier": "JBL",
-    "Price_GBP": 59.99,
-    "Quantity": 5,
-    "Reorder_Level": 20,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-11-26",
-    "Availability": "Low Stock",
-    "Description": "Headset - Model 3 for business and office use."
+    "Product_Name": "Monitor Stand - Model 5-5",
+    "Category": "Furniture",
+    "Category_ID": "CAT003",
+    "Supplier": "Metro Business Goods",
+    "Supplier_ID": "SUP010",
+    "Price_GBP": 48.17,
+    "Quantity": 18,
+    "Reorder_Level": 10,
+    "Warehouse_Zone": "C1",
+    "Restock_Date": "2026-10-28",
+    "Availability": "In Stock",
+    "Description": "Monitor Stand for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP010",
+      "Supplier_Name": "Metro Business Goods",
+      "Email": "sales@metrobusiness.example",
+      "Lead_Time_Days": 6
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 76.8,
+        "Width": 41.4,
+        "Height": 41.4
+      }
+    },
+    "Created_At": "2026-02-19",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P096",
     "SKU": "SKU-1096",
-    "Product_Name": "Monitor 24 inch - Model 3",
+    "Product_Name": "Laptop Sleeve - Model 5-1",
     "Category": "Electronics",
-    "Supplier": "Dell",
-    "Price_GBP": 197.2,
-    "Quantity": 82,
-    "Reorder_Level": 15,
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 34.55,
+    "Quantity": 4,
+    "Reorder_Level": 10,
     "Warehouse_Zone": "B3",
-    "Restock_Date": "2026-11-24",
-    "Availability": "In Stock",
-    "Description": "Monitor 24 inch - Model 3 for business and office use."
+    "Restock_Date": "2026-10-09",
+    "Availability": "Low Stock",
+    "Description": "Laptop Sleeve for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 23.2,
+        "Width": 27.3,
+        "Height": 12.4
+      }
+    },
+    "Created_At": "2026-09-27",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P097",
     "SKU": "SKU-1097",
-    "Product_Name": "Monitor Stand - Model 3",
-    "Category": "Office",
-    "Supplier": "Dell",
-    "Price_GBP": 19.76,
-    "Quantity": 174,
-    "Reorder_Level": 15,
-    "Warehouse_Zone": "C3",
-    "Restock_Date": "2026-11-26",
+    "Product_Name": "HDMI Cable - Model 5-2",
+    "Category": "Electronics",
+    "Category_ID": "CAT001",
+    "Supplier": "BrightTech Wholesale",
+    "Supplier_ID": "SUP008",
+    "Price_GBP": 6.46,
+    "Quantity": 18,
+    "Reorder_Level": 8,
+    "Warehouse_Zone": "B3",
+    "Restock_Date": "2026-10-23",
     "Availability": "In Stock",
-    "Description": "Monitor Stand - Model 3 for business and office use."
+    "Description": "HDMI Cable for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP008",
+      "Supplier_Name": "BrightTech Wholesale",
+      "Email": "contact@brighttech.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": true,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 12,
+      "Dimensions_cm": {
+        "Length": 58.8,
+        "Width": 40.5,
+        "Height": 12.2
+      }
+    },
+    "Created_At": "2026-02-04",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P098",
     "SKU": "SKU-1098",
-    "Product_Name": "Desk - Model 3",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 281.04,
-    "Quantity": 93,
-    "Reorder_Level": 5,
-    "Warehouse_Zone": "B4",
-    "Restock_Date": "2026-11-15",
-    "Availability": "In Stock",
-    "Description": "Desk - Model 3 for business and office use."
+    "Product_Name": "Sticky Notes - Model 5-3",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Everyday Office",
+    "Supplier_ID": "SUP009",
+    "Price_GBP": 1.93,
+    "Quantity": 12,
+    "Reorder_Level": 15,
+    "Warehouse_Zone": "A1",
+    "Restock_Date": "2026-12-11",
+    "Availability": "Low Stock",
+    "Description": "Sticky Notes for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP009",
+      "Supplier_Name": "Everyday Office",
+      "Email": "hello@everydayoffice.example",
+      "Lead_Time_Days": 2
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 11.2,
+        "Width": 38.3,
+        "Height": 45.2
+      }
+    },
+    "Created_At": "2026-06-16",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P099",
     "SKU": "SKU-1099",
-    "Product_Name": "Filing Cabinet - Model 3",
-    "Category": "Furniture",
-    "Supplier": "IKEA",
-    "Price_GBP": 82.7,
-    "Quantity": 18,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "C2",
-    "Restock_Date": "2026-10-15",
+    "Product_Name": "Whiteboard Markers - Model 5-4",
+    "Category": "Stationery",
+    "Category_ID": "CAT002",
+    "Supplier": "Northstar Office",
+    "Supplier_ID": "SUP004",
+    "Price_GBP": 9.75,
+    "Quantity": 50,
+    "Reorder_Level": 20,
+    "Warehouse_Zone": "A2",
+    "Restock_Date": "2026-11-30",
     "Availability": "In Stock",
-    "Description": "Filing Cabinet - Model 3 for business and office use."
+    "Description": "Whiteboard Markers for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP004",
+      "Supplier_Name": "Northstar Office",
+      "Email": "orders@northstar.example",
+      "Lead_Time_Days": 5
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 21.7,
+        "Width": 12.0,
+        "Height": 22.5
+      }
+    },
+    "Created_At": "2026-06-27",
+    "Last_Updated": "2026-10-12T14:30:00"
   },
   {
     "Product_ID": "P100",
     "SKU": "SKU-1100",
-    "Product_Name": "Sticky Notes - Model 3",
-    "Category": "Stationery",
-    "Supplier": "Post-it",
-    "Price_GBP": 1.01,
-    "Quantity": 85,
-    "Reorder_Level": 10,
-    "Warehouse_Zone": "B1",
-    "Restock_Date": "2026-10-02",
-    "Availability": "In Stock",
-    "Description": "Sticky Notes - Model 3 for business and office use."
+    "Product_Name": "Hand Sanitiser - Model 5-5",
+    "Category": "Cleaning",
+    "Category_ID": "CAT004",
+    "Supplier": "GreenClean Ltd",
+    "Supplier_ID": "SUP005",
+    "Price_GBP": 5.72,
+    "Quantity": 4,
+    "Reorder_Level": 5,
+    "Warehouse_Zone": "D2",
+    "Restock_Date": "2026-12-12",
+    "Availability": "Low Stock",
+    "Description": "Hand Sanitiser for small-business office inventory; batch 5.",
+    "Supplier_Details": {
+      "Supplier_ID": "SUP005",
+      "Supplier_Name": "GreenClean Ltd",
+      "Email": "support@greenclean.example",
+      "Lead_Time_Days": 3
+    },
+    "Product_Attributes": {
+      "Fragile": false,
+      "Unit_Of_Measure": "each",
+      "Warranty_Months": 0,
+      "Dimensions_cm": {
+        "Length": 15.2,
+        "Width": 48.0,
+        "Height": 15.5
+      }
+    },
+    "Created_At": "2026-05-12",
+    "Last_Updated": "2026-10-12T14:30:00"
   }
 ]

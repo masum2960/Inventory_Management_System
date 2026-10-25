@@ -1,15 +1,38 @@
 
+from itertools import product
+
 from flask import Flask, jsonify, make_response, request
 from pymongo import MongoClient
-
+from bson import ObjectId
 from datetime import date
 
 app = Flask(__name__)
 
-# Mongo connection
+# MongoDB connection
 client = MongoClient("mongodb://localhost:27017")
-db = client.inventory_management
-products = db.products
+db = client["inventory_management"]
+
+products = db["products"]
+categories = db["categories"]
+suppliers = db["suppliers"]
+users = db["users"]
+
+# Convert MongoDB ObjectIds into strings
+def convert_object_ids(data):
+    if isinstance(data, dict):
+        return {
+            key: convert_object_ids(value)
+            for key, value in data.items()
+        }
+
+    elif isinstance(data, list):
+        return [convert_object_ids(item) for item in data]
+
+    elif isinstance(data, ObjectId):
+        return str(data)
+
+    else:
+        return data
 
 # This is a welcome route
 @app.route("/", methods=["GET"])
@@ -33,26 +56,26 @@ def show_all_products():
     data_to_return = []
 
     for product in products.find().skip(page_start).limit(page_size):
-        product["_id"] = str(product["_id"])
+        product = convert_object_ids(product)
         data_to_return.append(product)
 
     return make_response(jsonify(data_to_return), 200)
 
 
-# Fetch one product by Product_ID
+# Fetch one product by product_id
 @app.route("/api/v1.0/products/<product_id>", methods=["GET"])
 def show_one_product(product_id):
-    product = products.find_one({"Product_ID": product_id})
+    product = products.find_one({"product_id": product_id})
 
     if product is None:
         return make_response(
             jsonify({"error": "Product not found"}),
             404
         )
-
-    product["_id"] = str(product["_id"])
-
+    product = convert_object_ids(product)
     return make_response(jsonify(product), 200)
+
+
 
 
 
@@ -61,22 +84,17 @@ def show_one_product(product_id):
 def add_product():
     new_product = request.get_json(silent=True)
 
-    # Check that the request contains JSON
     if not isinstance(new_product, dict):
         return make_response(
             jsonify({"error": "Please provide valid JSON data"}),
             400
         )
 
-    # Required product fields
     required_fields = [
-        "Product_ID", "SKU", "Product_Name", "Category",
-        "Supplier", "Price_GBP", "Quantity", "Reorder_Level",
-        "Warehouse_Zone", "Restock_Date", "Availability",
-        "Description"
+        "product_id", "sku", "name", "category",
+        "supplier", "price", "stock"
     ]
 
-    # Check for missing or empty fields
     for field in required_fields:
         if field not in new_product:
             return make_response(
@@ -84,103 +102,47 @@ def add_product():
                 400
             )
 
-        if (
-            new_product[field] is None
-            or (
-                isinstance(new_product[field], str)
-                and not new_product[field].strip()
-            )
-        ):
+    price = new_product["price"]
+    if isinstance(price, bool) or not isinstance(price, (int, float)) or price < 0:
+        return make_response(
+            jsonify({"error": "price must be a non-negative number"}),
+            400
+        )
+
+    stock = new_product["stock"]
+    if not isinstance(stock, dict):
+        return make_response(
+            jsonify({"error": "stock must be a JSON object"}),
+            400
+        )
+
+    for field in ["quantity", "min_level"]:
+        value = stock.get(field)
+        if isinstance(value, bool) or not isinstance(value, int) or value < 0:
             return make_response(
-                jsonify({"error": f"{field} cannot be empty"}),
+                jsonify({"error": f"stock.{field} must be a non-negative integer"}),
                 400
             )
 
-    # Check numeric values
-    price = new_product["Price_GBP"]
-    quantity = new_product["Quantity"]
-    reorder_level = new_product["Reorder_Level"]
-
-    if (
-        isinstance(price, bool)
-        or not isinstance(price, (int, float))
-        or price < 0
-    ):
-        return make_response(
-            jsonify({"error": "Price_GBP must be a non-negative number"}),
-            400
-        )
-
-    for field, value in [
-        ("Quantity", quantity),
-        ("Reorder_Level", reorder_level)
-    ]:
-        if (
-            isinstance(value, bool)
-            or not isinstance(value, int)
-            or value < 0
-        ):
-            return make_response(
-                jsonify({"error": f"{field} must be a non-negative integer"}),
-                400
-            )
-
-
-
-    # Validate the restock date
-    try:
-        date.fromisoformat(new_product["Restock_Date"])
-    except (ValueError, TypeError):
-        return make_response(
-            jsonify({
-                "error": "Restock_Date must be a valid date in YYYY-MM-DD format"
-            }),
-            400
-        )
-
-    # Validate availability
-    allowed_availability = [
-        "In Stock",
-        "Low Stock",
-        "Out of Stock"
-    ]
-
-    if new_product["Availability"] not in allowed_availability:
-        return make_response(
-            jsonify({
-                "error": "Availability must be In Stock, Low Stock, or Out of Stock"
-            }),
-            400
-        )
-
-
-
-
-
-
-
-
-
-
-
-
-    # Check for duplicate product ID or SKU
     if products.find_one({
         "$or": [
-            {"Product_ID": new_product["Product_ID"]},
-            {"SKU": new_product["SKU"]}
+            {"product_id": new_product["product_id"]},
+            {"sku": new_product["sku"]}
         ]
     }):
         return make_response(
-            jsonify({"error": "Product_ID or SKU already exists"}),
+            jsonify({"error": "product_id or sku already exists"}),
             409
         )
 
-    # Insert the valid product
     result = products.insert_one(new_product)
     new_product["_id"] = str(result.inserted_id)
 
-    return make_response(jsonify(new_product), 201)
+    return make_response(
+        jsonify(convert_object_ids(new_product)),
+        201
+    )
+
 
 
 
@@ -188,21 +150,24 @@ def add_product():
 # Edit an existing product
 @app.route("/api/v1.0/products/<product_id>", methods=["PUT"])
 def edit_product(product_id):
-    updated_data = request.get_json()
+    updated_data = request.get_json(silent=True)
 
-    if not updated_data or not isinstance(updated_data, dict):
+    # Check that valid JSON was provided
+    if not isinstance(updated_data, dict) or not updated_data:
         return make_response(
             jsonify({"error": "Please provide valid JSON data"}),
             400
         )
 
+    # Fields that can be updated
     allowed_fields = [
-        "SKU", "Product_Name", "Category", "Supplier",
-        "Price_GBP", "Quantity", "Reorder_Level",
-        "Warehouse_Zone", "Restock_Date",
-        "Availability", "Description"
+        "sku", "name", "description", "status",
+        "category", "supplier", "price", "stock",
+        "locations", "stock_movements",
+        "price_history", "tags", "specifications"
     ]
 
+    # Keep only allowed fields
     data_to_update = {
         field: updated_data[field]
         for field in allowed_fields
@@ -215,8 +180,49 @@ def edit_product(product_id):
             400
         )
 
+    # Validate price if supplied
+    if "price" in data_to_update:
+        price = data_to_update["price"]
+
+        if (
+            isinstance(price, bool)
+            or not isinstance(price, (int, float))
+            or price < 0
+        ):
+            return make_response(
+                jsonify({"error": "price must be a non-negative number"}),
+                400
+            )
+
+    # Validate stock if supplied
+    if "stock" in data_to_update:
+        stock = data_to_update["stock"]
+
+        if not isinstance(stock, dict):
+            return make_response(
+                jsonify({"error": "stock must be a JSON object"}),
+                400
+            )
+
+        for field in ["quantity", "min_level"]:
+            if field in stock:
+                value = stock[field]
+
+                if (
+                    isinstance(value, bool)
+                    or not isinstance(value, int)
+                    or value < 0
+                ):
+                    return make_response(
+                        jsonify({
+                            "error": f"stock.{field} must be a non-negative integer"
+                        }),
+                        400
+                    )
+
+    # Find and update the product
     result = products.update_one(
-        {"Product_ID": product_id},
+        {"product_id": product_id},
         {"$set": data_to_update}
     )
 
@@ -226,8 +232,12 @@ def edit_product(product_id):
             404
         )
 
-    updated_product = products.find_one({"Product_ID": product_id})
-    updated_product["_id"] = str(updated_product["_id"])
+    # Retrieve the updated product
+    updated_product = products.find_one(
+        {"product_id": product_id}
+    )
+
+    updated_product = convert_object_ids(updated_product)
 
     return make_response(jsonify(updated_product), 200)
 
@@ -237,7 +247,9 @@ def edit_product(product_id):
 # Delete a product
 @app.route("/api/v1.0/products/<product_id>", methods=["DELETE"])
 def delete_product(product_id):
-    result = products.delete_one({"Product_ID": product_id})
+    result = products.delete_one({
+        "product_id": product_id
+    })
 
     if result.deleted_count == 0:
         return make_response(
@@ -246,9 +258,11 @@ def delete_product(product_id):
         )
 
     return make_response(
-        jsonify({"Message": "Product deleted successfully!"}),
+        jsonify({"message": "Product deleted successfully!"}),
         200
     )
+
+
 
 
 
@@ -261,26 +275,29 @@ def search_products():
     # Search by product name
     name = request.args.get("name")
     if name:
-        query["Product_Name"] = {
+        query["name"] = {
             "$regex": name,
             "$options": "i"
         }
 
-    # Filter by category
+    # Filter by category name
     category = request.args.get("category")
     if category:
-        query["Category"] = category
+        query["category.name"] = {
+            "$regex": category,
+            "$options": "i"
+        }
 
-    # Filter by availability
-    availability = request.args.get("availability")
-    if availability:
-        query["Availability"] = availability
+    # Filter by product status
+    status = request.args.get("status")
+    if status:
+        query["status"] = status
 
+    # Retrieve matching products
     data_to_return = []
 
     for product in products.find(query).limit(100):
-        product["_id"] = str(product["_id"])
-        data_to_return.append(product)
+        data_to_return.append(convert_object_ids(product))
 
     return make_response(
         jsonify({
