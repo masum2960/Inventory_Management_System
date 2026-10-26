@@ -4,9 +4,14 @@ from itertools import product
 from flask import Flask, jsonify, make_response, request
 from pymongo import MongoClient
 from bson import ObjectId
-from datetime import date
+
+import jwt
+from functools import wraps
+from datetime import datetime, timedelta, timezone
 
 app = Flask(__name__)
+
+app.config['SECRET_KEY'] = 'itsmemasum'
 
 # MongoDB connection
 client = MongoClient("mongodb://localhost:27017")
@@ -16,6 +21,7 @@ products = db["products"]
 categories = db["categories"]
 suppliers = db["suppliers"]
 users = db["users"]
+
 
 # Convert MongoDB ObjectIds into strings
 def convert_object_ids(data):
@@ -34,6 +40,118 @@ def convert_object_ids(data):
     else:
         return data
 
+
+
+# Require a valid JWT token
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = None
+
+        # Read the token from the Authorization header
+        if "Authorization" in request.headers:
+            auth_header = request.headers["Authorization"]
+
+            if auth_header.startswith("Bearer "):
+                token = auth_header.split(" ", 1)[1]
+
+        # Check whether the token exists
+        if not token:
+            return make_response(
+                jsonify({"error": "Token is missing"}),
+                401
+            )
+
+        try:
+            # Decode and verify the token
+            data = jwt.decode(
+                token,
+                app.config["SECRET_KEY"],
+                algorithms=["HS256"]
+            )
+
+            current_user = users.find_one({
+                "user_id": data["user_id"]
+            })
+
+            if current_user is None:
+                return make_response(
+                    jsonify({"error": "User not found"}),
+                    401
+                )
+
+        except jwt.ExpiredSignatureError:
+            return make_response(
+                jsonify({"error": "Token has expired"}),
+                401
+            )
+
+        except jwt.InvalidTokenError:
+            return make_response(
+                jsonify({"error": "Invalid token"}),
+                401
+            )
+
+        return f(current_user, *args, **kwargs)
+
+    return decorated
+
+
+
+
+
+# User login
+@app.route("/api/v1.0/login", methods=["POST"])
+def login():
+    from werkzeug.security import check_password_hash
+
+    auth_data = request.get_json(silent=True)
+
+    if not isinstance(auth_data, dict):
+        return make_response(
+            jsonify({"error": "Please provide valid JSON data"}),
+            400
+        )
+
+    user_id = auth_data.get("user_id")
+    password = auth_data.get("password")
+
+    if not user_id or not password:
+        return make_response(
+            jsonify({"error": "user_id and password are required"}),
+            400
+        )
+
+    user = users.find_one({"user_id": user_id})
+
+    if user is None or not check_password_hash(
+        user["password_hash"], password
+    ):
+        return make_response(
+            jsonify({"error": "Invalid user ID or password"}),
+            401
+        )
+
+    token = jwt.encode(
+        {
+            "user_id": user["user_id"],
+            "role": user["role"],
+            "exp": datetime.now(timezone.utc) + timedelta(hours=1)
+        },
+        app.config["SECRET_KEY"],
+        algorithm="HS256"
+    )
+
+    return make_response(
+        jsonify({
+            "message": "Login successful",
+            "token": token
+        }),
+        200
+    )
+
+
+
 # This is a welcome route
 @app.route("/", methods=["GET"])
 def index():
@@ -41,8 +159,9 @@ def index():
 
 
 # Show all products with pagination
-@app.route("/api/v1.0/products", methods=["GET"])
-def show_all_products():
+@app.route('/api/v1.0/products', methods=["GET"])
+@token_required
+def show_all_products(current_user):
     page_num, page_size = 1, 10
 
     if request.args.get("pn"):
@@ -80,8 +199,10 @@ def show_one_product(product_id):
 
 
 # Add a new product
+
 @app.route("/api/v1.0/products", methods=["POST"])
-def add_product():
+@token_required
+def add_product(current_user):
     new_product = request.get_json(silent=True)
 
     if not isinstance(new_product, dict):
@@ -149,7 +270,8 @@ def add_product():
 
 # Edit an existing product
 @app.route("/api/v1.0/products/<product_id>", methods=["PUT"])
-def edit_product(product_id):
+@token_required
+def edit_product(current_user, product_id):
     updated_data = request.get_json(silent=True)
 
     # Check that valid JSON was provided
@@ -246,7 +368,8 @@ def edit_product(product_id):
 
 # Delete a product
 @app.route("/api/v1.0/products/<product_id>", methods=["DELETE"])
-def delete_product(product_id):
+@token_required
+def delete_product(current_user, product_id):
     result = products.delete_one({
         "product_id": product_id
     })
@@ -311,10 +434,114 @@ def search_products():
 
 
 
+# Get all categories
+@app.route("/api/v1.0/categories", methods=["GET"])
+def get_all_categories():
+    data_to_return = []
+
+    for category in categories.find():
+        data_to_return.append(convert_object_ids(category))
+
+    return make_response(jsonify(data_to_return), 200)
+
+
+# Get one category
+@app.route("/api/v1.0/categories/<category_id>", methods=["GET"])
+def get_one_category(category_id):
+    category = categories.find_one({
+        "category_id": category_id
+    })
+
+    if category is None:
+        return make_response(
+            jsonify({"error": "Category not found"}),
+            404
+        )
+
+    return make_response(
+        jsonify(convert_object_ids(category)),
+        200
+    )
+
+
+
+# Get one supplier
+@app.route("/api/v1.0/suppliers/<supplier_id>", methods=["GET"])
+def get_one_supplier(supplier_id):
+    supplier = suppliers.find_one({
+        "supplier_id": supplier_id
+    })
+
+    if supplier is None:
+        return make_response(
+            jsonify({"error": "Supplier not found"}),
+            404
+        )
+
+    return make_response(
+        jsonify(convert_object_ids(supplier)),
+        200
+    )
+
+
+# Get all suppliers
+@app.route("/api/v1.0/suppliers", methods=["GET"])
+def get_all_suppliers():
+    data_to_return = []
+
+    for supplier in suppliers.find():
+        data_to_return.append(convert_object_ids(supplier))
+
+    return make_response(jsonify(data_to_return), 200)
+
+
+
+
+# Get all users
+@app.route("/api/v1.0/users", methods=["GET"])
+@token_required
+def get_all_users(current_user):
+    data_to_return = []
+
+    for user in users.find():
+        data_to_return.append({
+            "user_id": user.get("user_id"),
+            "name": user.get("name"),
+            "role": user.get("role")
+        })
+
+    return make_response(jsonify(data_to_return), 200)
+
+
+
+# Get one user
+
+@app.route("/api/v1.0/users/<user_id>", methods=["GET"])
+@token_required
+def get_one_user(current_user, user_id):
+    user = users.find_one({
+        "user_id": user_id
+    })
+
+    if user is None:
+        return make_response(
+            jsonify({"error": "User not found"}),
+            404
+        )
+
+    return make_response(
+        jsonify(convert_object_ids(user)),
+        200
+    )
+
+
+
+
+
 
 
 
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=True, use_reloader=False, port=5001)
