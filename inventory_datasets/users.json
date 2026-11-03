@@ -1,0 +1,2700 @@
+[{
+  "_id": {
+    "$oid": "b00000000000000000000001"
+  },
+  "user_id": "U001",
+  "name": "Daniel Okafor",
+  "email": "daniel.okafor@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$QoHsuPxKGHmg2Cwn$311748cee3fe9ebd19a1442438018ffa1887a0efbb941f795c78bd36ebbc775a71db1605fddd0c67bc88e20d18eef05a1dfae373c2d0978f6f0f0a811dd10add",
+  "role": "admin",
+  "department": "Operations",
+  "phone": "0113 496 0201",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "last_login": {
+    "$date": "2026-10-17T15:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2026-07-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000002"
+  },
+  "user_id": "U002",
+  "name": "Sophie Whitlock",
+  "email": "sophie.whitlock@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$ifq916PH7WMsRwwk$e984aa3879c74186beb0bf13a5ee164b123b802a7563d18f79ecd29590f4a535418ba14e03670f6d5fbf67c32a0f310d4ac58a9bf17767e78b41c741c78c6706",
+  "role": "admin",
+  "department": "Finance",
+  "phone": "0113 496 0202",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "last_login": {
+    "$date": "2026-10-15T15:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2026-07-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000003"
+  },
+  "user_id": "U003",
+  "name": "Priya Nair",
+  "email": "priya.nair@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$dSgQjbxlMAcdjXvj$fd82e999a9a64249345b9baa23426561b46fd50a2c84e03f56a96c66a7652b0f8e80b17964605736be0a50711f9ff139aa11313e68038c43388c99dc9403e82a",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 0203",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "last_login": {
+    "$date": "2026-10-12T17:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2026-07-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000004"
+  },
+  "user_id": "U004",
+  "name": "Marcus Hale",
+  "email": "marcus.hale@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$AwzEz6QoU4zesqEZ$05c222b824cef9a2fab07a094e6233c4fb552e4a716b9b759b4b87c407c14ac238ad1c1a6b6de5845a4da0dfccc2493d9792d3aec433aa1b9e907f4f0a0cbbc8",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 0204",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "last_login": {
+    "$date": "2026-10-15T19:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2026-07-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000005"
+  },
+  "user_id": "U005",
+  "name": "Callum Owens",
+  "email": "callum.owens@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$3nSHRvFf8SPosrLR$1c4e25f717b6f110a9accd24f7befa8bebb7e20088c5a877bf6112cd36b66e707e8ac3bb59ee9ed00da26b0a890ebb486d0217f99c2a9afd53a34838e287f505",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 411",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-14T09:15:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-08T17:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000006"
+  },
+  "user_id": "U006",
+  "name": "Tom Voss",
+  "email": "tom.voss@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$7mE8OcpVCUZcaVvU$1fe9238d6c032dd647fb2b4150c48e842cf866cabcd2f19a4c4f9bb87f191c41c5186deab84566d204f60480dcfb36c4586947cb4dbb1c2737627bf3c693f1d6",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 498",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-19T09:13:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-03T17:46:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000007"
+  },
+  "user_id": "U007",
+  "name": "Imogen Owens",
+  "email": "imogen.owens@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$KOj5XkMmj2tdHuFB$0a0d1f404e595676a224fee2652ffa70035941ad87a499344664f1181596ba3f9b08116dfa05efe449ff8368c1f199df74765884af53943d65eccb47acb8293b",
+  "role": "admin",
+  "department": "Customer Service",
+  "phone": "0113 496 758",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-09T09:43:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-06T15:33:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000008"
+  },
+  "user_id": "U008",
+  "name": "Will Bell",
+  "email": "will.bell@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$WGF3yBMEuo3QP6Rm$aed36587f9c881cee0f84e23e40d041952e140e75298177f1f7923679fd1f0e7a6a63064f366e6f19fb9440cb7b000e9dd682535e907555c24f45354ebe8bdb2",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 691",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-23T09:31:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-09T12:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000009"
+  },
+  "user_id": "U009",
+  "name": "Cathy Clegg",
+  "email": "cathy.clegg@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$72597CH6IbSjSHWV$07f97b081f2ca89619252d33f4e053ff7ee25d44c00e50923513e755b69d23a73aeff6ff2ebd07b952cfbfdec72e37f5079be9efaec1a1710008bf1317b1d0a4",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 409",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-20T09:46:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-19T08:02:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000000a"
+  },
+  "user_id": "U010",
+  "name": "Zoe Dyson",
+  "email": "zoe.dyson@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$3vxk3IDp1XiN1OOt$0e00480a626e339079b5793b70c9d24de34c966241940c19d6bf9d5848e7c5833430b2efa3fd18eb6e71ee5ed859c719a2985dd1ca8059a56ac88b398c2574c2",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 869",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-28T09:47:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-15T09:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000000b"
+  },
+  "user_id": "U011",
+  "name": "Amir Crowther",
+  "email": "amir.crowther@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$Ua6bwSO0q8lYbZLo$a69d725c65c2ab710bfb4717fc32ca6adf226c15a2bd637b74c236d68f5d2a2917b0b413395a72a81ea39da5544404b60bb3562d4996bdb103568fa60dda9c17",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 205",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-10T09:28:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-15T12:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000000c"
+  },
+  "user_id": "U012",
+  "name": "Chloe Lowe",
+  "email": "chloe.lowe@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$I2LNubRT7e5azXho$aed304e953e9f504f574ed8182cbd203e991510517968e345db1d44c1b5de38e2cdfe9307c938e573b4ac3169e1c72941f42d478ac42c38612d178fb5af3b3db",
+  "role": "admin",
+  "department": "Finance",
+  "phone": "0113 496 260",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-16T09:38:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-15T13:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000000d"
+  },
+  "user_id": "U013",
+  "name": "Wendy Lowe",
+  "email": "wendy.lowe@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$Hfofq5tnPALx5Vas$8f735ac92c9b1007dce225d1fecef20c98928934c0944df621d0fd9a4646c9987af96a80a47f10910f4e9d79dbc272387f5a2462b83a67f1483c3ed77012be27",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 748",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-07-15T09:01:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-15T17:37:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000000e"
+  },
+  "user_id": "U014",
+  "name": "Imogen Hart",
+  "email": "imogen.hart@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$CWYSp5Lkr6CjqlIG$0d75e98da9cde18004ced633ada02cfa280f755160da1577a5875912165319f87664f3184360fe42a39130d1fd99f8db6ab80fdade3953373e611990dbd58ea6",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 145",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-16T09:47:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-06T16:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000000f"
+  },
+  "user_id": "U015",
+  "name": "Callum Young",
+  "email": "callum.young@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$PvYzItPzHjViLWB8$f562b7557e3c7316002c0c3344f322937f64b0d00d374973b079fc8c3e2233f8701cf4a6b4320a0fd92cefd6a5d05a492afcf45370ad0dfadd7d1e28552eeed8",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 832",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-12T09:09:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-22T10:01:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000010"
+  },
+  "user_id": "U016",
+  "name": "Will Quigley",
+  "email": "will.quigley@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$lRqJwPhL3R19ksfi$a1833113676c29e484ee21082d7a307634a528458208afb5ff59dc64bec0e281bfb8febeb7d191c97182024e7950c0d682051450647851ac165295cb0cf41b60",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 182",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-21T09:56:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-01T08:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000011"
+  },
+  "user_id": "U017",
+  "name": "Finn Voss",
+  "email": "finn.voss@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$me0NyEluRnKtpCII$6bf5fc193eaa9e90ffbd16ba63cb8bde925caa46ac450e38bcc929e84b84b519e50e76b8d330337e2f7ef39e1d090da9a18484fefa014ddbfb46defe14622eb7",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 186",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-03T09:55:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-04T09:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000012"
+  },
+  "user_id": "U018",
+  "name": "Leo Quigley",
+  "email": "leo.quigley@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$jTiLrm8ISBaUra6P$435c0910a3d489205cbd72aadbe5f4a4584ef00dcf4a840babb1c1837fbea94ae4513634b6f3e7b2fac2c9f1e54615ad4700cdb3b62125c987412e4359dc5a91",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 772",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-23T09:57:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-08T09:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000013"
+  },
+  "user_id": "U019",
+  "name": "Ewan Platt",
+  "email": "ewan.platt@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$wfLTCurmIQaFHMWb$39d2fbf5587a6614ffd73a2ff0172c52b237b3497e375e05d9b107ccef1c97c4819b76b3abced35a25abb33b07825be8a982153c9477e8df3584eb4441807edd",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 910",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-11T09:40:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-04T16:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000014"
+  },
+  "user_id": "U020",
+  "name": "Cathy Owens",
+  "email": "cathy.owens@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$5trWdA9VjJu9am9N$45ca2f67d5c977650599e2817be0c16318dfba19feaefe91a93071a71c1db64416c7e2dd6b37880643fecbae54acfd6a99bb0bdc7f2cc693e80bcadeb8c9e340",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 664",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-05T09:04:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-17T13:13:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000015"
+  },
+  "user_id": "U021",
+  "name": "Lucy Kerr",
+  "email": "lucy.kerr@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$Ew9b5eRPZ3TL3qgf$07b10c34beadb7f1386c9d9792524bc36b1a3309a4a7140b8720d72fc90364a2e0a6735e6f7028c155be5038c6a92916a6f42ad7c57858b5f399c029e0ce3949",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 936",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-05T09:03:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-18T16:06:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000016"
+  },
+  "user_id": "U022",
+  "name": "Noah Dixon",
+  "email": "noah.dixon@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$NsQwch8CL0bFcql6$61bacff5239f7831315438a86274d03c1acbaa9a758fb69ddaca8a256804172ff94b85e26dc634e13ed76643f16ca2598a329a125371f6d72b0057c69ada7bf4",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 850",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-19T09:16:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-19T11:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000017"
+  },
+  "user_id": "U023",
+  "name": "Gareth Kerr",
+  "email": "gareth.kerr@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$dfOicJfU6fjKk2Xv$5dcf5d0dfb343af1fa0a0377a015bfb6f07a31517bc36826c6c818823f46c5fc7c16a8c3704e89b033b924075fafd5adf32d8260fca51e7ff93965d5a27f3a4e",
+  "role": "admin",
+  "department": "Operations",
+  "phone": "0113 496 904",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-23T09:31:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-22T15:24:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000018"
+  },
+  "user_id": "U024",
+  "name": "Grace Young",
+  "email": "grace.young@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$Yhx47GxQzUrYrZF1$99b9dfa0660fa5b4d46247dd014eedcf462fe3431149f5dbe6a8bf5d83fea9d0c6e6451c678b150b30bb7d9e5282b5826c3ebf00579aa42c9f8401760e59bc97",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 361",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-12T09:29:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-14T17:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000019"
+  },
+  "user_id": "U025",
+  "name": "Imogen Kerr",
+  "email": "imogen.kerr@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$E7J832Oi1swlggBV$aca69af0c36c7343938b925319eb0acc00734f8fd6a87f77e60f29255de2bdc1c2acf45336275cf9434377c76c9ffc0b1533248c6f0527106cae86865f8741b9",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 360",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-23T09:26:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-13T17:23:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000001a"
+  },
+  "user_id": "U026",
+  "name": "Dan Hughes",
+  "email": "dan.hughes@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$iDWg1BfPaArWFiFv$12252a2051a557318724d4a1b871246a8212abf41023736f53019aa2e1b6476ad43c835d7b7b6e6e67fcd7c29f175d486a414015291dd2fff12a0f18eb919ba2",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 231",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-21T09:46:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-14T15:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000001b"
+  },
+  "user_id": "U027",
+  "name": "Mark Ellis",
+  "email": "mark.ellis@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$4TCIIr5FiLi8EIgG$c526548db7da312fa634c8a920fae4cb7ec1e7032cb651e2997a03245cab080fbc54e5c6c88ee89d177f7619258b2b31193981165db97a7ddf665f810ff9a145",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 688",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-25T09:34:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-21T12:14:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000001c"
+  },
+  "user_id": "U028",
+  "name": "Aaron Lewis",
+  "email": "aaron.lewis@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$nvQAXhILVFdbs5sf$f4d11ca75c780454f4f159b07bc0ff4ff7a2beed4f230d518acccb5cee5ea8221785e6817f1e7243e83701cd9fef92ba1f367bd7d0eee296561988ab32f277ed",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 851",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-15T09:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000001d"
+  },
+  "user_id": "U029",
+  "name": "Mark Utting",
+  "email": "mark.utting@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$ZcG8GJKJjvRIts2J$6366241964a60c62b148b27bce0204ae3cfd65b458aa7d2d15a64cc175f48420c0fa4b0208e429aa6cca6a932a65b58065d835883c0414b444df615a39b5a6d5",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 398",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-13T09:29:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-17T08:02:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000001e"
+  },
+  "user_id": "U030",
+  "name": "Ella Platt",
+  "email": "ella.platt@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$TyJSJwWYo8P7sxsZ$3354f8922d43e7296858b1cfccb1243829f73441fc575a118ededb74485719b155294b7ac25667d98dcbd970b4655fa9561a5dd5072645c9dfd266b9591cc1b9",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 298",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-07T09:07:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-02T17:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000001f"
+  },
+  "user_id": "U031",
+  "name": "Owen Bell",
+  "email": "owen.bell@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$496xFS3MWzydDGUv$8c4146496b597b077d82b315e4706dd9a05945dd0975eb0d529817b70bc652188427858641acf08b337dbdba2b24e735bc53ac3db313727fe26f9db4e3d2f538",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 313",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-11T09:44:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-06T17:57:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000020"
+  },
+  "user_id": "U032",
+  "name": "Hannah Turner",
+  "email": "hannah.turner@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$AYj7fwYIkIitvoWU$7d19a3c4211da902f64b8b96ca0be5b8c375fafcf2d0d4fe576015885175513d1e3d9ee5847ab91bc80fd79c978b3788c8f3905f49586018773950d64436ce9d",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 311",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-20T09:44:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-16T15:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000021"
+  },
+  "user_id": "U033",
+  "name": "Emma Carter",
+  "email": "emma.carter@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$wzjJOOUNNFfDXAwY$4f8879c63358b84be9f61083a23ffad5ce880842c8dfa78013622405c6a141ddf0b58753ccfc8707a40ab04475e1e592a1cc302eb8a2c079be3ee22ac07928fe",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 424",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-07-20T09:02:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-22T12:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000022"
+  },
+  "user_id": "U034",
+  "name": "Yusuf Jarvis",
+  "email": "yusuf.jarvis@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$LDNfMoGN6jQNs5vc$6780699df3b3b59809afe4e456fba2ba10e41300b1ee8c1c93f99b8ae228274ffe709c338d521edc91753ffc6b3204f1ebab1848ec112000779732f55e6b4a18",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 391",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-07-07T09:16:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-13T18:22:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000023"
+  },
+  "user_id": "U035",
+  "name": "Quinn Fisher",
+  "email": "quinn.fisher@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$dH4eXjCkorHgs6h2$adbc40be9d0c98a2ce25fc2366685545f1e2e5be4c2fbd6e55e8f3c45c88cff5cf1749456f8014a218900eaae4a95cffc3770f380900312517e2a27893ba0ca0",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 272",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-08T09:37:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000024"
+  },
+  "user_id": "U036",
+  "name": "Jo Walsh",
+  "email": "jo.walsh@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$GNDTUBNE81v8dbxh$752992e921c9023f656b15e2d955a3ecaa84be7a046cd8f26d5cefc31a4fc2069347a22df7273b0a3e5ed5316ea1cacccfeb2727953b11d381556052516d2d93",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 896",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-05T09:16:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-24T13:38:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000025"
+  },
+  "user_id": "U037",
+  "name": "Ruth Ellis",
+  "email": "ruth.ellis@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$GFzXQm0gbjpUGgX1$f383a975e7fc4926217f0e531e5a058988d6cbaed42e018a0cf69f384338be8d105033312074f5dec273e104cc8e321bff63bb908b9042f227ae66ef3bf1247d",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 339",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-05T09:00:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-17T16:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000026"
+  },
+  "user_id": "U038",
+  "name": "Emma Jarvis",
+  "email": "emma.jarvis@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$RcAoLG27V59KlUVJ$91fbfa38f5a837d6abc08f01b8ab9b0d38abc17968e5703a06af9129e4f447eb511e01bd2ae2f311da0ef4e9eb708afdc2ba4ba2bbe863970112e3666a395135",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 559",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-09T09:58:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000027"
+  },
+  "user_id": "U039",
+  "name": "Hannah Armitage",
+  "email": "hannah.armitage@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$oVhLO05QDIMAR2sB$e374689a07a2e672e2441cc2c11e60cb399c635074f7fc7b6464ca2cd31e79caa89e6064fc23c8fd29020684fc4fcb5d6a914da08dc9ac2c8e2a9dbb44a60f7e",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 604",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-20T09:17:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-23T09:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000028"
+  },
+  "user_id": "U040",
+  "name": "Bella Hughes",
+  "email": "bella.hughes@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$qxFtOqORsrN8h7r8$1f3f0912053d906f2728c480feaaaa6c2c47541c830adeebc9848451687b1c6df49a63af6c3e32d80a80257224bcaee0d6e9e6e655df7e28aca1cfbd7ac78dee",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 532",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-21T09:02:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-09T11:16:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000029"
+  },
+  "user_id": "U041",
+  "name": "Ruth Dixon",
+  "email": "ruth.dixon@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$yRC8x7b7IiPYkGBh$2d05e31789fc4fd12f263919841f0385ca4db421ad633b06b58a69fb639abcf4bd5e600f527871c5c86c6b10c30edff19696758a62df4565e13b79afaac57fd6",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 121",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-04T09:46:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-24T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000002a"
+  },
+  "user_id": "U042",
+  "name": "Tara Voss",
+  "email": "tara.voss@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$dH1q5IDlBG11huIg$d7ef1046b36c68e745f90063ab25a4151634c80c8a776182e47988978049481057b32630bd8a689f5fdfc169841ae116ec659e7bc16e393e4a04ac2ee61bbef9",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 553",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-08T09:21:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-02T10:12:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000002b"
+  },
+  "user_id": "U043",
+  "name": "Imogen Nolan",
+  "email": "imogen.nolan@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$JQqMWh9PNf2c36OR$d9aedc289e6d676cf76800a932beb73d65395358e1663c3416fa1431dc19918eb320a590cbc1b54810481ca35c405d429c82943cd55e792f6ef588042bcb333d",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 824",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-28T09:07:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-22T18:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000002c"
+  },
+  "user_id": "U044",
+  "name": "Leo Booth",
+  "email": "leo.booth@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$s24f8YK03ZMmzbp0$eafcbb1a0cc5249dfba4244349303562bf32aa5e4c452d423acf1063fd0240d944373456c0da08f2d63eedf347ca3dd5c4d589ba8a81d4cb547bc76c5a7b8e7c",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 197",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-16T09:41:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-13T12:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000002d"
+  },
+  "user_id": "U045",
+  "name": "Dan Patel",
+  "email": "dan.patel@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$l1ckS6uJtjiJg83j$ffc4e0017221845423a17eabfb4e25b4c702bdc4bfeca0b9b34a3a1dd3bc5e6551a250b9ef755d845c6ab1546edfa073cd65a6d97fc804aecb587cfb77411e97",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 757",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-11T09:58:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-05T11:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000002e"
+  },
+  "user_id": "U046",
+  "name": "Leo Usher",
+  "email": "leo.usher@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$cGHVEvwottQz07LB$dab382abfabfc3998ebee3d586129f699a1868c92068398f3ef9934032d9b5db5ce18d6738683cf58657771652dd6dbf4f59e4454b2fa9c232510fbd414edf90",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 870",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-26T09:12:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-05T16:36:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000002f"
+  },
+  "user_id": "U047",
+  "name": "Tara Khan",
+  "email": "tara.khan@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$taBA18IpCfzjOtmk$9686b453bf49589152052d1d068ff56bf364412b100cbbeafc5f3e596fbb6291a0d7ceb8c34d10de520c712240c39920f700e9c1ec6ad522de6474c7e2703109",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 909",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-06T09:15:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-09T10:52:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000030"
+  },
+  "user_id": "U048",
+  "name": "Fraser Quigley",
+  "email": "fraser.quigley@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$FeXpW4iw1PykLzvB$9a708fdd70ad0b507e0096e5184ad7a450abd70ca5965e820ab4fda98ef3d32c413129906c7a0269ac6b0c8008f3395d18c26dad0e1195018668ff243280e0d9",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 197",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-17T09:52:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-09T08:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000031"
+  },
+  "user_id": "U049",
+  "name": "Zoe Gill",
+  "email": "zoe.gill@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$6qRENWUek8NQgTUX$122de711b44ffacd3136f4c4f1d09315e16f92e4c5f9b8a1c5c6118c520c0a70efc0fd55235ddb0486d996e81229e2b9eec2214559d96875a8901798f4a10a3c",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 884",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-10T09:42:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-11T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000032"
+  },
+  "user_id": "U050",
+  "name": "Will Gill",
+  "email": "will.gill@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$I2PIcawkNf8ZBlk8$aa6d894b01edc27caa391379f7d481ccdf27034e38d92c9488da9733333881e08191ca4a521457ea543e77306002f9a379d9598265b1fce5f3c65214456a814c",
+  "role": "admin",
+  "department": "Customer Service",
+  "phone": "0113 496 831",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-03T09:18:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-08T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000033"
+  },
+  "user_id": "U051",
+  "name": "Pete Young",
+  "email": "pete.young@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$G9u3CuyihiO3XvCx$21b727377abefd0f8b9154869ba9f73fde539319485fbe528723ea92d923e16b8b6c21cb15735682181a1e081aaa811427e44353b7ed42a3eb4b158dd0aaf261",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 842",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-21T09:10:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-14T15:03:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000034"
+  },
+  "user_id": "U052",
+  "name": "Kate Sharp",
+  "email": "kate.sharp@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$RdEzG1jTxd0ZB1zI$8f58e239e31a9621961a25a36cc1433c87d07f95d122ab4a0fbac95b3e882fccead3ee84f00e668129f74dd962be71e9cea57690af984630fbbb7d5c979e938b",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 188",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-02T09:08:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-01T12:37:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000035"
+  },
+  "user_id": "U053",
+  "name": "Yusuf Shah",
+  "email": "yusuf.shah@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$KYAhxu4PUumJPtzf$2f8a37b9ec19cdc424edb1ea7edc01049bc101124ee4ee01238e89ed46d934ba518ef5bac60bf5e3ba0bf1e49a26aa2aeaaf64c4768b5332124ed569b745a9c9",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 436",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-10T09:26:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-11T10:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000036"
+  },
+  "user_id": "U054",
+  "name": "Ian Reid",
+  "email": "ian.reid@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$4lU1Z1WeKHBk6bVp$f97a0df0b797fee8d171c1e6abac6ba1161c6e9d21e216cfca68e8429ef6d167cccf329122d946a0c720fd101f7731ba2fad59e0f13acdd596049d8aff633bcf",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 110",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-14T09:40:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-23T12:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000037"
+  },
+  "user_id": "U055",
+  "name": "Dev Irving",
+  "email": "dev.irving@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$5gaXPWFlmRkZI1kE$b7caae39b38d7889b395751e45679609d4746939956e3aafa745cd697ea762c0f4ba9425b9f630bb5bd14588a9cb547d88079ee0b69f75cbd03a2d2e9cc6a5d7",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 572",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-27T09:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000038"
+  },
+  "user_id": "U056",
+  "name": "Owen Ahmed",
+  "email": "owen.ahmed@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$mTDfgMIqgojjyRrz$6b0edc2dc69675be8c7916d4e5c23b4f942e7aac3cbb7ece2a93bfd4f875ddf98d30f53925f4b238515c7735e60cdef65c02e0302b12c9c3b981e40a782f5a64",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 704",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-15T09:55:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-01T14:52:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000039"
+  },
+  "user_id": "U057",
+  "name": "Olivia Turner",
+  "email": "olivia.turner@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$9Pd31ylAvOAymnRR$29ea431f3a6e2c3b504cb7eb3a7fdc51e3efcb1758435019ed08704767dba6192c7c5928fc9332b744bda59e0b940ff5890ae9297997de4a5d3a20c12081d979",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 443",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-20T09:39:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-04T12:03:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000003a"
+  },
+  "user_id": "U058",
+  "name": "Ella Gill",
+  "email": "ella.gill@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$JpcDtnaxmNKU95e6$af6bb54435d0f9da83939c043b6f97c0a99a5e0498fe9e809b6edef19b6dd95eee7d580f8542744581b53d3b0e54aaf3b4845ac4888a21990e499da0bf750e82",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 591",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-01T09:41:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-18T08:08:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000003b"
+  },
+  "user_id": "U059",
+  "name": "Grace Owens",
+  "email": "grace.owens@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$nSm1ypmh8CY2KdmL$8e512326ea6544786e1e9ad5e3c5f2883822b02c7fedb4d796d9c06c9eb61886a2456f851ec179e27de9376b7ef1f455e49632df42eaa801fdba1413712fc4bc",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 765",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-06T09:11:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-20T14:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000003c"
+  },
+  "user_id": "U060",
+  "name": "Karim Quigley",
+  "email": "karim.quigley@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$HrQCZUO8HbcaNo4e$dab3f3f97ae9a7969f517f03e8583ae381784fd0311c73806877b84eae390697f04db948b47a98dde0ceaad8fd56b60b4e5dc850722b6593e6518285c3865e61",
+  "role": "admin",
+  "department": "Operations",
+  "phone": "0113 496 294",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-26T09:47:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-19T11:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000003d"
+  },
+  "user_id": "U061",
+  "name": "Ewan Booth",
+  "email": "ewan.booth@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$b0Ka81d7VIjLCk1G$e630a3b812d6a4135469e08d2bf2d47758f3c9f136310542d75b90615dc50fc48f64488ecaffeb2a4dceee1c79b162c71a4dde6677585b79280dc44f8aae9890",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 492",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-12T09:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000003e"
+  },
+  "user_id": "U062",
+  "name": "Wendy Dyson",
+  "email": "wendy.dyson@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$FQa4w4lQht6CvPrg$9d8cb7ad221f91167254701c372d38707aab79449be4c7693a67d88c426fb871ad84c25655e59b62d5808e17c1efd5a6b706f53f344726bb316cff653ddd4039",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 300",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-08T09:09:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-10T10:48:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000003f"
+  },
+  "user_id": "U063",
+  "name": "Chloe Reid",
+  "email": "chloe.reid@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$67Vd9X9s3F1yf7VQ$b09d9b26bfa2e859bc7c4b8e77a0f0ab2e602274bf5a43487a09555a50272c7852cdd84b9781061d1003d22a523d83b75e1807a01da4308f273d525dfd6060c6",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 384",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-10T09:01:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-23T17:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000040"
+  },
+  "user_id": "U064",
+  "name": "Tom Crowther",
+  "email": "tom.crowther@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$EeEC66sN9qauMeHE$2bbd8243d92c19e34588a67f293fa758ab64558613e493487ed92fda463df396d630537fdc1f61ad180b8664cd7a6d1da49667c9d279a6da02aea7f31d6e5f50",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 698",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-08T09:00:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-11T12:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000041"
+  },
+  "user_id": "U065",
+  "name": "James Foster",
+  "email": "james.foster@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$OGyBRYW9ZNYKFKfS$04f8847b0c33719a8842a9f8f12f8821cd01b40021541142a7282c59c3b085d5808955b8ada5626b8bc7e9472a7e6772c80b925d47098ee9430c6affccba36e6",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 499",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-18T09:51:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-05T14:14:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000042"
+  },
+  "user_id": "U066",
+  "name": "Vicky Evans",
+  "email": "vicky.evans@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$51vn38OkEhK1dnsi$1cd7874db1759ef397f65d97c042f33e10176c974568cf2e3463007cc442b9a00683b8ad905ded86667a815c1afeec78e324825b1c6733331f178a17c21869c6",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 823",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-21T09:13:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-03T16:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000043"
+  },
+  "user_id": "U067",
+  "name": "Dan Sharp",
+  "email": "dan.sharp@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$rK4el6RuhJ7LdHri$2e13cd16bc35d9a2c7cdaee3bcd39710bfebb5b06acab4401f8585f9858864acb9aed7d333f0be4629b68f15a677299fb22e5fb2cf9349c1d5902d7997e1db43",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 249",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-27T09:16:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-04T13:58:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000044"
+  },
+  "user_id": "U068",
+  "name": "Vicky Rowe",
+  "email": "vicky.rowe@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$BZX6AwXquilxy5ml$5a30562f57f5125473fbc0dd3aae81c5d187e5f393fd1feb7bcea8aea22747620fa1429188f403766b2de28870eeb2c1bffe7712bc94861ccac015be0a9d197e",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 998",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-18T09:18:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-06T08:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000045"
+  },
+  "user_id": "U069",
+  "name": "Liam Owens",
+  "email": "liam.owens@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$NIjrISPE97K50XpJ$3c75659f89a51b5a3e9acb55675354ca87e8b2ba537de1d78566dd9eaf77a205bc72813aada0ddd3b79ad434dcbd221e66aad8b3e9f777ffba48a1b7eaa2822b",
+  "role": "admin",
+  "department": "Trade Counter",
+  "phone": "0113 496 876",
+  "permissions": [
+    "products:write",
+    "categories:write",
+    "suppliers:write",
+    "users:manage",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-18T09:01:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-16T18:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000046"
+  },
+  "user_id": "U070",
+  "name": "Kate Yates",
+  "email": "kate.yates@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$rrvvt8BB2XCLsvEo$47ad0a73495d6b49f978614f55c61588af83b3df936a2221633159b88ec95ef25b1d416001bc48c549db86ba280005dfadc8b20d3cbd8fcdda288ef75d4d88d5",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 817",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-10T09:30:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-09T12:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000047"
+  },
+  "user_id": "U071",
+  "name": "Ella Ingram",
+  "email": "ella.ingram@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$fBZBhMCbCeVWTdlw$d0202d86a34c8212496f95f70cfce797e42a1d3c468c37ea9a9672e32dd5cca4c34da523e5c8834b22f6f943e800ffdd7fe90a1a849facb3e058b57ede2f121b",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 532",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-02T09:57:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-10T17:31:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000048"
+  },
+  "user_id": "U072",
+  "name": "Bella Dyson",
+  "email": "bella.dyson@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$x3uLfLAuwUAzqhkW$23f68275a68588c9c407e0676a37cf2ba29fe7b1d76bfa89cf1871ca4f117a3568a3bebf554a4b0d370e0f194c5d9dd461b861b85da4871af8181eb7697be7d9",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 656",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-20T09:36:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-13T16:37:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000049"
+  },
+  "user_id": "U073",
+  "name": "Hannah Utting",
+  "email": "hannah.utting@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$nnWkuFBhvbFmzYq9$c1a9be41ff7e412328c5e98d3d030dd809ddf64f3408e618305e675daaab1979fcf9bc1c9a893dec4da7bfc0a590eb251f281dd9e8a2d9f17db81d3653bf7704",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 697",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-01T09:35:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-18T18:46:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000004a"
+  },
+  "user_id": "U074",
+  "name": "Owen Ingram",
+  "email": "owen.ingram@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$IQkdxMpFkdTAbJd2$95db32139e2ca6df9e32e589892c6048d06156baad4a8f5e3186a802353b20b6f837d43f71d9d731d94d259a53da1d4e243bb8b398b0ec2b720346c11a55a512",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 245",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-17T09:34:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-17T10:19:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000004b"
+  },
+  "user_id": "U075",
+  "name": "Gina Vaughan",
+  "email": "gina.vaughan@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$JeTSrJ69p9PTDdPb$60f88eda642eed657176e681afb6c30222c8edee273430a93be3b7a620781d0e1398fa6381fcac90fa02307d7404ad500f23d6051621fb7d03a3fb45b5e65648",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 856",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-12T09:51:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-08T09:36:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000004c"
+  },
+  "user_id": "U076",
+  "name": "Sara Dixon",
+  "email": "sara.dixon@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$Wae3p7eJXPzwdslh$ddeaa3e9e1cf2b949368e8414aa687daddb485c1dbc68acc0b13ce5645d7d27342ab81bf1222fb8ccf8a21ac71846dc124c6df8f67d3406d82c7d28ef6f88cdb",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 327",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-25T09:23:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-19T18:36:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000004d"
+  },
+  "user_id": "U077",
+  "name": "Ruth Usher",
+  "email": "ruth.usher@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$8fOAPX6suy8WuQCn$8154d91d5bc8556a10e6e94e3de193d2564f19830691314e34a42d9bcfe811dcd8591339950180e38e28220f94ba54372337321a77f3129695e7e786a65dc824",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 386",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-27T09:25:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-19T10:21:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000004e"
+  },
+  "user_id": "U078",
+  "name": "Jack Nash",
+  "email": "jack.nash@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$feKdEqzrUwfJmXc5$8d1d8bba5c919be6739cba3b1c7b4bfea60d746a241ec62543d96beea46929a56745f14d6077d72e0fadd24c07e353ee011e0c0f33df28161cb7a9cce077fcb2",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 602",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-22T09:17:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-04T12:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000004f"
+  },
+  "user_id": "U079",
+  "name": "Olivia Carter",
+  "email": "olivia.carter@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$BDCNbDdEsqOEqiE5$46ed5c56b340f42ef3c55cd88a3311b2eb4002c2eed2d664eae7f3941fb64f9da5579e406de81dacc5fab0d7a9c2616b07347f62be0654c41dda2a4e296ab49b",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 565",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-02T09:10:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-20T09:14:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000050"
+  },
+  "user_id": "U080",
+  "name": "Chloe Usher",
+  "email": "chloe.usher@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$TFakys0acSRWs1Ct$c6d6984d36fcee707db85d3943da475bd4120cb63984bd77996f48f51ff3333e4e5a93bf4f426dd64cf8e0179c007c692de98b7960a05d0d6c6491d77b0389f1",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 637",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-04T09:24:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000051"
+  },
+  "user_id": "U081",
+  "name": "Bella Young",
+  "email": "bella.young@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$IohM7n2sq8cn6dbe$a8b6da7205807dcbdd7f52fd525e879c1e8e0081fedcdcc5eaa38a43a72d50b2800987fb1dd6b8d6c78e877abd252abba4126da88afd5ea4f2289215b53a5b07",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 116",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-08-21T09:20:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-14T16:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000052"
+  },
+  "user_id": "U082",
+  "name": "Sara Walsh",
+  "email": "sara.walsh@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$fZj3uDQ6bLKCwMSK$1044b254990410bef37916a06e39e56e381d91205484fd988ba11f743d945174dc2d74c5e3c149eae141b079deaa9661e5f3e39b1ea0dee6a858ccf5842e92be",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 473",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-07-17T09:47:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-08T15:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000053"
+  },
+  "user_id": "U083",
+  "name": "Tom Utting",
+  "email": "tom.utting@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$J8oYfF8jGD5FYTpw$658aa7d18609a295b4a9e5032b1f0909ee5bcd9a6898dc9387e4dd3fe878c25851981996c4be15facd74a7162421103271fedce0f74e006f42177d99fdd126e8",
+  "role": "staff",
+  "department": "Trade Counter",
+  "phone": "0113 496 537",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-21T09:40:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-03T08:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000054"
+  },
+  "user_id": "U084",
+  "name": "Keira Khan",
+  "email": "keira.khan@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$eQkbUfVQEud7o4lD$207ef521e49678ef04520a2e33acd233b08aee0e10a8a2541abfa7bb421ba47128ab1aebf169760955aebdf7aba58b3d7179e95b50d7b8d50f7031e05569a534",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 807",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-28T09:43:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-21T09:57:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000055"
+  },
+  "user_id": "U085",
+  "name": "Vicky Turner",
+  "email": "vicky.turner@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$emqvV1OvQgLanXNr$4c57fcda480ec989fcad3b26fe38a4c9ed591a5935f2e81f6ea09efa892a4b0abdc30ce38b084d4cd88483e812e07cb0a3b5ffc12d712f9ab6d0c48d85b08a61",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 256",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-08-02T09:10:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-19T17:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000056"
+  },
+  "user_id": "U086",
+  "name": "Ian Nash",
+  "email": "ian.nash@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$KDnDXKeJ7jBu1cVe$7bee2358e2804e71d5c71e8e5091967278493ffc8d153ccf47bd6b2e911f0729f4106fa1d27eb171b7ce7aba38c3b492bad0464eb080336c75afd8adbb174ff0",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 648",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-09-06T09:27:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-06T09:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000057"
+  },
+  "user_id": "U087",
+  "name": "Gina Crowther",
+  "email": "gina.crowther@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$TdGsgomVNquv8oIL$034f74c3e4f26bea886085d157ccf0c348cd500abb105ea13dfe1b5ed970dae88790be7f77392a0e119c49e51d547ab8b84991726d285af521b8cdc9e1de7856",
+  "role": "staff",
+  "department": "Finance",
+  "phone": "0113 496 684",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-07T09:48:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-11T08:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000058"
+  },
+  "user_id": "U088",
+  "name": "Jack Kerr",
+  "email": "jack.kerr@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$hbs1tYBzSdo0c0Fu$1774bd39dbf86ff0d97b54c69c3413e49fca17f16f7af34148b43ddb58a372c5e16282c441e8f620a1be54331b5ca15b36a2dae4604fc67f3e15fb3997792e4b",
+  "role": "staff",
+  "department": "Operations",
+  "phone": "0113 496 236",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-09T09:22:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000059"
+  },
+  "user_id": "U089",
+  "name": "Hannah Lowe",
+  "email": "hannah.lowe@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$55sV97AMOLMtFnh5$59e7e7d3d4c54bbbb0f962cb80944908836c473f49aa46d862b68032424168989f4b27ad61496835b8029429cde6d86cf9ee64886b0f6470181701973665ff78",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 946",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-18T09:34:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-02T08:38:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000005a"
+  },
+  "user_id": "U090",
+  "name": "Ian Baxter",
+  "email": "ian.baxter@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$I8WBGyZC9lbU3fui$a03a5bcb6ba457721eaa927b300837b57883d8e6e6571c05bb51269399681cd0a85c2536f64779bc7c36eecb4547887e3b7fa7dac9d8c6ebc63dfc1575458782",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 647",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-26T09:39:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-24T11:47:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000005b"
+  },
+  "user_id": "U091",
+  "name": "Wendy Ashby",
+  "email": "wendy.ashby@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$bwAMGGMDSTXgpBzD$c0e468d2262fd28258c5c1bfcf445a8335c7c2cb4178109cc1caa9259a2cc4c1d1ebe721942d59534742b308b35079894591f6cc904ade15f64df8d52c472d29",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 379",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-15T09:51:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-24T13:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000005c"
+  },
+  "user_id": "U092",
+  "name": "Ben Platt",
+  "email": "ben.platt@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$r2zXyVZHImNFSvlT$fe72500bde224078cddfd31e89030b16c9278da9f662226ab06f2f30b4cbd584d76c0cbc7972181b9959bc4393a0d331735844f6337838e28125947e4acbabd7",
+  "role": "staff",
+  "department": "Warehouse",
+  "phone": "0113 496 487",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-25T09:51:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-08T11:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000005d"
+  },
+  "user_id": "U093",
+  "name": "Ruth Sharp",
+  "email": "ruth.sharp@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$vUlUBIYyYxVlgbYD$1d1efcfebc5a809c7b35f5e987b21f58ff4b1cc06bd07caf0a396bf90be47bbde0b9b2ab3cc395d2d6fd28eac06279cf80879b1dd69e46c38cfe57eb1d3acb9a",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 716",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-21T09:22:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-21T16:03:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000005e"
+  },
+  "user_id": "U094",
+  "name": "Beth Yates",
+  "email": "beth.yates@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$eW1AuTqH6pxQZYAd$f42005d8267b72792dc46a2456ffaaf9ecbfae11e613318102729525d43320474714b1eb9c5b508a5d1204b5d634217b07230a9cff36713af03b7a1e717d08c4",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 372",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-07-03T09:34:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-20T08:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b0000000000000000000005f"
+  },
+  "user_id": "U095",
+  "name": "Ella Marsh",
+  "email": "ella.marsh@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$OwNI2nFaErscFumz$1551e3c38d551c0a752028e7fa514d8bd9154a5ebcaa0d7480b26cff377b0e0c43786d7a97797bff91486448d268cda4dcc549ce8f8467568bd2eca8a1e2f70e",
+  "role": "staff",
+  "department": "Purchasing",
+  "phone": "0113 496 732",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-01T09:02:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-14T12:17:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000060"
+  },
+  "user_id": "U096",
+  "name": "Dan Nolan",
+  "email": "dan.nolan@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$KQogwJHhZvfKUvW2$8d5757671b4d8f6b80d1d5810da6d224731adbc5764b274e95ba752478997a13f551a4806c6ce62d6cd4cfec7c76b43cbb808fd9784d4be2aec305590745777b",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 932",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 50
+  },
+  "created_at": {
+    "$date": "2026-07-22T09:45:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-16T14:16:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000061"
+  },
+  "user_id": "U097",
+  "name": "Ella Utting",
+  "email": "ella.utting@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$s97nkCZ1Az1glZrP$b7bad6bc726b958b0ab7749ebf57611fcd5eb409446dd38163840b51e39a16eacbd059bdb2e5402cf6557d7dc787c11168745b8c628982bd3ac16cb78acf8f89",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 682",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-08-19T09:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000062"
+  },
+  "user_id": "U098",
+  "name": "Imogen Platt",
+  "email": "imogen.platt@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$ctZjmisIBAiBxGKw$98c3f41bc1eb8e4e2e00328e050da62ef51c998aebb39c52fdde64fbae44f91b03dbbe62f9ad3ac209925065a2aefa310a4e4f8d8b7c47141a6ef72d89075c69",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 613",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-07-14T09:50:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-01T12:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000063"
+  },
+  "user_id": "U099",
+  "name": "Olivia Crowther",
+  "email": "olivia.crowther@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$wABUHpBAb6HJTi6F$1ec46320a32cb8993698a5249bc6289f7db8490438d29ebb139ea4b137e2675d225ca4a68fef8a151cb900511d728256f5e139037059abc8a5d3d3f55983b48e",
+  "role": "staff",
+  "department": "Sales",
+  "phone": "0113 496 256",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": false,
+    "default_page_size": 10
+  },
+  "created_at": {
+    "$date": "2026-09-26T09:20:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-11T09:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b00000000000000000000064"
+  },
+  "user_id": "U100",
+  "name": "Vicky Fisher",
+  "email": "vicky.fisher@bluepeak.example",
+  "password_hash": "scrypt:32768:8:1$AMm5PYKgRJJFgJqg$5c9f7f013f91675e96e26faac7ab6a481b085fa54ee156db24c5255134b1319cd5599b21e4b85c73ea8d57467f8f5db4dd19b498ddfe6b928fca6b0a5fdc27f6",
+  "role": "staff",
+  "department": "Customer Service",
+  "phone": "0113 496 495",
+  "permissions": [
+    "products:read",
+    "stock:write",
+    "analytics:read"
+  ],
+  "preferences": {
+    "low_stock_alerts": true,
+    "default_page_size": 20
+  },
+  "created_at": {
+    "$date": "2026-09-05T09:41:00.000Z"
+  },
+  "last_login": {
+    "$date": "2026-10-06T08:31:00.000Z"
+  }
+}]

@@ -1,0 +1,2576 @@
+[{
+  "_id": {
+    "$oid": "c00000000000000000000001"
+  },
+  "category_id": "C01",
+  "name": "Computer Accessories",
+  "slug": "computer-accessories",
+  "description": "Keyboards, mice, headsets, storage and everyday desk tech.",
+  "subcategories": [
+    {
+      "name": "Input Devices",
+      "slug": "input-devices"
+    },
+    {
+      "name": "Docks & Hubs",
+      "slug": "docks-hubs"
+    },
+    {
+      "name": "Desk Ergonomics",
+      "slug": "desk-ergonomics"
+    },
+    {
+      "name": "Audio & Video",
+      "slug": "audio-video"
+    },
+    {
+      "name": "Storage",
+      "slug": "storage"
+    },
+    {
+      "name": "Power & Carry",
+      "slug": "power-carry"
+    },
+    {
+      "name": "Care & Maintenance",
+      "slug": "care-maintenance"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000002"
+  },
+  "category_id": "C02",
+  "name": "Networking & Cables",
+  "slug": "networking-cables",
+  "description": "Cables, extension leads and small-office network equipment.",
+  "subcategories": [
+    {
+      "name": "Ethernet Cables",
+      "slug": "ethernet-cables"
+    },
+    {
+      "name": "Video Cables",
+      "slug": "video-cables"
+    },
+    {
+      "name": "USB Cables",
+      "slug": "usb-cables"
+    },
+    {
+      "name": "Power Distribution",
+      "slug": "power-distribution"
+    },
+    {
+      "name": "Network Equipment",
+      "slug": "network-equipment"
+    },
+    {
+      "name": "Cable Management",
+      "slug": "cable-management"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000003"
+  },
+  "category_id": "C03",
+  "name": "Office Furniture",
+  "slug": "office-furniture",
+  "description": "Chairs, desks, storage and desk-side equipment.",
+  "subcategories": [
+    {
+      "name": "Seating",
+      "slug": "seating"
+    },
+    {
+      "name": "Desks",
+      "slug": "desks"
+    },
+    {
+      "name": "Storage",
+      "slug": "storage"
+    },
+    {
+      "name": "Ergonomics & Lighting",
+      "slug": "ergonomics-lighting"
+    },
+    {
+      "name": "Boards & Fittings",
+      "slug": "boards-fittings"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000004"
+  },
+  "category_id": "C04",
+  "name": "Stationery",
+  "slug": "stationery",
+  "description": "Pens, notebooks, desk tools and small consumables.",
+  "subcategories": [
+    {
+      "name": "Writing",
+      "slug": "writing"
+    },
+    {
+      "name": "Notebooks & Notes",
+      "slug": "notebooks-notes"
+    },
+    {
+      "name": "Desk Tools",
+      "slug": "desk-tools"
+    },
+    {
+      "name": "Fasteners & Adhesives",
+      "slug": "fasteners-adhesives"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000005"
+  },
+  "category_id": "C05",
+  "name": "Printing & Paper",
+  "slug": "printing-paper",
+  "description": "Paper, toner, ink, labels and filing products.",
+  "subcategories": [
+    {
+      "name": "Paper",
+      "slug": "paper"
+    },
+    {
+      "name": "Toner & Ink",
+      "slug": "toner-ink"
+    },
+    {
+      "name": "Labels",
+      "slug": "labels"
+    },
+    {
+      "name": "Filing & Envelopes",
+      "slug": "filing-envelopes"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000006"
+  },
+  "category_id": "C06",
+  "name": "Workplace Essentials",
+  "slug": "workplace-essentials",
+  "description": "Cleaning, hygiene, safety and break-room supplies.",
+  "subcategories": [
+    {
+      "name": "Cleaning & Hygiene",
+      "slug": "cleaning-hygiene"
+    },
+    {
+      "name": "Health & Safety",
+      "slug": "health-safety"
+    },
+    {
+      "name": "Break Room",
+      "slug": "break-room"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000007"
+  },
+  "category_id": "C07",
+  "name": "Art & Craft Supplies",
+  "slug": "art-craft-supplies",
+  "description": "Everyday art & craft supplies for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Paints & Brushes",
+      "slug": "paints-brushes"
+    },
+    {
+      "name": "Craft Paper",
+      "slug": "craft-paper"
+    },
+    {
+      "name": "Adhesives",
+      "slug": "adhesives"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000008"
+  },
+  "category_id": "C08",
+  "name": "Audio Visual Equipment",
+  "slug": "audio-visual-equipment",
+  "description": "Everyday audio visual equipment for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Projectors",
+      "slug": "projectors"
+    },
+    {
+      "name": "Screens",
+      "slug": "screens"
+    },
+    {
+      "name": "Microphones",
+      "slug": "microphones"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000009"
+  },
+  "category_id": "C09",
+  "name": "Bags & Luggage",
+  "slug": "bags-luggage",
+  "description": "Everyday bags & luggage for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Backpacks",
+      "slug": "backpacks"
+    },
+    {
+      "name": "Briefcases",
+      "slug": "briefcases"
+    },
+    {
+      "name": "Travel Cases",
+      "slug": "travel-cases"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000000a"
+  },
+  "category_id": "C10",
+  "name": "Batteries & Chargers",
+  "slug": "batteries-chargers",
+  "description": "Everyday batteries & chargers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Batteries",
+      "slug": "batteries"
+    },
+    {
+      "name": "Chargers",
+      "slug": "chargers"
+    },
+    {
+      "name": "Power Banks",
+      "slug": "power-banks"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000000b"
+  },
+  "category_id": "C11",
+  "name": "Binding & Laminating",
+  "slug": "binding-laminating",
+  "description": "Everyday binding & laminating for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Binding Machines",
+      "slug": "binding-machines"
+    },
+    {
+      "name": "Laminating Pouches",
+      "slug": "laminating-pouches"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000000c"
+  },
+  "category_id": "C12",
+  "name": "Breakroom Supplies",
+  "slug": "breakroom-supplies",
+  "description": "Everyday breakroom supplies for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Coffee & Tea",
+      "slug": "coffee-tea"
+    },
+    {
+      "name": "Disposable Cups",
+      "slug": "disposable-cups"
+    },
+    {
+      "name": "Kitchen Basics",
+      "slug": "kitchen-basics"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:44:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000000d"
+  },
+  "category_id": "C13",
+  "name": "CCTV & Security",
+  "slug": "cctv-security",
+  "description": "Everyday cctv & security for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Cameras",
+      "slug": "cameras"
+    },
+    {
+      "name": "Recorders",
+      "slug": "recorders"
+    },
+    {
+      "name": "Alarms",
+      "slug": "alarms"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000000e"
+  },
+  "category_id": "C14",
+  "name": "Cable Management",
+  "slug": "cable-management",
+  "description": "Everyday cable management for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Trunking",
+      "slug": "trunking"
+    },
+    {
+      "name": "Cable Ties",
+      "slug": "cable-ties"
+    },
+    {
+      "name": "Desk Grommets",
+      "slug": "desk-grommets"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-02T10:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000000f"
+  },
+  "category_id": "C15",
+  "name": "Calculators",
+  "slug": "calculators",
+  "description": "Everyday calculators for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Desktop",
+      "slug": "desktop"
+    },
+    {
+      "name": "Scientific",
+      "slug": "scientific"
+    },
+    {
+      "name": "Printing",
+      "slug": "printing"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:44:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000010"
+  },
+  "category_id": "C16",
+  "name": "Calendars & Planners",
+  "slug": "calendars-planners",
+  "description": "Everyday calendars & planners for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Wall Planners",
+      "slug": "wall-planners"
+    },
+    {
+      "name": "Desk Diaries",
+      "slug": "desk-diaries"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:09:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000011"
+  },
+  "category_id": "C17",
+  "name": "Cash Handling",
+  "slug": "cash-handling",
+  "description": "Everyday cash handling for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Cash Boxes",
+      "slug": "cash-boxes"
+    },
+    {
+      "name": "Till Rolls",
+      "slug": "till-rolls"
+    },
+    {
+      "name": "Coin Trays",
+      "slug": "coin-trays"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:58:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000012"
+  },
+  "category_id": "C18",
+  "name": "Cleaning Chemicals",
+  "slug": "cleaning-chemicals",
+  "description": "Everyday cleaning chemicals for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Surface Cleaners",
+      "slug": "surface-cleaners"
+    },
+    {
+      "name": "Disinfectants",
+      "slug": "disinfectants"
+    },
+    {
+      "name": "Glass Cleaners",
+      "slug": "glass-cleaners"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:42:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000013"
+  },
+  "category_id": "C19",
+  "name": "Cleaning Equipment",
+  "slug": "cleaning-equipment",
+  "description": "Everyday cleaning equipment for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Mops & Buckets",
+      "slug": "mops-buckets"
+    },
+    {
+      "name": "Brushes",
+      "slug": "brushes"
+    },
+    {
+      "name": "Vacuum Cleaners",
+      "slug": "vacuum-cleaners"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000014"
+  },
+  "category_id": "C20",
+  "name": "Clocks & Timers",
+  "slug": "clocks-timers",
+  "description": "Everyday clocks & timers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Wall Clocks",
+      "slug": "wall-clocks"
+    },
+    {
+      "name": "Timers",
+      "slug": "timers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:08:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000015"
+  },
+  "category_id": "C21",
+  "name": "Conference Room Equipment",
+  "slug": "conference-room-equipment",
+  "description": "Everyday conference room equipment for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Whiteboards",
+      "slug": "whiteboards"
+    },
+    {
+      "name": "Flip Charts",
+      "slug": "flip-charts"
+    },
+    {
+      "name": "Presentation Accessories",
+      "slug": "presentation-accessories"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:23:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000016"
+  },
+  "category_id": "C22",
+  "name": "Courier & Mailing",
+  "slug": "courier-mailing",
+  "description": "Everyday courier & mailing for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Mailing Bags",
+      "slug": "mailing-bags"
+    },
+    {
+      "name": "Jiffy Bags",
+      "slug": "jiffy-bags"
+    },
+    {
+      "name": "Franking Supplies",
+      "slug": "franking-supplies"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:58:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000017"
+  },
+  "category_id": "C23",
+  "name": "Desk Accessories",
+  "slug": "desk-accessories",
+  "description": "Everyday desk accessories for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Organisers",
+      "slug": "organisers"
+    },
+    {
+      "name": "Pen Pots",
+      "slug": "pen-pots"
+    },
+    {
+      "name": "Desk Pads",
+      "slug": "desk-pads"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-02T10:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000018"
+  },
+  "category_id": "C24",
+  "name": "Display & Signage",
+  "slug": "display-signage",
+  "description": "Everyday display & signage for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Poster Frames",
+      "slug": "poster-frames"
+    },
+    {
+      "name": "Floor Stands",
+      "slug": "floor-stands"
+    },
+    {
+      "name": "Menu Holders",
+      "slug": "menu-holders"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000019"
+  },
+  "category_id": "C25",
+  "name": "Drawing & Technical",
+  "slug": "drawing-technical",
+  "description": "Everyday drawing & technical for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Drawing Boards",
+      "slug": "drawing-boards"
+    },
+    {
+      "name": "Rulers & Scales",
+      "slug": "rulers-scales"
+    },
+    {
+      "name": "Compasses",
+      "slug": "compasses"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000001a"
+  },
+  "category_id": "C26",
+  "name": "Electrical Accessories",
+  "slug": "electrical-accessories",
+  "description": "Everyday electrical accessories for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Extension Leads",
+      "slug": "extension-leads"
+    },
+    {
+      "name": "Plug Adapters",
+      "slug": "plug-adapters"
+    },
+    {
+      "name": "Surge Protectors",
+      "slug": "surge-protectors"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:12:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000001b"
+  },
+  "category_id": "C27",
+  "name": "Envelopes",
+  "slug": "envelopes",
+  "description": "Everyday envelopes for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Plain",
+      "slug": "plain"
+    },
+    {
+      "name": "Window",
+      "slug": "window"
+    },
+    {
+      "name": "Padded",
+      "slug": "padded"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000001c"
+  },
+  "category_id": "C28",
+  "name": "Ergonomic Equipment",
+  "slug": "ergonomic-equipment",
+  "description": "Everyday ergonomic equipment for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Footrests",
+      "slug": "footrests"
+    },
+    {
+      "name": "Wrist Supports",
+      "slug": "wrist-supports"
+    },
+    {
+      "name": "Monitor Arms",
+      "slug": "monitor-arms"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:12:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000001d"
+  },
+  "category_id": "C29",
+  "name": "Event Supplies",
+  "slug": "event-supplies",
+  "description": "Everyday event supplies for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Name Badges",
+      "slug": "name-badges"
+    },
+    {
+      "name": "Lanyards",
+      "slug": "lanyards"
+    },
+    {
+      "name": "Banners",
+      "slug": "banners"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000001e"
+  },
+  "category_id": "C30",
+  "name": "Fans & Heaters",
+  "slug": "fans-heaters",
+  "description": "Everyday fans & heaters for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Desk Fans",
+      "slug": "desk-fans"
+    },
+    {
+      "name": "Heaters",
+      "slug": "heaters"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-02T10:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000001f"
+  },
+  "category_id": "C31",
+  "name": "Filing & Storage",
+  "slug": "filing-storage",
+  "description": "Everyday filing & storage for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Lever Arch Files",
+      "slug": "lever-arch-files"
+    },
+    {
+      "name": "Box Files",
+      "slug": "box-files"
+    },
+    {
+      "name": "Suspension Files",
+      "slug": "suspension-files"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-02T10:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000020"
+  },
+  "category_id": "C32",
+  "name": "Fire Safety",
+  "slug": "fire-safety",
+  "description": "Everyday fire safety for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Extinguishers",
+      "slug": "extinguishers"
+    },
+    {
+      "name": "Blankets",
+      "slug": "blankets"
+    },
+    {
+      "name": "Signs",
+      "slug": "signs"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:06:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000021"
+  },
+  "category_id": "C33",
+  "name": "First Aid",
+  "slug": "first-aid",
+  "description": "Everyday first aid for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Kits",
+      "slug": "kits"
+    },
+    {
+      "name": "Dressings",
+      "slug": "dressings"
+    },
+    {
+      "name": "Eye Wash",
+      "slug": "eye-wash"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:41:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000022"
+  },
+  "category_id": "C34",
+  "name": "Floor Coverings",
+  "slug": "floor-coverings",
+  "description": "Everyday floor coverings for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Chair Mats",
+      "slug": "chair-mats"
+    },
+    {
+      "name": "Entrance Mats",
+      "slug": "entrance-mats"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:18:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000023"
+  },
+  "category_id": "C35",
+  "name": "Folders & Wallets",
+  "slug": "folders-wallets",
+  "description": "Everyday folders & wallets for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Ring Binders",
+      "slug": "ring-binders"
+    },
+    {
+      "name": "Document Wallets",
+      "slug": "document-wallets"
+    },
+    {
+      "name": "Clip Folders",
+      "slug": "clip-folders"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:08:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000024"
+  },
+  "category_id": "C36",
+  "name": "Gift & Recognition",
+  "slug": "gift-recognition",
+  "description": "Everyday gift & recognition for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Trophies",
+      "slug": "trophies"
+    },
+    {
+      "name": "Greeting Cards",
+      "slug": "greeting-cards"
+    },
+    {
+      "name": "Gift Wrap",
+      "slug": "gift-wrap"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-03T10:34:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000025"
+  },
+  "category_id": "C37",
+  "name": "Glues & Tapes",
+  "slug": "glues-tapes",
+  "description": "Everyday glues & tapes for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Packing Tape",
+      "slug": "packing-tape"
+    },
+    {
+      "name": "Double Sided Tape",
+      "slug": "double-sided-tape"
+    },
+    {
+      "name": "Glue Sticks",
+      "slug": "glue-sticks"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000026"
+  },
+  "category_id": "C38",
+  "name": "Hand Tools",
+  "slug": "hand-tools",
+  "description": "Everyday hand tools for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Screwdrivers",
+      "slug": "screwdrivers"
+    },
+    {
+      "name": "Hammers",
+      "slug": "hammers"
+    },
+    {
+      "name": "Tape Measures",
+      "slug": "tape-measures"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:38:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000027"
+  },
+  "category_id": "C39",
+  "name": "Headsets & Telephony",
+  "slug": "headsets-telephony",
+  "description": "Everyday headsets & telephony for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Desk Phones",
+      "slug": "desk-phones"
+    },
+    {
+      "name": "Headsets",
+      "slug": "headsets"
+    },
+    {
+      "name": "Conference Phones",
+      "slug": "conference-phones"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000028"
+  },
+  "category_id": "C40",
+  "name": "Health & Wellbeing",
+  "slug": "health-wellbeing",
+  "description": "Everyday health & wellbeing for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Sanitiser",
+      "slug": "sanitiser"
+    },
+    {
+      "name": "Wellness Supplies",
+      "slug": "wellness-supplies"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000029"
+  },
+  "category_id": "C41",
+  "name": "High Visibility Clothing",
+  "slug": "high-visibility-clothing",
+  "description": "Everyday high visibility clothing for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Jackets",
+      "slug": "jackets"
+    },
+    {
+      "name": "Vests",
+      "slug": "vests"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000002a"
+  },
+  "category_id": "C42",
+  "name": "Highlighters & Markers",
+  "slug": "highlighters-markers",
+  "description": "Everyday highlighters & markers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Highlighters",
+      "slug": "highlighters"
+    },
+    {
+      "name": "Permanent Markers",
+      "slug": "permanent-markers"
+    },
+    {
+      "name": "Whiteboard Markers",
+      "slug": "whiteboard-markers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-13T10:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000002b"
+  },
+  "category_id": "C43",
+  "name": "Home Working",
+  "slug": "home-working",
+  "description": "Everyday home working for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Laptop Stands",
+      "slug": "laptop-stands"
+    },
+    {
+      "name": "Webcams",
+      "slug": "webcams"
+    },
+    {
+      "name": "Desk Lamps",
+      "slug": "desk-lamps"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T10:31:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000002c"
+  },
+  "category_id": "C44",
+  "name": "Hygiene Dispensers",
+  "slug": "hygiene-dispensers",
+  "description": "Everyday hygiene dispensers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Soap Dispensers",
+      "slug": "soap-dispensers"
+    },
+    {
+      "name": "Towel Dispensers",
+      "slug": "towel-dispensers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:57:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000002d"
+  },
+  "category_id": "C45",
+  "name": "Index & Dividers",
+  "slug": "index-dividers",
+  "description": "Everyday index & dividers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Dividers",
+      "slug": "dividers"
+    },
+    {
+      "name": "Index Cards",
+      "slug": "index-cards"
+    },
+    {
+      "name": "Tabs",
+      "slug": "tabs"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:48:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000002e"
+  },
+  "category_id": "C46",
+  "name": "Ink Cartridges",
+  "slug": "ink-cartridges",
+  "description": "Everyday ink cartridges for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Inkjet",
+      "slug": "inkjet"
+    },
+    {
+      "name": "Multipacks",
+      "slug": "multipacks"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T10:59:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000002f"
+  },
+  "category_id": "C47",
+  "name": "Keyboards & Mice",
+  "slug": "keyboards-mice",
+  "description": "Everyday keyboards & mice for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Wired Keyboards",
+      "slug": "wired-keyboards"
+    },
+    {
+      "name": "Wireless Mice",
+      "slug": "wireless-mice"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:38:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000030"
+  },
+  "category_id": "C48",
+  "name": "Labels & Labelling",
+  "slug": "labels-labelling",
+  "description": "Everyday labels & labelling for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Address Labels",
+      "slug": "address-labels"
+    },
+    {
+      "name": "Label Printers",
+      "slug": "label-printers"
+    },
+    {
+      "name": "Shipping Labels",
+      "slug": "shipping-labels"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000031"
+  },
+  "category_id": "C49",
+  "name": "Lamps & Lighting",
+  "slug": "lamps-lighting",
+  "description": "Everyday lamps & lighting for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Desk Lamps",
+      "slug": "desk-lamps"
+    },
+    {
+      "name": "LED Bulbs",
+      "slug": "led-bulbs"
+    },
+    {
+      "name": "Torches",
+      "slug": "torches"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:18:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000032"
+  },
+  "category_id": "C50",
+  "name": "Lanyards & ID",
+  "slug": "lanyards-id",
+  "description": "Everyday lanyards & id for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Card Holders",
+      "slug": "card-holders"
+    },
+    {
+      "name": "Lanyards",
+      "slug": "lanyards"
+    },
+    {
+      "name": "ID Printers",
+      "slug": "id-printers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000033"
+  },
+  "category_id": "C51",
+  "name": "Laptops & Tablets",
+  "slug": "laptops-tablets",
+  "description": "Everyday laptops & tablets for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Laptop Sleeves",
+      "slug": "laptop-sleeves"
+    },
+    {
+      "name": "Tablet Cases",
+      "slug": "tablet-cases"
+    },
+    {
+      "name": "Docking Stands",
+      "slug": "docking-stands"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000034"
+  },
+  "category_id": "C52",
+  "name": "Lockers & Safes",
+  "slug": "lockers-safes",
+  "description": "Everyday lockers & safes for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Key Safes",
+      "slug": "key-safes"
+    },
+    {
+      "name": "Document Safes",
+      "slug": "document-safes"
+    },
+    {
+      "name": "Lockers",
+      "slug": "lockers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:08:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000035"
+  },
+  "category_id": "C53",
+  "name": "Magnets & Boards",
+  "slug": "magnets-boards",
+  "description": "Everyday magnets & boards for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Notice Boards",
+      "slug": "notice-boards"
+    },
+    {
+      "name": "Magnetic Boards",
+      "slug": "magnetic-boards"
+    },
+    {
+      "name": "Pins",
+      "slug": "pins"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000036"
+  },
+  "category_id": "C54",
+  "name": "Mailroom Equipment",
+  "slug": "mailroom-equipment",
+  "description": "Everyday mailroom equipment for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Letter Openers",
+      "slug": "letter-openers"
+    },
+    {
+      "name": "Scales",
+      "slug": "scales"
+    },
+    {
+      "name": "Sorting Trays",
+      "slug": "sorting-trays"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:19:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000037"
+  },
+  "category_id": "C55",
+  "name": "Memory & Storage",
+  "slug": "memory-storage",
+  "description": "Everyday memory & storage for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "USB Drives",
+      "slug": "usb-drives"
+    },
+    {
+      "name": "Memory Cards",
+      "slug": "memory-cards"
+    },
+    {
+      "name": "External Drives",
+      "slug": "external-drives"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:59:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000038"
+  },
+  "category_id": "C56",
+  "name": "Monitor Stands",
+  "slug": "monitor-stands",
+  "description": "Everyday monitor stands for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Single",
+      "slug": "single"
+    },
+    {
+      "name": "Dual",
+      "slug": "dual"
+    },
+    {
+      "name": "Riser",
+      "slug": "riser"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-03T10:51:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000039"
+  },
+  "category_id": "C57",
+  "name": "Mouse Mats & Pads",
+  "slug": "mouse-mats-pads",
+  "description": "Everyday mouse mats & pads for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Standard",
+      "slug": "standard"
+    },
+    {
+      "name": "Gel Wrist Rest",
+      "slug": "gel-wrist-rest"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:59:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000003a"
+  },
+  "category_id": "C58",
+  "name": "Network Hardware",
+  "slug": "network-hardware",
+  "description": "Everyday network hardware for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Switches",
+      "slug": "switches"
+    },
+    {
+      "name": "Routers",
+      "slug": "routers"
+    },
+    {
+      "name": "Access Points",
+      "slug": "access-points"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:44:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000003b"
+  },
+  "category_id": "C59",
+  "name": "Notebooks & Pads",
+  "slug": "notebooks-pads",
+  "description": "Everyday notebooks & pads for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Reporter Pads",
+      "slug": "reporter-pads"
+    },
+    {
+      "name": "Spiral Notebooks",
+      "slug": "spiral-notebooks"
+    },
+    {
+      "name": "Refill Pads",
+      "slug": "refill-pads"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000003c"
+  },
+  "category_id": "C60",
+  "name": "Office Chairs",
+  "slug": "office-chairs",
+  "description": "Everyday office chairs for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Task Chairs",
+      "slug": "task-chairs"
+    },
+    {
+      "name": "Executive Chairs",
+      "slug": "executive-chairs"
+    },
+    {
+      "name": "Visitor Chairs",
+      "slug": "visitor-chairs"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-02T10:23:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000003d"
+  },
+  "category_id": "C61",
+  "name": "Office Machines",
+  "slug": "office-machines",
+  "description": "Everyday office machines for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Shredders",
+      "slug": "shredders"
+    },
+    {
+      "name": "Guillotines",
+      "slug": "guillotines"
+    },
+    {
+      "name": "Staplers Electric",
+      "slug": "staplers-electric"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:16:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000003e"
+  },
+  "category_id": "C62",
+  "name": "Packaging Materials",
+  "slug": "packaging-materials",
+  "description": "Everyday packaging materials for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Bubble Wrap",
+      "slug": "bubble-wrap"
+    },
+    {
+      "name": "Cartons",
+      "slug": "cartons"
+    },
+    {
+      "name": "Void Fill",
+      "slug": "void-fill"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000003f"
+  },
+  "category_id": "C63",
+  "name": "Paper Shredding",
+  "slug": "paper-shredding",
+  "description": "Everyday paper shredding for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Shredders",
+      "slug": "shredders"
+    },
+    {
+      "name": "Shredder Bags",
+      "slug": "shredder-bags"
+    },
+    {
+      "name": "Oil",
+      "slug": "oil"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000040"
+  },
+  "category_id": "C64",
+  "name": "Pens & Pencils",
+  "slug": "pens-pencils",
+  "description": "Everyday pens & pencils for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Ballpoint Pens",
+      "slug": "ballpoint-pens"
+    },
+    {
+      "name": "Pencils",
+      "slug": "pencils"
+    },
+    {
+      "name": "Fountain Pens",
+      "slug": "fountain-pens"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000041"
+  },
+  "category_id": "C65",
+  "name": "Phone Accessories",
+  "slug": "phone-accessories",
+  "description": "Everyday phone accessories for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Cases",
+      "slug": "cases"
+    },
+    {
+      "name": "Cables",
+      "slug": "cables"
+    },
+    {
+      "name": "Holders",
+      "slug": "holders"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000042"
+  },
+  "category_id": "C66",
+  "name": "Photo & Imaging",
+  "slug": "photo-imaging",
+  "description": "Everyday photo & imaging for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Photo Paper",
+      "slug": "photo-paper"
+    },
+    {
+      "name": "Scanners",
+      "slug": "scanners"
+    },
+    {
+      "name": "Cameras",
+      "slug": "cameras"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:28:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000043"
+  },
+  "category_id": "C67",
+  "name": "Plants & Decor",
+  "slug": "plants-decor",
+  "description": "Everyday plants & decor for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Artificial Plants",
+      "slug": "artificial-plants"
+    },
+    {
+      "name": "Planters",
+      "slug": "planters"
+    },
+    {
+      "name": "Wall Art",
+      "slug": "wall-art"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:18:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000044"
+  },
+  "category_id": "C68",
+  "name": "Plastic Pockets",
+  "slug": "plastic-pockets",
+  "description": "Everyday plastic pockets for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Punched Pockets",
+      "slug": "punched-pockets"
+    },
+    {
+      "name": "Wallets",
+      "slug": "wallets"
+    },
+    {
+      "name": "Display Books",
+      "slug": "display-books"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-03T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000045"
+  },
+  "category_id": "C69",
+  "name": "Pocket Knives & Cutters",
+  "slug": "pocket-knives-cutters",
+  "description": "Everyday pocket knives & cutters for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Craft Knives",
+      "slug": "craft-knives"
+    },
+    {
+      "name": "Scissors",
+      "slug": "scissors"
+    },
+    {
+      "name": "Blades",
+      "slug": "blades"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000046"
+  },
+  "category_id": "C70",
+  "name": "Post-it & Notes",
+  "slug": "post-it-notes",
+  "description": "Everyday post-it & notes for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Sticky Notes",
+      "slug": "sticky-notes"
+    },
+    {
+      "name": "Flags",
+      "slug": "flags"
+    },
+    {
+      "name": "Memo Cubes",
+      "slug": "memo-cubes"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000047"
+  },
+  "category_id": "C71",
+  "name": "Power Supplies",
+  "slug": "power-supplies",
+  "description": "Everyday power supplies for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "UPS",
+      "slug": "ups"
+    },
+    {
+      "name": "Power Strips",
+      "slug": "power-strips"
+    },
+    {
+      "name": "Adapters",
+      "slug": "adapters"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:31:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000048"
+  },
+  "category_id": "C72",
+  "name": "Presentation Supplies",
+  "slug": "presentation-supplies",
+  "description": "Everyday presentation supplies for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Flip Chart Pads",
+      "slug": "flip-chart-pads"
+    },
+    {
+      "name": "Pointers",
+      "slug": "pointers"
+    },
+    {
+      "name": "Clickers",
+      "slug": "clickers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:21:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000049"
+  },
+  "category_id": "C73",
+  "name": "Print Cartridges Toner",
+  "slug": "print-cartridges-toner",
+  "description": "Everyday print cartridges toner for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Black Toner",
+      "slug": "black-toner"
+    },
+    {
+      "name": "Colour Toner",
+      "slug": "colour-toner"
+    },
+    {
+      "name": "Drums",
+      "slug": "drums"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:09:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000004a"
+  },
+  "category_id": "C74",
+  "name": "Printers & Scanners",
+  "slug": "printers-scanners",
+  "description": "Everyday printers & scanners for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Laser Printers",
+      "slug": "laser-printers"
+    },
+    {
+      "name": "Inkjet Printers",
+      "slug": "inkjet-printers"
+    },
+    {
+      "name": "Document Scanners",
+      "slug": "document-scanners"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-05T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000004b"
+  },
+  "category_id": "C75",
+  "name": "Protective Equipment",
+  "slug": "protective-equipment",
+  "description": "Everyday protective equipment for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Gloves",
+      "slug": "gloves"
+    },
+    {
+      "name": "Masks",
+      "slug": "masks"
+    },
+    {
+      "name": "Safety Glasses",
+      "slug": "safety-glasses"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-08T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000004c"
+  },
+  "category_id": "C76",
+  "name": "Punches & Staplers",
+  "slug": "punches-staplers",
+  "description": "Everyday punches & staplers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Hole Punches",
+      "slug": "hole-punches"
+    },
+    {
+      "name": "Staplers",
+      "slug": "staplers"
+    },
+    {
+      "name": "Staples",
+      "slug": "staples"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:51:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000004d"
+  },
+  "category_id": "C77",
+  "name": "Receipt & Till Rolls",
+  "slug": "receipt-till-rolls",
+  "description": "Everyday receipt & till rolls for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Thermal Rolls",
+      "slug": "thermal-rolls"
+    },
+    {
+      "name": "Credit Card Rolls",
+      "slug": "credit-card-rolls"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-13T10:47:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000004e"
+  },
+  "category_id": "C78",
+  "name": "Reception Furniture",
+  "slug": "reception-furniture",
+  "description": "Everyday reception furniture for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Sofas",
+      "slug": "sofas"
+    },
+    {
+      "name": "Coffee Tables",
+      "slug": "coffee-tables"
+    },
+    {
+      "name": "Magazine Racks",
+      "slug": "magazine-racks"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-07T10:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000004f"
+  },
+  "category_id": "C79",
+  "name": "Recycling & Waste",
+  "slug": "recycling-waste",
+  "description": "Everyday recycling & waste for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Bins",
+      "slug": "bins"
+    },
+    {
+      "name": "Recycling Bags",
+      "slug": "recycling-bags"
+    },
+    {
+      "name": "Sack Holders",
+      "slug": "sack-holders"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000050"
+  },
+  "category_id": "C80",
+  "name": "Rubber Stamps & Inks",
+  "slug": "rubber-stamps-inks",
+  "description": "Everyday rubber stamps & inks for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Self Inking Stamps",
+      "slug": "self-inking-stamps"
+    },
+    {
+      "name": "Ink Pads",
+      "slug": "ink-pads"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-03T10:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000051"
+  },
+  "category_id": "C81",
+  "name": "Safety Signage",
+  "slug": "safety-signage",
+  "description": "Everyday safety signage for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Warning Signs",
+      "slug": "warning-signs"
+    },
+    {
+      "name": "Exit Signs",
+      "slug": "exit-signs"
+    },
+    {
+      "name": "Floor Markers",
+      "slug": "floor-markers"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:31:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000052"
+  },
+  "category_id": "C82",
+  "name": "School & Education",
+  "slug": "school-education",
+  "description": "Everyday school & education for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Exercise Books",
+      "slug": "exercise-books"
+    },
+    {
+      "name": "Classroom Packs",
+      "slug": "classroom-packs"
+    },
+    {
+      "name": "Art Pads",
+      "slug": "art-pads"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000053"
+  },
+  "category_id": "C83",
+  "name": "Screen Protectors",
+  "slug": "screen-protectors",
+  "description": "Everyday screen protectors for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Privacy Filters",
+      "slug": "privacy-filters"
+    },
+    {
+      "name": "Anti Glare",
+      "slug": "anti-glare"
+    },
+    {
+      "name": "Cleaning Kits",
+      "slug": "cleaning-kits"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:02:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000054"
+  },
+  "category_id": "C84",
+  "name": "Seating Accessories",
+  "slug": "seating-accessories",
+  "description": "Everyday seating accessories for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Cushions",
+      "slug": "cushions"
+    },
+    {
+      "name": "Back Supports",
+      "slug": "back-supports"
+    },
+    {
+      "name": "Chair Casters",
+      "slug": "chair-casters"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:24:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000055"
+  },
+  "category_id": "C85",
+  "name": "Shelving & Racking",
+  "slug": "shelving-racking",
+  "description": "Everyday shelving & racking for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Bookcases",
+      "slug": "bookcases"
+    },
+    {
+      "name": "Steel Shelving",
+      "slug": "steel-shelving"
+    },
+    {
+      "name": "Pallet Racking",
+      "slug": "pallet-racking"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:42:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000056"
+  },
+  "category_id": "C86",
+  "name": "Smart Office",
+  "slug": "smart-office",
+  "description": "Everyday smart office for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Smart Plugs",
+      "slug": "smart-plugs"
+    },
+    {
+      "name": "Occupancy Sensors",
+      "slug": "occupancy-sensors"
+    },
+    {
+      "name": "Meeting Displays",
+      "slug": "meeting-displays"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000057"
+  },
+  "category_id": "C87",
+  "name": "Software & Licences",
+  "slug": "software-licences",
+  "description": "Everyday software & licences for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Office Suites",
+      "slug": "office-suites"
+    },
+    {
+      "name": "Security Software",
+      "slug": "security-software"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-13T10:58:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000058"
+  },
+  "category_id": "C88",
+  "name": "Speakers & Audio",
+  "slug": "speakers-audio",
+  "description": "Everyday speakers & audio for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Desktop Speakers",
+      "slug": "desktop-speakers"
+    },
+    {
+      "name": "Conference Speakers",
+      "slug": "conference-speakers"
+    },
+    {
+      "name": "Headphones",
+      "slug": "headphones"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000059"
+  },
+  "category_id": "C89",
+  "name": "Standing Desks",
+  "slug": "standing-desks",
+  "description": "Everyday standing desks for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Electric",
+      "slug": "electric"
+    },
+    {
+      "name": "Manual",
+      "slug": "manual"
+    },
+    {
+      "name": "Converters",
+      "slug": "converters"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-03T10:06:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000005a"
+  },
+  "category_id": "C90",
+  "name": "Storage Boxes",
+  "slug": "storage-boxes",
+  "description": "Everyday storage boxes for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Archive Boxes",
+      "slug": "archive-boxes"
+    },
+    {
+      "name": "Plastic Boxes",
+      "slug": "plastic-boxes"
+    },
+    {
+      "name": "Crates",
+      "slug": "crates"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-01T10:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000005b"
+  },
+  "category_id": "C91",
+  "name": "Tape Dispensers",
+  "slug": "tape-dispensers",
+  "description": "Everyday tape dispensers for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Desktop",
+      "slug": "desktop"
+    },
+    {
+      "name": "Handheld",
+      "slug": "handheld"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:12:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000005c"
+  },
+  "category_id": "C92",
+  "name": "Tool Storage",
+  "slug": "tool-storage",
+  "description": "Everyday tool storage for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Toolboxes",
+      "slug": "toolboxes"
+    },
+    {
+      "name": "Benches",
+      "slug": "benches"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-14T10:38:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000005d"
+  },
+  "category_id": "C93",
+  "name": "Trolleys & Handling",
+  "slug": "trolleys-handling",
+  "description": "Everyday trolleys & handling for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Platform Trolleys",
+      "slug": "platform-trolleys"
+    },
+    {
+      "name": "Sack Trucks",
+      "slug": "sack-trucks"
+    },
+    {
+      "name": "Steps",
+      "slug": "steps"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-10T10:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000005e"
+  },
+  "category_id": "C94",
+  "name": "Uniforms & Workwear",
+  "slug": "uniforms-workwear",
+  "description": "Everyday uniforms & workwear for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Aprons",
+      "slug": "aprons"
+    },
+    {
+      "name": "Overalls",
+      "slug": "overalls"
+    },
+    {
+      "name": "Footwear",
+      "slug": "footwear"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-02T10:59:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c0000000000000000000005f"
+  },
+  "category_id": "C95",
+  "name": "Video Conferencing",
+  "slug": "video-conferencing",
+  "description": "Everyday video conferencing for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Webcams",
+      "slug": "webcams"
+    },
+    {
+      "name": "Speakerphones",
+      "slug": "speakerphones"
+    },
+    {
+      "name": "Room Systems",
+      "slug": "room-systems"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-06T10:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000060"
+  },
+  "category_id": "C96",
+  "name": "Visitor Management",
+  "slug": "visitor-management",
+  "description": "Everyday visitor management for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Visitor Books",
+      "slug": "visitor-books"
+    },
+    {
+      "name": "Badges",
+      "slug": "badges"
+    },
+    {
+      "name": "Pass Holders",
+      "slug": "pass-holders"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-09T10:27:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000061"
+  },
+  "category_id": "C97",
+  "name": "Wall Mounts & Brackets",
+  "slug": "wall-mounts-brackets",
+  "description": "Everyday wall mounts & brackets for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "TV Brackets",
+      "slug": "tv-brackets"
+    },
+    {
+      "name": "Monitor Mounts",
+      "slug": "monitor-mounts"
+    },
+    {
+      "name": "Shelf Brackets",
+      "slug": "shelf-brackets"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-11T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000062"
+  },
+  "category_id": "C98",
+  "name": "Wireless Networking",
+  "slug": "wireless-networking",
+  "description": "Everyday wireless networking for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Wi-Fi Extenders",
+      "slug": "wi-fi-extenders"
+    },
+    {
+      "name": "Dongles",
+      "slug": "dongles"
+    },
+    {
+      "name": "Antennas",
+      "slug": "antennas"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000063"
+  },
+  "category_id": "C99",
+  "name": "Writing Boards",
+  "slug": "writing-boards",
+  "description": "Everyday writing boards for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Dry Wipe",
+      "slug": "dry-wipe"
+    },
+    {
+      "name": "Chalk",
+      "slug": "chalk"
+    },
+    {
+      "name": "Easels",
+      "slug": "easels"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-12T10:18:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c00000000000000000000064"
+  },
+  "category_id": "C100",
+  "name": "Zip & Slide Bags",
+  "slug": "zip-slide-bags",
+  "description": "Everyday zip & slide bags for offices, shops and trade counters.",
+  "subcategories": [
+    {
+      "name": "Zip Bags",
+      "slug": "zip-bags"
+    },
+    {
+      "name": "Grip Seal Bags",
+      "slug": "grip-seal-bags"
+    }
+  ],
+  "created_at": {
+    "$date": "2026-07-04T10:09:00.000Z"
+  }
+}]

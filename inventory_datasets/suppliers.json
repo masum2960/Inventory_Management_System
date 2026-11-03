@@ -1,0 +1,3373 @@
+[{
+  "_id": {
+    "$oid": "500000000000000000000001"
+  },
+  "supplier_id": "SUP01",
+  "name": "Northgate Office Supplies",
+  "email": "orders@northgate-office.example",
+  "phone": "0113 496 0142",
+  "address": {
+    "street": "Unit 4, Calder Business Park",
+    "city": "Leeds",
+    "postcode": "LS11 5QT",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Helen Marsh",
+      "role": "Account manager",
+      "email": "helen.marsh@northgate-office.example"
+    },
+    {
+      "name": "Tom Brook",
+      "role": "Dispatch coordinator",
+      "email": "tom.brook@northgate-office.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 3,
+  "rating": 4.7,
+  "categories_supplied": [
+    "Office Furniture",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000002"
+  },
+  "supplier_id": "SUP02",
+  "name": "Brightwell Tech Distribution",
+  "email": "sales@brightwell-tech.example",
+  "phone": "0161 496 0188",
+  "address": {
+    "street": "18 Mercer Way, Trafford Park",
+    "city": "Manchester",
+    "postcode": "M17 1PB",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Imran Sheikh",
+      "role": "Sales manager",
+      "email": "imran.sheikh@brightwell-tech.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 11,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000003"
+  },
+  "supplier_id": "SUP03",
+  "name": "Harbour Stationery Co",
+  "email": "trade@harbourstationery.example",
+  "phone": "0117 496 0123",
+  "address": {
+    "street": "7 Wharf Lane",
+    "city": "Bristol",
+    "postcode": "BS1 4RN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Clara Denholm",
+      "role": "Account manager",
+      "email": "clara.denholm@harbourstationery.example"
+    },
+    {
+      "name": "Owen Pryce",
+      "role": "Customer service",
+      "email": "owen.pryce@harbourstationery.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 4,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000004"
+  },
+  "supplier_id": "SUP04",
+  "name": "Pennine Furniture Group",
+  "email": "wholesale@pennine-furniture.example",
+  "phone": "0114 496 0167",
+  "address": {
+    "street": "Steelworks Road",
+    "city": "Sheffield",
+    "postcode": "S9 2LH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Gareth Lowe",
+      "role": "Trade sales",
+      "email": "gareth.lowe@pennine-furniture.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 6,
+  "rating": 4.7,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000005"
+  },
+  "supplier_id": "SUP05",
+  "name": "Clearline Cables & Networks",
+  "email": "support@clearline-cables.example",
+  "phone": "0121 496 0175",
+  "address": {
+    "street": "Unit 12, Aston Trade Estate",
+    "city": "Birmingham",
+    "postcode": "B6 7TQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Nadia Farouk",
+      "role": "Account manager",
+      "email": "nadia.farouk@clearline-cables.example"
+    },
+    {
+      "name": "Pete Corrigan",
+      "role": "Technical support",
+      "email": "pete.corrigan@clearline-cables.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 6,
+  "rating": 4.1,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000006"
+  },
+  "supplier_id": "SUP06",
+  "name": "Fenwick Paper Mills",
+  "email": "accounts@fenwickpaper.example",
+  "phone": "0191 496 0139",
+  "address": {
+    "street": "Quayside Works",
+    "city": "Newcastle upon Tyne",
+    "postcode": "NE1 3DX",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Fiona Armstrong",
+      "role": "Accounts",
+      "email": "fiona.armstrong@fenwickpaper.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 4.7,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000007"
+  },
+  "supplier_id": "SUP07",
+  "name": "Ashdown Workplace Solutions",
+  "email": "hello@ashdown-workplace.example",
+  "phone": "0118 496 0154",
+  "address": {
+    "street": "2 Kennet Court",
+    "city": "Reading",
+    "postcode": "RG1 8AB",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Rachel Dunmore",
+      "role": "Account manager",
+      "email": "rachel.dunmore@ashdown-workplace.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000008"
+  },
+  "supplier_id": "SUP08",
+  "name": "Kestrel Computing Wholesale",
+  "email": "orders@kestrelcomputing.example",
+  "phone": "0141 496 0191",
+  "address": {
+    "street": "45 Clydeside Park",
+    "city": "Glasgow",
+    "postcode": "G3 8JU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Callum Reid",
+      "role": "Sales manager",
+      "email": "callum.reid@kestrelcomputing.example"
+    },
+    {
+      "name": "Isla Murray",
+      "role": "Dispatch coordinator",
+      "email": "isla.murray@kestrelcomputing.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 4,
+  "rating": 4.7,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000009"
+  },
+  "supplier_id": "SUP09",
+  "name": "Millbrook Cleaning & Hygiene",
+  "email": "sales@millbrook-hygiene.example",
+  "phone": "0115 496 0116",
+  "address": {
+    "street": "Unit 9, Trent Lane Industrial Estate",
+    "city": "Nottingham",
+    "postcode": "NG2 3FD",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Dev Patel",
+      "role": "Account manager",
+      "email": "dev.patel@millbrook-hygiene.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000000a"
+  },
+  "supplier_id": "SUP10",
+  "name": "Tidewater Print Supplies",
+  "email": "orders@tidewaterprint.example",
+  "phone": "029 2018 0132",
+  "address": {
+    "street": "Dock Road",
+    "city": "Cardiff",
+    "postcode": "CF10 4LZ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Bethan Rowlands",
+      "role": "Trade sales",
+      "email": "bethan.rowlands@tidewaterprint.example"
+    },
+    {
+      "name": "Aled Hughes",
+      "role": "Customer service",
+      "email": "aled.hughes@tidewaterprint.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 10,
+  "rating": 4,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "on_hold",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  },
+  "on_hold_reason": "Awaiting updated insurance certificate"
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000000b"
+  },
+  "supplier_id": "SUP11",
+  "name": "Ironbridge Safety Products",
+  "email": "info@ironbridge-safety.example",
+  "phone": "01952 496 018",
+  "address": {
+    "street": "Severn Gorge Business Centre",
+    "city": "Telford",
+    "postcode": "TF8 7DQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Martin Cole",
+      "role": "Compliance and sales",
+      "email": "martin.cole@ironbridge-safety.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 4,
+  "rating": 4,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000000c"
+  },
+  "supplier_id": "SUP12",
+  "name": "Lakeland Pen & Ink",
+  "email": "orders@lakelandpen.example",
+  "phone": "01539 496 072",
+  "address": {
+    "street": "3 Highgate",
+    "city": "Kendal",
+    "postcode": "LA9 4HE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ruth Gallagher",
+      "role": "Owner",
+      "email": "ruth.gallagher@lakelandpen.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 10,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000000d"
+  },
+  "supplier_id": "SUP13",
+  "name": "Ulverston Cleaning Supplies",
+  "email": "orders@ulverstoncleaningsupplies.example",
+  "phone": "0193 444 5325",
+  "address": {
+    "street": "Unit 4, Kelham Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG11 3XW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Hannah Lowe",
+      "role": "Customer service",
+      "email": "hannah.lowe@ulverstoncleaningsupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 9,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-21T10:59:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000000e"
+  },
+  "supplier_id": "SUP14",
+  "name": "Langdale Wholesale",
+  "email": "orders@langdalewholesale.example",
+  "phone": "0186 443 2158",
+  "address": {
+    "street": "Unit 12, Netherby Trade Park",
+    "city": "York",
+    "postcode": "YO7 2XU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Pria Utting",
+      "role": "Customer service",
+      "email": "pria.utting@langdalewholesale.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 14,
+  "rating": 4.6,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-09T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000000f"
+  },
+  "supplier_id": "SUP15",
+  "name": "Marlow Wholesale",
+  "email": "orders@marlowwholesale.example",
+  "phone": "0199 462 4410",
+  "address": {
+    "street": "Unit 15, Utley Trade Park",
+    "city": "Liverpool",
+    "postcode": "L18 1LL",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Nina Ashby",
+      "role": "Accounts",
+      "email": "nina.ashby@marlowwholesale.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 13,
+  "rating": 4.6,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-20T10:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000010"
+  },
+  "supplier_id": "SUP16",
+  "name": "Utley Wholesale",
+  "email": "orders@utleywholesale.example",
+  "phone": "0135 449 8684",
+  "address": {
+    "street": "Unit 31, Denholme Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG11 1EA",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Faye Evans",
+      "role": "Account manager",
+      "email": "faye.evans@utleywholesale.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 9,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-13T10:41:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000011"
+  },
+  "supplier_id": "SUP17",
+  "name": "Tannery Cleaning Supplies",
+  "email": "orders@tannerycleaningsupplies.example",
+  "phone": "0132 417 4976",
+  "address": {
+    "street": "Unit 5, Rawdon Trade Park",
+    "city": "Liverpool",
+    "postcode": "L5 1UZ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Una Walsh",
+      "role": "Dispatch coordinator",
+      "email": "una.walsh@tannerycleaningsupplies.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 8,
+  "rating": 4.9,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000012"
+  },
+  "supplier_id": "SUP18",
+  "name": "Silverdale Wholesale",
+  "email": "orders@silverdalewholesale.example",
+  "phone": "0115 472 4043",
+  "address": {
+    "street": "Unit 14, Juniper Trade Park",
+    "city": "Leeds",
+    "postcode": "LS5 4EQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Sam Bell",
+      "role": "Account manager",
+      "email": "sam.bell@silverdalewholesale.example"
+    },
+    {
+      "name": "Tara Bell",
+      "role": "Customer service",
+      "email": "tara.bell@silverdalewholesale.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 13,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-17T10:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000013"
+  },
+  "supplier_id": "SUP19",
+  "name": "Garston Distribution",
+  "email": "orders@garstondistribution.example",
+  "phone": "0134 457 3180",
+  "address": {
+    "street": "Unit 28, Heaton Trade Park",
+    "city": "Hull",
+    "postcode": "HU19 2UY",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Keira Dyson",
+      "role": "Dispatch coordinator",
+      "email": "keira.dyson@garstondistribution.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 5,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000014"
+  },
+  "supplier_id": "SUP20",
+  "name": "Rothwell Wholesale",
+  "email": "orders@rothwellwholesale.example",
+  "phone": "0168 439 7863",
+  "address": {
+    "street": "Unit 13, Quarry Trade Park",
+    "city": "Hull",
+    "postcode": "HU12 5ZN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Tom Grant",
+      "role": "Sales representative",
+      "email": "tom.grant@rothwellwholesale.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 8,
+  "rating": 3.7,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-20T10:33:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000015"
+  },
+  "supplier_id": "SUP21",
+  "name": "Ingleby Workplace Supplies",
+  "email": "orders@inglebyworkplacesupplies.example",
+  "phone": "0133 499 9963",
+  "address": {
+    "street": "Unit 37, Lindley Trade Park",
+    "city": "Leeds",
+    "postcode": "LS1 1TQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Bella Shah",
+      "role": "Sales representative",
+      "email": "bella.shah@inglebyworkplacesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 9,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-23T10:36:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000016"
+  },
+  "supplier_id": "SUP22",
+  "name": "Kingsley Office Supplies",
+  "email": "orders@kingsleyofficesupplies.example",
+  "phone": "0126 426 9615",
+  "address": {
+    "street": "Unit 7, Fairhaven Trade Park",
+    "city": "York",
+    "postcode": "YO1 8WP",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Isla Patel",
+      "role": "Sales representative",
+      "email": "isla.patel@kingsleyofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-07T10:33:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000017"
+  },
+  "supplier_id": "SUP23",
+  "name": "Thorpe Safety Products",
+  "email": "orders@thorpesafetyproducts.example",
+  "phone": "0142 430 1478",
+  "address": {
+    "street": "Unit 29, Lindley Trade Park",
+    "city": "Birmingham",
+    "postcode": "B20 8YH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Karim Sharp",
+      "role": "Dispatch coordinator",
+      "email": "karim.sharp@thorpesafetyproducts.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 3,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Stationery",
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-19T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000018"
+  },
+  "supplier_id": "SUP24",
+  "name": "Bramhall Wholesale",
+  "email": "orders@bramhallwholesale.example",
+  "phone": "0146 490 7531",
+  "address": {
+    "street": "Unit 17, Barrowby Trade Park",
+    "city": "Liverpool",
+    "postcode": "L4 1UN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Will Usher",
+      "role": "Account manager",
+      "email": "will.usher@bramhallwholesale.example"
+    },
+    {
+      "name": "Callum Platt",
+      "role": "Accounts",
+      "email": "callum.platt@bramhallwholesale.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 13,
+  "rating": 3.4,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-05T10:23:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000019"
+  },
+  "supplier_id": "SUP25",
+  "name": "Mytholm Office Supplies",
+  "email": "orders@mytholmofficesupplies.example",
+  "phone": "0121 444 9259",
+  "address": {
+    "street": "Unit 29, Marlow Trade Park",
+    "city": "Harrogate",
+    "postcode": "HG18 2DN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ben Ahmed",
+      "role": "Sales representative",
+      "email": "ben.ahmed@mytholmofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 12,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-24T10:33:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000001a"
+  },
+  "supplier_id": "SUP26",
+  "name": "Sedgley Furniture Co",
+  "email": "orders@sedgleyfurnitureco.example",
+  "phone": "0159 418 4664",
+  "address": {
+    "street": "Unit 19, Penrose Trade Park",
+    "city": "Leeds",
+    "postcode": "LS1 1ZU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Finn Gill",
+      "role": "Customer service",
+      "email": "finn.gill@sedgleyfurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 9,
+  "rating": 3.2,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-05T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000001b"
+  },
+  "supplier_id": "SUP27",
+  "name": "Otley Print & Paper",
+  "email": "orders@otleyprintpaper.example",
+  "phone": "0112 405 7391",
+  "address": {
+    "street": "Unit 26, Aldwick Trade Park",
+    "city": "Hull",
+    "postcode": "HU14 8AH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Owen Reid",
+      "role": "Accounts",
+      "email": "owen.reid@otleyprintpaper.example"
+    },
+    {
+      "name": "Amir Utting",
+      "role": "Accounts",
+      "email": "amir.utting@otleyprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 4,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-13T10:06:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000001c"
+  },
+  "supplier_id": "SUP28",
+  "name": "Westbrook Print & Paper",
+  "email": "orders@westbrookprintpaper.example",
+  "phone": "0188 457 2984",
+  "address": {
+    "street": "Unit 14, Ridgeway Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF12 7YG",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Mark Marsh",
+      "role": "Accounts",
+      "email": "mark.marsh@westbrookprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 4,
+  "rating": 3.5,
+  "categories_supplied": [
+    "Networking & Cables",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-28T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000001d"
+  },
+  "supplier_id": "SUP29",
+  "name": "Grantley Distribution",
+  "email": "orders@grantleydistribution.example",
+  "phone": "0124 414 8774",
+  "address": {
+    "street": "Unit 31, Dunmore Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE18 7NX",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Chloe Dixon",
+      "role": "Sales representative",
+      "email": "chloe.dixon@grantleydistribution.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 2,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-16T10:07:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000001e"
+  },
+  "supplier_id": "SUP30",
+  "name": "Meadowbank Safety Products",
+  "email": "orders@meadowbanksafetyproducts.example",
+  "phone": "0135 495 1249",
+  "address": {
+    "street": "Unit 29, Fairhaven Trade Park",
+    "city": "Bradford",
+    "postcode": "BD16 8AX",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Gina Khan",
+      "role": "Account manager",
+      "email": "gina.khan@meadowbanksafetyproducts.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 13,
+  "rating": 4.1,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000001f"
+  },
+  "supplier_id": "SUP31",
+  "name": "Meadowbank Packaging",
+  "email": "orders@meadowbankpackaging.example",
+  "phone": "0117 452 9880",
+  "address": {
+    "street": "Unit 23, Utley Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG12 5YB",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Grace Evans",
+      "role": "Customer service",
+      "email": "grace.evans@meadowbankpackaging.example"
+    },
+    {
+      "name": "Karim Utting",
+      "role": "Sales representative",
+      "email": "karim.utting@meadowbankpackaging.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 7,
+  "rating": 3.8,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-24T10:26:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000020"
+  },
+  "supplier_id": "SUP32",
+  "name": "Foxcroft Furniture Co",
+  "email": "orders@foxcroftfurnitureco.example",
+  "phone": "0149 469 1134",
+  "address": {
+    "street": "Unit 20, Prestwick Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG4 7EH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Gareth Crowther",
+      "role": "Dispatch coordinator",
+      "email": "gareth.crowther@foxcroftfurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 2,
+  "rating": 3.7,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-23T10:07:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000021"
+  },
+  "supplier_id": "SUP33",
+  "name": "Lymm Cleaning Supplies",
+  "email": "orders@lymmcleaningsupplies.example",
+  "phone": "0114 414 6503",
+  "address": {
+    "street": "Unit 2, Meadowbank Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF18 5LP",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Dina Morgan",
+      "role": "Account manager",
+      "email": "dina.morgan@lymmcleaningsupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 13,
+  "rating": 4.9,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-09T10:42:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000022"
+  },
+  "supplier_id": "SUP34",
+  "name": "Ridgeway Wholesale",
+  "email": "orders@ridgewaywholesale.example",
+  "phone": "0183 473 8271",
+  "address": {
+    "street": "Unit 14, Lindley Trade Park",
+    "city": "Hull",
+    "postcode": "HU17 3SY",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Leo Ingram",
+      "role": "Dispatch coordinator",
+      "email": "leo.ingram@ridgewaywholesale.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 13,
+  "rating": 4.4,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-13T10:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000023"
+  },
+  "supplier_id": "SUP35",
+  "name": "Frodsham Safety Products",
+  "email": "orders@frodshamsafetyproducts.example",
+  "phone": "0166 470 9382",
+  "address": {
+    "street": "Unit 13, Ridgeway Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE16 6UU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Aaron Armitage",
+      "role": "Sales representative",
+      "email": "aaron.armitage@frodshamsafetyproducts.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 11,
+  "rating": 4.1,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-13T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000024"
+  },
+  "supplier_id": "SUP36",
+  "name": "Hartwell Office Supplies",
+  "email": "orders@hartwellofficesupplies.example",
+  "phone": "0178 409 4922",
+  "address": {
+    "street": "Unit 14, Silverdale Trade Park",
+    "city": "Liverpool",
+    "postcode": "L9 5LU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Alice Ahmed",
+      "role": "Customer service",
+      "email": "alice.ahmed@hartwellofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 4,
+  "rating": 4.6,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-13T10:26:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000025"
+  },
+  "supplier_id": "SUP37",
+  "name": "Marlow Trade Supplies",
+  "email": "orders@marlowtradesupplies.example",
+  "phone": "0198 496 5568",
+  "address": {
+    "street": "Unit 22, Orchard Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF8 6DU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Hannah Ahmed",
+      "role": "Account manager",
+      "email": "hannah.ahmed@marlowtradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 14,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Networking & Cables",
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-08T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000026"
+  },
+  "supplier_id": "SUP38",
+  "name": "Marlow Stationery Ltd",
+  "email": "orders@marlowstationeryltd.example",
+  "phone": "0166 420 4461",
+  "address": {
+    "street": "Unit 1, Quarry Trade Park",
+    "city": "Manchester",
+    "postcode": "M12 4XE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Emma Ingram",
+      "role": "Account manager",
+      "email": "emma.ingram@marlowstationeryltd.example"
+    },
+    {
+      "name": "Dan Tait",
+      "role": "Accounts",
+      "email": "dan.tait@marlowstationeryltd.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 4.9,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-07T10:39:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000027"
+  },
+  "supplier_id": "SUP39",
+  "name": "Quarry Distribution",
+  "email": "orders@quarrydistribution.example",
+  "phone": "0161 400 8618",
+  "address": {
+    "street": "Unit 31, Thornbury Trade Park",
+    "city": "Liverpool",
+    "postcode": "L1 9SQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Zoe Platt",
+      "role": "Customer service",
+      "email": "zoe.platt@quarrydistribution.example"
+    },
+    {
+      "name": "Gareth Hart",
+      "role": "Sales representative",
+      "email": "gareth.hart@quarrydistribution.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 14,
+  "rating": 3.5,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-04T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000028"
+  },
+  "supplier_id": "SUP40",
+  "name": "Hartwell Safety Products",
+  "email": "orders@hartwellsafetyproducts.example",
+  "phone": "0191 457 7613",
+  "address": {
+    "street": "Unit 21, Sedgley Trade Park",
+    "city": "Harrogate",
+    "postcode": "HG1 8NJ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Aaron Wood",
+      "role": "Dispatch coordinator",
+      "email": "aaron.wood@hartwellsafetyproducts.example"
+    },
+    {
+      "name": "Owen Jones",
+      "role": "Accounts",
+      "email": "owen.jones@hartwellsafetyproducts.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 11,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000029"
+  },
+  "supplier_id": "SUP41",
+  "name": "Rawdon Furniture Co",
+  "email": "orders@rawdonfurnitureco.example",
+  "phone": "0168 414 2698",
+  "address": {
+    "street": "Unit 21, Mytholm Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF5 2JB",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Amir Dyson",
+      "role": "Customer service",
+      "email": "amir.dyson@rawdonfurnitureco.example"
+    },
+    {
+      "name": "Emma Shah",
+      "role": "Sales representative",
+      "email": "emma.shah@rawdonfurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 10,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-22T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000002a"
+  },
+  "supplier_id": "SUP42",
+  "name": "Normanton Office Supplies",
+  "email": "orders@normantonofficesupplies.example",
+  "phone": "0117 482 8649",
+  "address": {
+    "street": "Unit 37, Hollin Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE16 1HB",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Bella Ahmed",
+      "role": "Sales representative",
+      "email": "bella.ahmed@normantonofficesupplies.example"
+    },
+    {
+      "name": "Olivia Turner",
+      "role": "Accounts",
+      "email": "olivia.turner@normantonofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 9,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Printing & Paper",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-24T10:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000002b"
+  },
+  "supplier_id": "SUP43",
+  "name": "Denholme IT Supplies",
+  "email": "orders@denholmeitsupplies.example",
+  "phone": "0126 419 3797",
+  "address": {
+    "street": "Unit 9, Underhill Trade Park",
+    "city": "Manchester",
+    "postcode": "M15 4PW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Jo Booth",
+      "role": "Dispatch coordinator",
+      "email": "jo.booth@denholmeitsupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 12,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-05T10:22:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000002c"
+  },
+  "supplier_id": "SUP44",
+  "name": "Normanton Print & Paper",
+  "email": "orders@normantonprintpaper.example",
+  "phone": "0162 465 6991",
+  "address": {
+    "street": "Unit 8, Eccles Gate Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG16 6UW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Nina Vaughan",
+      "role": "Customer service",
+      "email": "nina.vaughan@normantonprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 12,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-15T10:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000002d"
+  },
+  "supplier_id": "SUP45",
+  "name": "Oakham Print & Paper",
+  "email": "orders@oakhamprintpaper.example",
+  "phone": "0112 456 5030",
+  "address": {
+    "street": "Unit 9, Redcliffe Trade Park",
+    "city": "Hull",
+    "postcode": "HU19 6XS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Bella Lowe",
+      "role": "Account manager",
+      "email": "bella.lowe@oakhamprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 10,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:34:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000002e"
+  },
+  "supplier_id": "SUP46",
+  "name": "Quarry IT Supplies",
+  "email": "orders@quarryitsupplies.example",
+  "phone": "0168 489 7918",
+  "address": {
+    "street": "Unit 18, Normanton Trade Park",
+    "city": "York",
+    "postcode": "YO18 5NP",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Faye Walsh",
+      "role": "Dispatch coordinator",
+      "email": "faye.walsh@quarryitsupplies.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 12,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Computer Accessories",
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-20T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000002f"
+  },
+  "supplier_id": "SUP47",
+  "name": "Dewsbury Moor Office Supplies",
+  "email": "orders@dewsburymoorofficesupplies.example",
+  "phone": "0112 480 2721",
+  "address": {
+    "street": "Unit 30, Elmstead Trade Park",
+    "city": "York",
+    "postcode": "YO19 1HF",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Alice Platt",
+      "role": "Dispatch coordinator",
+      "email": "alice.platt@dewsburymoorofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 6,
+  "rating": 3.4,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-11T10:01:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000030"
+  },
+  "supplier_id": "SUP48",
+  "name": "Queensbury Trade Supplies",
+  "email": "orders@queensburytradesupplies.example",
+  "phone": "0182 403 9354",
+  "address": {
+    "street": "Unit 1, Pudsey Trade Park",
+    "city": "Hull",
+    "postcode": "HU6 9EF",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Yusuf Ashby",
+      "role": "Sales representative",
+      "email": "yusuf.ashby@queensburytradesupplies.example"
+    },
+    {
+      "name": "Una Dixon",
+      "role": "Account manager",
+      "email": "una.dixon@queensburytradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 6,
+  "rating": 3.5,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-22T10:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000031"
+  },
+  "supplier_id": "SUP49",
+  "name": "Hollin Office Supplies",
+  "email": "orders@hollinofficesupplies.example",
+  "phone": "0195 472 5731",
+  "address": {
+    "street": "Unit 40, Eastgate Trade Park",
+    "city": "Hull",
+    "postcode": "HU12 1AU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Nina Irving",
+      "role": "Dispatch coordinator",
+      "email": "nina.irving@hollinofficesupplies.example"
+    },
+    {
+      "name": "Jo Dixon",
+      "role": "Sales representative",
+      "email": "jo.dixon@hollinofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 14,
+  "rating": 4.4,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-25T10:34:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000032"
+  },
+  "supplier_id": "SUP50",
+  "name": "Yarrow Safety Products",
+  "email": "orders@yarrowsafetyproducts.example",
+  "phone": "0176 458 1605",
+  "address": {
+    "street": "Unit 5, Wharfe Trade Park",
+    "city": "Sheffield",
+    "postcode": "S14 9ZE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vik Ahmed",
+      "role": "Customer service",
+      "email": "vik.ahmed@yarrowsafetyproducts.example"
+    },
+    {
+      "name": "Beth Morgan",
+      "role": "Accounts",
+      "email": "beth.morgan@yarrowsafetyproducts.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 11,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-10T10:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000033"
+  },
+  "supplier_id": "SUP51",
+  "name": "Westbrook IT Supplies",
+  "email": "orders@westbrookitsupplies.example",
+  "phone": "0152 499 3898",
+  "address": {
+    "street": "Unit 31, Prestwick Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE6 9WF",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Isla Carter",
+      "role": "Dispatch coordinator",
+      "email": "isla.carter@westbrookitsupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 13,
+  "rating": 3.8,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-28T10:06:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000034"
+  },
+  "supplier_id": "SUP52",
+  "name": "Upland Distribution",
+  "email": "orders@uplanddistribution.example",
+  "phone": "0195 423 3108",
+  "address": {
+    "street": "Unit 16, Oulton Trade Park",
+    "city": "Leeds",
+    "postcode": "LS7 1NN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ruth Wood",
+      "role": "Accounts",
+      "email": "ruth.wood@uplanddistribution.example"
+    },
+    {
+      "name": "Umar Utting",
+      "role": "Customer service",
+      "email": "umar.utting@uplanddistribution.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 12,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-04T10:41:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000035"
+  },
+  "supplier_id": "SUP53",
+  "name": "Tannery Wholesale",
+  "email": "orders@tannerywholesale.example",
+  "phone": "0139 436 4938",
+  "address": {
+    "street": "Unit 32, Glenmoor Trade Park",
+    "city": "Manchester",
+    "postcode": "M13 8EZ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Beth Dixon",
+      "role": "Account manager",
+      "email": "beth.dixon@tannerywholesale.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 6,
+  "rating": 3.4,
+  "categories_supplied": [
+    "Computer Accessories",
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-08T10:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000036"
+  },
+  "supplier_id": "SUP54",
+  "name": "Hartwell Stationery Ltd",
+  "email": "orders@hartwellstationeryltd.example",
+  "phone": "0151 456 3637",
+  "address": {
+    "street": "Unit 26, Lymm Trade Park",
+    "city": "Harrogate",
+    "postcode": "HG12 4UU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vicky Ahmed",
+      "role": "Account manager",
+      "email": "vicky.ahmed@hartwellstationeryltd.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 3,
+  "rating": 3.7,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-16T10:43:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000037"
+  },
+  "supplier_id": "SUP55",
+  "name": "Stonebridge Print & Paper",
+  "email": "orders@stonebridgeprintpaper.example",
+  "phone": "0191 433 2100",
+  "address": {
+    "street": "Unit 26, Thorpe Trade Park",
+    "city": "Liverpool",
+    "postcode": "L19 2XJ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Chloe Nash",
+      "role": "Account manager",
+      "email": "chloe.nash@stonebridgeprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 7,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-01T10:12:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000038"
+  },
+  "supplier_id": "SUP56",
+  "name": "Oulton Print & Paper",
+  "email": "orders@oultonprintpaper.example",
+  "phone": "0181 417 3540",
+  "address": {
+    "street": "Unit 8, Mytholm Trade Park",
+    "city": "Sheffield",
+    "postcode": "S14 8XQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Pria Ellis",
+      "role": "Sales representative",
+      "email": "pria.ellis@oultonprintpaper.example"
+    },
+    {
+      "name": "Emma Clegg",
+      "role": "Customer service",
+      "email": "emma.clegg@oultonprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 3,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-11T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000039"
+  },
+  "supplier_id": "SUP57",
+  "name": "Denholme Cleaning Supplies",
+  "email": "orders@denholmecleaningsupplies.example",
+  "phone": "0134 473 9722",
+  "address": {
+    "street": "Unit 40, Calder Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF14 9FF",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vik Jarvis",
+      "role": "Customer service",
+      "email": "vik.jarvis@denholmecleaningsupplies.example"
+    },
+    {
+      "name": "Sara Irving",
+      "role": "Dispatch coordinator",
+      "email": "sara.irving@denholmecleaningsupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 4,
+  "rating": 4.6,
+  "categories_supplied": [
+    "Stationery",
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-09T10:12:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000003a"
+  },
+  "supplier_id": "SUP58",
+  "name": "Wexcombe Packaging",
+  "email": "orders@wexcombepackaging.example",
+  "phone": "0169 495 7672",
+  "address": {
+    "street": "Unit 40, Queensbury Trade Park",
+    "city": "York",
+    "postcode": "YO16 9SE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Gina Clegg",
+      "role": "Customer service",
+      "email": "gina.clegg@wexcombepackaging.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 14,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Computer Accessories",
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-20T10:34:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000003b"
+  },
+  "supplier_id": "SUP59",
+  "name": "Ivybridge Distribution",
+  "email": "orders@ivybridgedistribution.example",
+  "phone": "0199 422 6956",
+  "address": {
+    "street": "Unit 7, Marlow Trade Park",
+    "city": "Sheffield",
+    "postcode": "S10 3YN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Fraser Ashby",
+      "role": "Customer service",
+      "email": "fraser.ashby@ivybridgedistribution.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 13,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-19T10:17:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000003c"
+  },
+  "supplier_id": "SUP60",
+  "name": "Glenmoor Packaging",
+  "email": "orders@glenmoorpackaging.example",
+  "phone": "0193 444 4828",
+  "address": {
+    "street": "Unit 22, Lindley Trade Park",
+    "city": "Leeds",
+    "postcode": "LS5 2AD",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vik Foster",
+      "role": "Accounts",
+      "email": "vik.foster@glenmoorpackaging.example"
+    },
+    {
+      "name": "Alice Grant",
+      "role": "Account manager",
+      "email": "alice.grant@glenmoorpackaging.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-17T10:44:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000003d"
+  },
+  "supplier_id": "SUP61",
+  "name": "Wibsey Trade Supplies",
+  "email": "orders@wibseytradesupplies.example",
+  "phone": "0175 487 3559",
+  "address": {
+    "street": "Unit 12, Langdale Trade Park",
+    "city": "Bradford",
+    "postcode": "BD1 3PS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Tom Young",
+      "role": "Accounts",
+      "email": "tom.young@wibseytradesupplies.example"
+    },
+    {
+      "name": "Jack Jarvis",
+      "role": "Accounts",
+      "email": "jack.jarvis@wibseytradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 11,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Office Furniture",
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-13T10:26:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000003e"
+  },
+  "supplier_id": "SUP62",
+  "name": "Jarrow Print & Paper",
+  "email": "orders@jarrowprintpaper.example",
+  "phone": "0146 470 6975",
+  "address": {
+    "street": "Unit 6, Pudsey Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF8 1AS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vik Ahmed",
+      "role": "Accounts",
+      "email": "vik.ahmed@jarrowprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 8,
+  "rating": 3.7,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-11T10:41:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000003f"
+  },
+  "supplier_id": "SUP63",
+  "name": "Hartwell Trade Supplies",
+  "email": "orders@hartwelltradesupplies.example",
+  "phone": "0161 426 4831",
+  "address": {
+    "street": "Unit 13, Ainsdale Trade Park",
+    "city": "Harrogate",
+    "postcode": "HG9 4JJ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Lucy Lewis",
+      "role": "Sales representative",
+      "email": "lucy.lewis@hartwelltradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 9,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-08T10:01:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000040"
+  },
+  "supplier_id": "SUP64",
+  "name": "Grantley Print & Paper",
+  "email": "orders@grantleyprintpaper.example",
+  "phone": "0166 461 3211",
+  "address": {
+    "street": "Unit 3, Brackley Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG11 5RT",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Finn Voss",
+      "role": "Sales representative",
+      "email": "finn.voss@grantleyprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 12,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Stationery",
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-27T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000041"
+  },
+  "supplier_id": "SUP65",
+  "name": "Dewsbury Moor Workplace Supplies",
+  "email": "orders@dewsburymoorworkplacesupplies.example",
+  "phone": "0154 461 5200",
+  "address": {
+    "street": "Unit 27, Cartmel Trade Park",
+    "city": "Manchester",
+    "postcode": "M15 2WS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Cathy Booth",
+      "role": "Customer service",
+      "email": "cathy.booth@dewsburymoorworkplacesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 11,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-19T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000042"
+  },
+  "supplier_id": "SUP66",
+  "name": "Vale Packaging",
+  "email": "orders@valepackaging.example",
+  "phone": "0132 470 3637",
+  "address": {
+    "street": "Unit 16, Cartmel Trade Park",
+    "city": "York",
+    "postcode": "YO3 3YB",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Sara Reid",
+      "role": "Accounts",
+      "email": "sara.reid@valepackaging.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 4,
+  "rating": 4.6,
+  "categories_supplied": [
+    "Office Furniture",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-11T10:36:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000043"
+  },
+  "supplier_id": "SUP67",
+  "name": "Eccles Gate Furniture Co",
+  "email": "orders@ecclesgatefurnitureco.example",
+  "phone": "0134 461 6825",
+  "address": {
+    "street": "Unit 18, Vale Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG14 3YS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vik Grant",
+      "role": "Sales representative",
+      "email": "vik.grant@ecclesgatefurnitureco.example"
+    },
+    {
+      "name": "Kate Reid",
+      "role": "Dispatch coordinator",
+      "email": "kate.reid@ecclesgatefurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 11,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Networking & Cables",
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-17T10:32:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000044"
+  },
+  "supplier_id": "SUP68",
+  "name": "Kelham Distribution",
+  "email": "orders@kelhamdistribution.example",
+  "phone": "0129 487 9545",
+  "address": {
+    "street": "Unit 38, Nutley Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE6 8TH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Nina Foster",
+      "role": "Account manager",
+      "email": "nina.foster@kelhamdistribution.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 3,
+  "rating": 3.2,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-22T10:59:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000045"
+  },
+  "supplier_id": "SUP69",
+  "name": "Thorpe Cleaning Supplies",
+  "email": "orders@thorpecleaningsupplies.example",
+  "phone": "0156 436 8851",
+  "address": {
+    "street": "Unit 18, Meadowbank Trade Park",
+    "city": "Bradford",
+    "postcode": "BD18 5HJ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Cathy Oakes",
+      "role": "Accounts",
+      "email": "cathy.oakes@thorpecleaningsupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 14,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-06T10:01:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000046"
+  },
+  "supplier_id": "SUP70",
+  "name": "Fernley Print & Paper",
+  "email": "orders@fernleyprintpaper.example",
+  "phone": "0154 468 5274",
+  "address": {
+    "street": "Unit 40, Silverdale Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG5 1JS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Rob Turner",
+      "role": "Dispatch coordinator",
+      "email": "rob.turner@fernleyprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 6,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-12T10:42:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000047"
+  },
+  "supplier_id": "SUP71",
+  "name": "Eastgate Office Supplies",
+  "email": "orders@eastgateofficesupplies.example",
+  "phone": "0123 438 2100",
+  "address": {
+    "street": "Unit 36, Oulton Trade Park",
+    "city": "York",
+    "postcode": "YO1 5SR",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Hugh Irving",
+      "role": "Accounts",
+      "email": "hugh.irving@eastgateofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 8,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-08T10:17:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000048"
+  },
+  "supplier_id": "SUP72",
+  "name": "Wibsey Office Supplies",
+  "email": "orders@wibseyofficesupplies.example",
+  "phone": "0112 428 8155",
+  "address": {
+    "street": "Unit 38, Langdale Trade Park",
+    "city": "Manchester",
+    "postcode": "M1 7QF",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Mia Evans",
+      "role": "Sales representative",
+      "email": "mia.evans@wibseyofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 12,
+  "rating": 3.8,
+  "categories_supplied": [
+    "Office Furniture",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-14T10:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000049"
+  },
+  "supplier_id": "SUP73",
+  "name": "Grantley Furniture Co",
+  "email": "orders@grantleyfurnitureco.example",
+  "phone": "0158 461 4668",
+  "address": {
+    "street": "Unit 27, Ulverston Trade Park",
+    "city": "Harrogate",
+    "postcode": "HG18 2WH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Sara Turner",
+      "role": "Accounts",
+      "email": "sara.turner@grantleyfurnitureco.example"
+    },
+    {
+      "name": "Rob Yates",
+      "role": "Customer service",
+      "email": "rob.yates@grantleyfurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 7,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-07T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000004a"
+  },
+  "supplier_id": "SUP74",
+  "name": "Sedgley Distribution",
+  "email": "orders@sedgleydistribution.example",
+  "phone": "0134 424 4947",
+  "address": {
+    "street": "Unit 16, Queensbury Trade Park",
+    "city": "Manchester",
+    "postcode": "M9 7BW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Sam Fisher",
+      "role": "Dispatch coordinator",
+      "email": "sam.fisher@sedgleydistribution.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 2,
+  "rating": 3.5,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-25T10:03:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000004b"
+  },
+  "supplier_id": "SUP75",
+  "name": "Glenmoor Stationery Ltd",
+  "email": "orders@glenmoorstationeryltd.example",
+  "phone": "0198 471 6132",
+  "address": {
+    "street": "Unit 17, Silverdale Trade Park",
+    "city": "Leeds",
+    "postcode": "LS10 8FF",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Will Dyson",
+      "role": "Dispatch coordinator",
+      "email": "will.dyson@glenmoorstationeryltd.example"
+    },
+    {
+      "name": "Chloe Jarvis",
+      "role": "Accounts",
+      "email": "chloe.jarvis@glenmoorstationeryltd.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 4,
+  "rating": 3.8,
+  "categories_supplied": [
+    "Printing & Paper",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:04:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000004c"
+  },
+  "supplier_id": "SUP76",
+  "name": "Redcliffe Trade Supplies",
+  "email": "orders@redcliffetradesupplies.example",
+  "phone": "0127 447 4875",
+  "address": {
+    "street": "Unit 6, Ilkley Moor Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE13 8EE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Jo Evans",
+      "role": "Sales representative",
+      "email": "jo.evans@redcliffetradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 6,
+  "rating": 4.7,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-18T10:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000004d"
+  },
+  "supplier_id": "SUP77",
+  "name": "Grantley Trade Supplies",
+  "email": "orders@grantleytradesupplies.example",
+  "phone": "0161 415 2257",
+  "address": {
+    "street": "Unit 18, Bramhall Trade Park",
+    "city": "Liverpool",
+    "postcode": "L4 8YE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Quinn Ellis",
+      "role": "Customer service",
+      "email": "quinn.ellis@grantleytradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 5,
+  "rating": 4,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:34:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000004e"
+  },
+  "supplier_id": "SUP78",
+  "name": "Nutley Stationery Ltd",
+  "email": "orders@nutleystationeryltd.example",
+  "phone": "0189 457 6474",
+  "address": {
+    "street": "Unit 3, Knaresford Trade Park",
+    "city": "Sheffield",
+    "postcode": "S6 6LW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ben Foster",
+      "role": "Account manager",
+      "email": "ben.foster@nutleystationeryltd.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 11,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-11T10:17:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000004f"
+  },
+  "supplier_id": "SUP79",
+  "name": "Ingleby Packaging",
+  "email": "orders@inglebypackaging.example",
+  "phone": "0115 418 6952",
+  "address": {
+    "street": "Unit 11, Marlow Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF14 7UN",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Gina Rowe",
+      "role": "Accounts",
+      "email": "gina.rowe@inglebypackaging.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 9,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-05T10:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000050"
+  },
+  "supplier_id": "SUP80",
+  "name": "Penrose Office Supplies",
+  "email": "orders@penroseofficesupplies.example",
+  "phone": "0145 484 1029",
+  "address": {
+    "street": "Unit 23, Quarry Trade Park",
+    "city": "Hull",
+    "postcode": "HU2 1YA",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Isla Kerr",
+      "role": "Sales representative",
+      "email": "isla.kerr@penroseofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 8,
+  "rating": 3.5,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-09T10:22:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000051"
+  },
+  "supplier_id": "SUP81",
+  "name": "Kingsley IT Supplies",
+  "email": "orders@kingsleyitsupplies.example",
+  "phone": "0169 437 3056",
+  "address": {
+    "street": "Unit 2, Ainsdale Trade Park",
+    "city": "Liverpool",
+    "postcode": "L7 4JD",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Will Oakes",
+      "role": "Dispatch coordinator",
+      "email": "will.oakes@kingsleyitsupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 3,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-13T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000052"
+  },
+  "supplier_id": "SUP82",
+  "name": "Ulverston Office Supplies",
+  "email": "orders@ulverstonofficesupplies.example",
+  "phone": "0116 422 2806",
+  "address": {
+    "street": "Unit 38, Pudsey Trade Park",
+    "city": "Birmingham",
+    "postcode": "B9 6JU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Callum Lowe",
+      "role": "Customer service",
+      "email": "callum.lowe@ulverstonofficesupplies.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 10,
+  "rating": 3.2,
+  "categories_supplied": [
+    "Networking & Cables",
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-11T10:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000053"
+  },
+  "supplier_id": "SUP83",
+  "name": "Rothwell Distribution",
+  "email": "orders@rothwelldistribution.example",
+  "phone": "0165 423 9492",
+  "address": {
+    "street": "Unit 16, Otley Trade Park",
+    "city": "Birmingham",
+    "postcode": "B4 5YS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Jo Foster",
+      "role": "Customer service",
+      "email": "jo.foster@rothwelldistribution.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 3,
+  "rating": 3.6,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-11T10:18:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000054"
+  },
+  "supplier_id": "SUP84",
+  "name": "Aldwick Trade Supplies",
+  "email": "orders@aldwicktradesupplies.example",
+  "phone": "0164 498 2320",
+  "address": {
+    "street": "Unit 10, Knaresford Trade Park",
+    "city": "York",
+    "postcode": "YO7 4DJ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Dina Clegg",
+      "role": "Customer service",
+      "email": "dina.clegg@aldwicktradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 5,
+  "rating": 4.8,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-24T10:14:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000055"
+  },
+  "supplier_id": "SUP85",
+  "name": "Thorpe Wholesale",
+  "email": "orders@thorpewholesale.example",
+  "phone": "0194 424 2242",
+  "address": {
+    "street": "Unit 16, Moorcroft Trade Park",
+    "city": "York",
+    "postcode": "YO3 9PU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Vik Crowther",
+      "role": "Accounts",
+      "email": "vik.crowther@thorpewholesale.example"
+    },
+    {
+      "name": "Mia Voss",
+      "role": "Sales representative",
+      "email": "mia.voss@thorpewholesale.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 2,
+  "rating": 5,
+  "categories_supplied": [
+    "Office Furniture"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-02T10:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000056"
+  },
+  "supplier_id": "SUP86",
+  "name": "Oulton Wholesale",
+  "email": "orders@oultonwholesale.example",
+  "phone": "0166 448 7378",
+  "address": {
+    "street": "Unit 16, Thorpe Trade Park",
+    "city": "Bradford",
+    "postcode": "BD14 4SY",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Owen Voss",
+      "role": "Dispatch coordinator",
+      "email": "owen.voss@oultonwholesale.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 5,
+  "rating": 4.9,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-03T10:08:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000057"
+  },
+  "supplier_id": "SUP87",
+  "name": "Garston Packaging",
+  "email": "orders@garstonpackaging.example",
+  "phone": "0194 440 9208",
+  "address": {
+    "street": "Unit 39, Saltaire Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF10 9PW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Tom Ashby",
+      "role": "Accounts",
+      "email": "tom.ashby@garstonpackaging.example"
+    }
+  ],
+  "payment_terms_days": 30,
+  "default_lead_time_days": 7,
+  "rating": 4.9,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-17T10:53:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000058"
+  },
+  "supplier_id": "SUP88",
+  "name": "Otley Distribution",
+  "email": "orders@otleydistribution.example",
+  "phone": "0183 409 2209",
+  "address": {
+    "street": "Unit 18, Meadowbank Trade Park",
+    "city": "Liverpool",
+    "postcode": "L5 6ZQ",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Tara Turner",
+      "role": "Sales representative",
+      "email": "tara.turner@otleydistribution.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 2,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Computer Accessories"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-23T10:42:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000059"
+  },
+  "supplier_id": "SUP89",
+  "name": "Wibsey Wholesale",
+  "email": "orders@wibseywholesale.example",
+  "phone": "0182 478 5698",
+  "address": {
+    "street": "Unit 28, Knaresford Trade Park",
+    "city": "Manchester",
+    "postcode": "M6 8BE",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Bella Crowther",
+      "role": "Dispatch coordinator",
+      "email": "bella.crowther@wibseywholesale.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 9,
+  "rating": 3.4,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-27T10:03:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000005a"
+  },
+  "supplier_id": "SUP90",
+  "name": "Quarry Furniture Co",
+  "email": "orders@quarryfurnitureco.example",
+  "phone": "0135 409 7431",
+  "address": {
+    "street": "Unit 1, Kirkby Trade Park",
+    "city": "Newcastle",
+    "postcode": "NE3 9BU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ben Clegg",
+      "role": "Account manager",
+      "email": "ben.clegg@quarryfurnitureco.example"
+    },
+    {
+      "name": "Dan Dixon",
+      "role": "Customer service",
+      "email": "dan.dixon@quarryfurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 13,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-16T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000005b"
+  },
+  "supplier_id": "SUP91",
+  "name": "Orchard Wholesale",
+  "email": "orders@orchardwholesale.example",
+  "phone": "0193 432 8080",
+  "address": {
+    "street": "Unit 7, Foxcroft Trade Park",
+    "city": "Sheffield",
+    "postcode": "S12 4FL",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ella Patel",
+      "role": "Accounts",
+      "email": "ella.patel@orchardwholesale.example"
+    },
+    {
+      "name": "Hannah Sharp",
+      "role": "Customer service",
+      "email": "hannah.sharp@orchardwholesale.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 12,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-16T10:14:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000005c"
+  },
+  "supplier_id": "SUP92",
+  "name": "Guiseley Distribution",
+  "email": "orders@guiseleydistribution.example",
+  "phone": "0169 410 8457",
+  "address": {
+    "street": "Unit 27, Calder Trade Park",
+    "city": "Sheffield",
+    "postcode": "S10 3NS",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Yusuf Walsh",
+      "role": "Customer service",
+      "email": "yusuf.walsh@guiseleydistribution.example"
+    },
+    {
+      "name": "Rob Booth",
+      "role": "Dispatch coordinator",
+      "email": "rob.booth@guiseleydistribution.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 7,
+  "rating": 4.3,
+  "categories_supplied": [
+    "Stationery",
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-20T10:19:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000005d"
+  },
+  "supplier_id": "SUP93",
+  "name": "Kelham Furniture Co",
+  "email": "orders@kelhamfurnitureco.example",
+  "phone": "0154 471 4249",
+  "address": {
+    "street": "Unit 18, Jessop Trade Park",
+    "city": "Wakefield",
+    "postcode": "WF20 9WH",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Una Foster",
+      "role": "Dispatch coordinator",
+      "email": "una.foster@kelhamfurnitureco.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 5,
+  "rating": 3.4,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-14T10:23:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000005e"
+  },
+  "supplier_id": "SUP94",
+  "name": "Eccles Gate Print & Paper",
+  "email": "orders@ecclesgateprintpaper.example",
+  "phone": "0197 420 6446",
+  "address": {
+    "street": "Unit 4, Irwell Trade Park",
+    "city": "Liverpool",
+    "postcode": "L16 6XU",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Tara Hughes",
+      "role": "Accounts",
+      "email": "tara.hughes@ecclesgateprintpaper.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 9,
+  "rating": 4.2,
+  "categories_supplied": [
+    "Printing & Paper"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-17T10:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "50000000000000000000005f"
+  },
+  "supplier_id": "SUP95",
+  "name": "Kingsley Packaging",
+  "email": "orders@kingsleypackaging.example",
+  "phone": "0121 470 7035",
+  "address": {
+    "street": "Unit 10, Mytholm Trade Park",
+    "city": "Birmingham",
+    "postcode": "B8 8SW",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Tom Lowe",
+      "role": "Dispatch coordinator",
+      "email": "tom.lowe@kingsleypackaging.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 12,
+  "rating": 4.5,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-15T10:36:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000060"
+  },
+  "supplier_id": "SUP96",
+  "name": "Denholme Wholesale",
+  "email": "orders@denholmewholesale.example",
+  "phone": "0189 452 1638",
+  "address": {
+    "street": "Unit 12, Garston Trade Park",
+    "city": "Sheffield",
+    "postcode": "S11 1RX",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Lucy Foster",
+      "role": "Dispatch coordinator",
+      "email": "lucy.foster@denholmewholesale.example"
+    }
+  ],
+  "payment_terms_days": 14,
+  "default_lead_time_days": 5,
+  "rating": 4.7,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-03T10:21:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000061"
+  },
+  "supplier_id": "SUP97",
+  "name": "Orchard Trade Supplies",
+  "email": "orders@orchardtradesupplies.example",
+  "phone": "0142 415 6201",
+  "address": {
+    "street": "Unit 10, Juniper Trade Park",
+    "city": "Bradford",
+    "postcode": "BD1 8DY",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Emma Turner",
+      "role": "Dispatch coordinator",
+      "email": "emma.turner@orchardtradesupplies.example"
+    },
+    {
+      "name": "Emma Ellis",
+      "role": "Accounts",
+      "email": "emma.ellis@orchardtradesupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 10,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Workplace Essentials"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-11T10:51:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000062"
+  },
+  "supplier_id": "SUP98",
+  "name": "Garston IT Supplies",
+  "email": "orders@garstonitsupplies.example",
+  "phone": "0146 439 6985",
+  "address": {
+    "street": "Unit 12, Yarrow Trade Park",
+    "city": "Nottingham",
+    "postcode": "NG10 2AP",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Finn Lowe",
+      "role": "Accounts",
+      "email": "finn.lowe@garstonitsupplies.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 3,
+  "rating": 4.6,
+  "categories_supplied": [
+    "Networking & Cables"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-09-18T10:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000063"
+  },
+  "supplier_id": "SUP99",
+  "name": "Nutley Packaging",
+  "email": "orders@nutleypackaging.example",
+  "phone": "0158 414 5538",
+  "address": {
+    "street": "Unit 9, Lindley Trade Park",
+    "city": "Bradford",
+    "postcode": "BD16 8XD",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Mia Grant",
+      "role": "Accounts",
+      "email": "mia.grant@nutleypackaging.example"
+    }
+  ],
+  "payment_terms_days": 60,
+  "default_lead_time_days": 6,
+  "rating": 4,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-07-03T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "500000000000000000000064"
+  },
+  "supplier_id": "SUP100",
+  "name": "Heaton Distribution",
+  "email": "orders@heatondistribution.example",
+  "phone": "0145 482 2225",
+  "address": {
+    "street": "Unit 18, Barrowby Trade Park",
+    "city": "Liverpool",
+    "postcode": "L5 2YY",
+    "country": "United Kingdom"
+  },
+  "contacts": [
+    {
+      "name": "Ben Young",
+      "role": "Customer service",
+      "email": "ben.young@heatondistribution.example"
+    },
+    {
+      "name": "Umar Crowther",
+      "role": "Customer service",
+      "email": "umar.crowther@heatondistribution.example"
+    }
+  ],
+  "payment_terms_days": 45,
+  "default_lead_time_days": 4,
+  "rating": 3.3,
+  "categories_supplied": [
+    "Stationery"
+  ],
+  "status": "active",
+  "created_at": {
+    "$date": "2026-08-10T10:25:00.000Z"
+  }
+}]
