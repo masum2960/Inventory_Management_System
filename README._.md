@@ -6,7 +6,7 @@ This project was developed for **COM661 – Full-Stack Strategies and Developmen
 
 - **Local base URL:** `http://127.0.0.1:5001/api/v1.0`
 - **Database:** `inventory_management`
-- **Latest recorded Postman run:** 26 requests, **30 passing assertions, 0 failures** (3 requests returned HTTP 200 but did not have test assertions)
+- **Latest reported Postman run:** 26 requests, **33 passing assertions, 0 failures**
 
 ---
 
@@ -83,8 +83,7 @@ Inventory_Management_System/
 ├── import_data.py            # Imports the sample JSON datasets
 ├── generate_hash.py          # Password-hashing helper script
 ├── requirements.txt          # Python dependencies
-├── .env.example              # Example configuration (create this locally)
-├── .gitignore
+├── .env.example              # Example configuration (recommended to add)
 ├── blueprints/
 │   ├── __init__.py
 │   ├── auth.py               # Register, login and logout
@@ -100,7 +99,7 @@ Inventory_Management_System/
 └── README.md
 ```
 
-> **Note:** `.env.example` is a recommended file to add; it was not included in the uploaded project ZIP. The real `.env` should remain on your local machine and should not be committed to GitHub.
+> **Note:** Add `.env.example` with a placeholder `SECRET_KEY` before submission. Keep your real `.env` private and out of the ZIP and GitHub.
 
 ---
 
@@ -363,18 +362,18 @@ The exact error text depends on the endpoint.
 
 The API was tested locally using the **COM661 Inventory Management API** Postman collection and its Collection Runner.
 
-**Latest recorded run — 3 November 2026**
+**Latest reported run — 4 November 2026**
 
 | Result | Value |
 |---|---:|
 | Requests executed | 26 |
-| Automated assertions passed | **30** |
+| Automated assertions passed | **33** |
 | Automated assertions failed | **0** |
 | Run status | Finished |
 
 The run covered registration, login, logout, product operations, stock updates and history, categories, suppliers, and user management. All 26 requests received successful HTTP response codes.
 
-**Testing note:** The `Search Products`, `Update User` and `Delete User` requests returned HTTP `200`, but their exported results contain no Postman test assertions. Therefore, **30 passed** describes the assertions that actually ran, not a claim of complete test coverage.
+**Testing note:** The 33-passing-assertion result is based on the latest reported Postman run. Keep the matching Runner PDF or screenshot as evidence, and confirm the result again before submitting if you have edited any requests.
 
 ### Running the Postman tests
 
