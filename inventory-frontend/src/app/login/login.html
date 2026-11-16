@@ -1,0 +1,46 @@
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-5">
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+          <h4 class="mb-0">Inventory Management Login</h4>
+        </div>
+
+        <div class="card-body">
+          <form (ngSubmit)="login()">
+            <div class="mb-3">
+              <label class="form-label">Username</label>
+              <input type="text"
+                     class="form-control"
+                     [(ngModel)]="username"
+                     name="username"
+                     required>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password"
+                     class="form-control"
+                     [(ngModel)]="password"
+                     name="password"
+                     required>
+            </div>
+
+            <button type="submit"
+                    class="btn btn-primary w-100"
+                    [disabled]="loading">
+              {{ loading ? 'Logging in...' : 'Login' }}
+            </button>
+
+            @if (message) {
+              <div class="alert alert-info mt-3">
+                {{ message }}
+              </div>
+            }
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

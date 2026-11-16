@@ -1,0 +1,42 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <span class="navbar-brand">Inventory Management</span>
+
+    <div class="navbar-nav">
+      <button class="nav-link"
+              [class.active]="currentPage === 'dashboard'"
+              (click)="showPage('dashboard')">
+        Dashboard
+      </button>
+
+      <button class="nav-link"
+              [class.active]="currentPage === 'products'"
+              (click)="showPage('products')">
+        Products
+      </button>
+   
+      <span class="nav-link">Categories</span>
+      <span class="nav-link">Suppliers</span>
+      <span class="nav-link">Users</span>
+      
+      <button class="nav-link"
+              [class.active]="currentPage === 'login'"
+              (click)="showPage('login')">
+        Login
+      </button>
+    </div>
+  </div>
+</nav>
+
+@if (currentPage === 'dashboard') {
+  <app-dashboard></app-dashboard>
+}
+
+@if (currentPage === 'products') {
+  <app-products></app-products>
+}
+
+@if (currentPage === 'login') {
+  <app-login></app-login>
+}

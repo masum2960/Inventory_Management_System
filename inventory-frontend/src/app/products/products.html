@@ -1,0 +1,156 @@
+
+<div class="container mt-4">
+  <h2>Product Management</h2>
+  <p>Products loaded from MongoDB through the Flask API.</p>
+
+  @if (errorMessage) {
+    <div class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  }
+
+  <button class="btn btn-success mt-2 mb-3"
+          (click)="toggleAddForm()">
+    {{ showAddForm ? 'Cancel' : 'Add Product' }}
+  </button>
+
+  @if (showAddForm) {
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="mb-0">Add New Product</h5>
+      </div>
+
+      <div class="card-body">
+
+        <div class="mb-3">
+          <label class="form-label">Product ID</label>
+          <input type="text"
+                 class="form-control"
+                 [(ngModel)]="newProduct.product_id"
+                 name="product_id"
+                 placeholder="Enter product ID">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">SKU</label>
+          <input type="text"
+                 class="form-control"
+                 [(ngModel)]="newProduct.sku"
+                 name="sku"
+                 placeholder="Enter SKU">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Product Name</label>
+          <input type="text"
+                 class="form-control"
+                 [(ngModel)]="newProduct.name"
+                 name="name"
+                 placeholder="Enter product name">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Category</label>
+          <input type="text"
+                 class="form-control"
+                 [(ngModel)]="newProduct.category"
+                 name="category"
+                 placeholder="Enter category">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Supplier</label>
+          <input type="text"
+                 class="form-control"
+                 [(ngModel)]="newProduct.supplier"
+                 name="supplier"
+                 placeholder="Enter supplier">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Price (£)</label>
+          <input type="number"
+                 min="0"
+                 class="form-control"
+                 [(ngModel)]="newProduct.price"
+                 name="price">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Stock Quantity</label>
+          <input type="number"
+                 min="0"
+                 step="1"
+                 class="form-control"
+                 [(ngModel)]="newProduct.quantity"
+                 name="quantity">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Minimum Stock Level</label>
+          <input type="number"
+                 min="0"
+                 step="1"
+                 class="form-control"
+                 [(ngModel)]="newProduct.min_level"
+                 name="min_level">
+        </div>
+
+        <button class="btn btn-primary"
+                [disabled]="saving"
+                (click)="saveProduct()">
+          {{ saving ? 'Saving...' : 'Save Product' }}
+        </button>
+
+        @if (saveMessage) {
+          <div class="alert alert-info mt-3">
+            {{ saveMessage }}
+          </div>
+        }
+
+      </div>
+    </div>
+  }
+
+  <div class="mb-3">
+    <label class="form-label">Search Products</label>
+
+    <input type="text"
+           class="form-control"
+           placeholder="Search by product name..."
+           [value]="searchTerm"
+           (input)="searchTerm = $any($event.target).value; searchProducts()">
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered mt-3">
+      <thead class="table-dark">
+        <tr>
+          <th>Product ID</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Price (£)</th>
+          <th>Stock</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @for (product of filteredProducts; track product.product_id) {
+          <tr>
+            <td>{{ product.product_id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.category?.name }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.stock?.quantity }}</td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="5" class="text-center">
+              No products found.
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
