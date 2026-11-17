@@ -99,7 +99,7 @@ Inventory_Management_System/
 └── README.md
 ```
 
-> **Note:** Add `.env.example` with a placeholder `SECRET_KEY` before submission. Keep your real `.env` private and out of the ZIP and GitHub.
+
 
 ---
 
