@@ -1,0 +1,73 @@
+
+<div class="container mt-5" style="max-width: 500px;">
+
+  <div class="card shadow-sm">
+
+    <div class="card-header bg-primary text-white">
+      <h4 class="mb-0">Create Account</h4>
+    </div>
+
+    <div class="card-body">
+
+      @if (successMessage) {
+        <div class="alert alert-success">
+          {{ successMessage }}
+        </div>
+      }
+
+      @if (errorMessage) {
+        <div class="alert alert-danger">
+          {{ errorMessage }}
+        </div>
+      }
+
+      @if (!registered) {
+
+        <label class="form-label">User ID</label>
+        <input class="form-control mb-3"
+               placeholder="Enter User ID"
+               [(ngModel)]="user.user_id">
+
+        <label class="form-label">Full Name</label>
+        <input class="form-control mb-3"
+               placeholder="Enter your name"
+               [(ngModel)]="user.name">
+
+        <label class="form-label">Email</label>
+        <input type="email"
+               class="form-control mb-3"
+               placeholder="Enter email"
+               [(ngModel)]="user.email">
+
+        <label class="form-label">Password</label>
+        <input type="password"
+               class="form-control mb-3"
+               placeholder="Minimum 8 characters"
+               [(ngModel)]="user.password">
+
+        <label class="form-label">Confirm Password</label>
+        <input type="password"
+               class="form-control mb-3"
+               placeholder="Confirm password"
+               [(ngModel)]="confirmPassword">
+
+        <button class="btn btn-success w-100"
+                [disabled]="saving"
+                (click)="register()">
+          {{ saving ? 'Registering...' : 'Register' }}
+        </button>
+
+     } @else {
+       <p>Your account has been created successfully.</p>
+
+       <button type="button"
+          class="btn btn-primary w-100"
+          (click)="openLogin()">
+         Login
+         </button>
+}
+
+    </div>
+  </div>
+
+</div>

@@ -1,5 +1,4 @@
-
-import { Component, ChangeDetectorRef } from '@angular/core';
+import { Component, ChangeDetectorRef, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Auth } from '../services/auth';
 
@@ -15,6 +14,12 @@ export class Login {
   password = '';
   message = '';
   loading = false;
+
+  @Output() registerClick = new EventEmitter<void>();
+
+openRegister() {
+  this.registerClick.emit();
+}
 
   constructor(
   private auth: Auth,

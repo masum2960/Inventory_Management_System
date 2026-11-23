@@ -3,12 +3,14 @@
   <div class="row justify-content-center">
     <div class="col-md-5">
       <div class="card shadow">
+
         <div class="card-header bg-primary text-white">
           <h4 class="mb-0">Inventory Management Login</h4>
         </div>
 
         <div class="card-body">
           <form (ngSubmit)="login()">
+
             <div class="mb-3">
               <label class="form-label">Username</label>
               <input type="text"
@@ -27,19 +29,31 @@
                      required>
             </div>
 
-            <button type="submit"
-                    class="btn btn-primary w-100"
-                    [disabled]="loading">
-              {{ loading ? 'Logging in...' : 'Login' }}
-            </button>
+            <div class="d-flex gap-2">
+
+              <button type="submit"
+                      class="btn btn-primary flex-fill"
+                      [disabled]="loading">
+                {{ loading ? 'Logging in...' : 'Login' }}
+              </button>
+
+              <button type="button"
+                      class="btn btn-success flex-fill"
+                      (click)="openRegister()">
+                Register
+              </button>
+
+            </div>
 
             @if (message) {
               <div class="alert alert-info mt-3">
                 {{ message }}
               </div>
             }
+
           </form>
         </div>
+
       </div>
     </div>
   </div>

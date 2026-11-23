@@ -1,42 +1,77 @@
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-dark bg-primary position-relative">
   <div class="container-fluid">
-    <span class="navbar-brand">Inventory Management</span>
 
-    <div class="navbar-nav">
-      <button class="nav-link"
-              [class.active]="currentPage === 'dashboard'"
-              (click)="showPage('dashboard')">
-        Dashboard
-      </button>
+    <span class="navbar-brand mb-0">
+      Inventory Management
+    </span>
 
-      <button class="nav-link"
-              [class.active]="currentPage === 'products'"
-              (click)="showPage('products')">
-        Products
-      </button>
-   
-      <span class="nav-link">Categories</span>
-      <span class="nav-link">Suppliers</span>
-      <span class="nav-link">Users</span>
-      
-      <button class="nav-link"
-              [class.active]="currentPage === 'login'"
-              (click)="showPage('login')">
-        Login
-      </button>
+    <div class="navbar-nav flex-row flex-wrap gap-3 align-items-center">
+
+      @if (auth.isLoggedIn()) {
+
+        <button class="nav-link"
+                (click)="showPage('dashboard')">
+          Dashboard
+        </button>
+
+        <button class="nav-link"
+                (click)="showPage('products')">
+          Products
+        </button>
+
+        <button class="nav-link"
+                (click)="showPage('categories')">
+          Categories
+        </button>
+
+        <button class="nav-link"
+                (click)="showPage('suppliers')">
+          Suppliers
+        </button>
+
+        <button class="nav-link"
+                (click)="showPage('users')">
+          Users
+        </button>
+
+        <button class="btn btn-outline-light btn-sm"
+                (click)="logout()">
+          Logout
+        </button>
+
+      }
+
     </div>
   </div>
 </nav>
 
-@if (currentPage === 'dashboard') {
+@if (auth.isLoggedIn() && currentPage === 'dashboard') {
   <app-dashboard></app-dashboard>
 }
 
-@if (currentPage === 'products') {
+@if (auth.isLoggedIn() && currentPage === 'products') {
   <app-products></app-products>
 }
 
-@if (currentPage === 'login') {
-  <app-login></app-login>
+@if (auth.isLoggedIn() && currentPage === 'categories') {
+  <app-categories></app-categories>
 }
+
+@if (auth.isLoggedIn() && currentPage === 'suppliers') {
+  <app-suppliers></app-suppliers>
+}
+
+@if (auth.isLoggedIn() && currentPage === 'users') {
+  <app-users></app-users>
+}
+
+
+@if ((!auth.isLoggedIn() && currentPage !== 'register') || currentPage === 'login') {
+  <app-login (registerClick)="showPage('register')"></app-login>
+}
+
+@if (!auth.isLoggedIn() && currentPage === 'register') {
+  <app-register (loginClick)="showPage('login')"></app-register>
+}
+
+

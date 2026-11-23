@@ -9,6 +9,12 @@ categories_bp = Blueprint("categories", __name__)
 
 @categories_bp.before_request
 def check_permission():
+    if request.method == "GET":
+        @role_required("admin", "staff")
+        def check(current_user):
+            return None
+        return check()
+
     if request.method in ["POST", "PUT", "DELETE"]:
         @role_required("admin")
         def check(current_user):

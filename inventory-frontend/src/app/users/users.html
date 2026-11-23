@@ -1,0 +1,119 @@
+
+<div class="container mt-4">
+
+  <h2>Users Management</h2>
+
+  @if (errorMessage) {
+    <div class="alert alert-danger mt-3">
+      {{ errorMessage }}
+    </div>
+  }
+
+  <div class="mb-3 mt-3">
+    <label class="form-label">Search Users</label>
+
+    <input type="text"
+           class="form-control"
+           placeholder="Search by name, user ID or email..."
+           [value]="searchTerm"
+           (input)="searchTerm = $any($event.target).value; searchUsers()">
+  </div>
+
+
+@if (userMessage) {
+  <div class="alert alert-info">
+    {{ userMessage }}
+  </div>
+}
+
+@if (editingUserId) {
+  <div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+      Edit User: {{ editingUserId }}
+    </div>
+
+    <div class="card-body">
+
+      <label class="form-label">Name</label>
+      <input class="form-control mb-3"
+             [(ngModel)]="editUser.name">
+
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control mb-3"
+             [(ngModel)]="editUser.email">
+
+      <button class="btn btn-primary me-2"
+              [disabled]="savingEdit"
+              (click)="saveEdit()">
+        {{ savingEdit ? 'Saving...' : 'Save Changes' }}
+      </button>
+
+      <button class="btn btn-secondary"
+              (click)="editingUserId = ''">
+        Cancel
+      </button>
+
+    </div>
+  </div>
+}
+
+
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>User ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @for (user of pagedUsers; track user.user_id) {
+          <tr>
+            <td>{{ user.user_id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.role }}</td>
+            <td>
+              <button class="btn btn-sm btn-outline-primary me-2"
+                      (click)="startEdit(user)">
+                Edit
+              </button>
+              <button class="btn btn-sm btn-outline-danger"
+                      [disabled]="deletingId === user.user_id"
+                      (click)="deleteUser(user)">
+                Delete
+              </button>
+            </td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="5" class="text-center">
+              No users found.
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <div class="d-flex justify-content-between align-items-center mt-3 mb-4">
+    <button class="btn btn-secondary"
+            [disabled]="pageNumber === 1"
+            (click)="previousPage()">
+      Previous
+    </button>
+
+    <span>Page {{ pageNumber }}</span>
+
+    <button class="btn btn-primary"
+            [disabled]="pageNumber * pageSize >= filteredUsers.length"
+            (click)="nextPage()">
+      Next
+    </button>
+  </div>
+
+</div>

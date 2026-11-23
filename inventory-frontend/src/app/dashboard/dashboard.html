@@ -1,6 +1,70 @@
-<div class="container mt-5">
-  <h1 class="text-primary">{{ title }}</h1>
-  <p class="lead">Welcome to the Inventory Management Dashboard</p>
 
-  <button class="btn btn-primary">Add Product</button>
+<div class="container mt-4">
+
+  <h2 class="mb-4">Inventory Dashboard</h2>
+
+  @if (errorMessage) {
+    <div class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  }
+
+  @if (loading) {
+    <div class="alert alert-info">
+      Loading dashboard data...
+    </div>
+  } @else if (!errorMessage) {
+
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Total Products</h5>
+            <h2>{{ totalProducts }}</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-success text-white">
+          <div class="card-body">
+            <h5>Categories</h5>
+            <h2>{{ totalCategories }}</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-info text-dark">
+          <div class="card-body">
+            <h5>Suppliers</h5>
+            <h2>{{ totalSuppliers }}</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-warning text-dark">
+          <div class="card-body">
+            <h5>Low Stock Products</h5>
+            <h2>{{ lowStockCount }}</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-body">
+        <h5>Inventory Overview</h5>
+        <p class="mb-0">
+          This dashboard displays live inventory information
+          from the Flask API and MongoDB database.
+        </p>
+      </div>
+    </div>
+
+  }
+
 </div>
