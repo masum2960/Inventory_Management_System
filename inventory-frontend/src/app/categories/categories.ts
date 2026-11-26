@@ -52,7 +52,7 @@ previousPage() {
 
   constructor(
     private http: HttpClient,
-    private auth: Auth,
+    public auth: Auth,
     private cdr: ChangeDetectorRef
   ) {}
 

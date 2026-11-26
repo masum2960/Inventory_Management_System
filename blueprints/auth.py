@@ -1,4 +1,6 @@
 
+import token
+
 from flask import Blueprint, request, jsonify, make_response
 from werkzeug.security import (
     generate_password_hash,
@@ -147,13 +149,16 @@ def login():
         algorithm="HS256"
     )
 
+    
     return make_response(
-        jsonify({
-            "message": "Login successful",
-            "token": token
-        }),
-        200
+    jsonify({
+        "message": "Login successful",
+        "token": token,
+        "role": user["role"]
+    }),
+    200
     )
+
 
 
 # Logout user

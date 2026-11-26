@@ -1,28 +1,158 @@
 
-.dashboard {
-  padding: 30px;
-  font-family: Arial, sans-serif;
+.dashboard-page {
+  background: #f3f4f6;
+  min-height: 100vh;
+  color: #1e293b;
 }
 
-h1 {
-  color: #7bc476;
+.dashboard-content {
+  max-width: 1450px;
+  margin: auto;
+  padding: 0 15px;
 }
 
-.cards {
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.dashboard-stat {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.dashboard-stat h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  overflow-wrap: anywhere;
+}
+
+.dashboard-stat p {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 0;
+}
+
+.dashboard-panel {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.dashboard-panel h5 {
+  color: #1e293b;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Horizontal graphs */
+.chart-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 25px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
-.card {
-  padding: 25px;
-  background-color: #f2f6fa;
-  border: 1px solid #dce5ee;
-  border-radius: 8px;
-  flex: 1 1 180px;
+.chart-label {
+  width: 150px;
+  flex-shrink: 0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
 }
 
-.card h3 {
-  color: #234b76;
+.chart-track {
+  flex: 1;
+  height: 14px;
+  background: #e5e7eb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.chart-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 5px;
+  min-width: 0;
+}
+
+.chart-value {
+  width: 65px;
+  text-align: right;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* Tables */
+.dashboard-table {
+  font-size: 14px;
+}
+
+.dashboard-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+}
+
+.dashboard-table td {
+  vertical-align: middle;
+}
+
+/* Stock status */
+.status-badge {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-out {
+  color: #b91c1c;
+  background: #fee2e2;
+}
+
+.status-low {
+  color: #92400e;
+  background: #fef3c7;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: 0 5px;
+  }
+
+  .dashboard-title {
+    font-size: 24px;
+  }
+
+  .dashboard-stat h3 {
+    font-size: 22px;
+  }
+
+  .chart-row {
+    gap: 8px;
+  }
+
+  .chart-label {
+    width: 95px;
+    font-size: 11px;
+  }
+
+  .chart-value {
+    width: 48px;
+    font-size: 11px;
+  }
+
+  .dashboard-panel {
+    padding: 15px;
+  }
 }

@@ -54,7 +54,7 @@ previousPage() {
 
   constructor(
     private http: HttpClient,
-    private auth: Auth,
+    public auth: Auth,
     private cdr: ChangeDetectorRef
   ) {}
 
@@ -63,7 +63,10 @@ previousPage() {
   }
 
   loadSuppliers() {
-    this.http.get<any[]>('/api/v1.0/suppliers').subscribe({
+    this.http.get<any[]>('/api/v1.0/suppliers', {
+     headers: this.auth.getAuthHeaders()
+    }).subscribe({
+
       next: (data) => {
         this.suppliers = data;
         this.searchSuppliers();

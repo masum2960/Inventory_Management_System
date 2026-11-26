@@ -7,6 +7,15 @@ import { tap } from 'rxjs';
   providedIn: 'root'
 })
 export class Auth {
+  role = '';
+
+setRole(role: string) {
+  this.role = role;
+}
+
+isAdmin() {
+  return this.isLoggedIn() && this.role === 'admin';
+}
 
   private authHeader = '';
 
@@ -42,5 +51,6 @@ export class Auth {
 
   logout() {
     this.authHeader = '';
+    this.role = '';
   }
 }

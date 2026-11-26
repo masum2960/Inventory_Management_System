@@ -6,13 +6,21 @@ from decorators import role_required
 suppliers_bp = Blueprint("suppliers", __name__)
 
 
+
 @suppliers_bp.before_request
 def check_permission():
+    if request.method == "GET":
+        @role_required("admin", "staff")
+        def check(current_user):
+            return None
+        return check()
+
     if request.method in ["POST", "PUT", "DELETE"]:
         @role_required("admin")
         def check(current_user):
             return None
         return check()
+
 
 
 # GET all suppliers and POST a new supplier

@@ -374,7 +374,8 @@ def get_stock_movements(current_user, product_id):
 
 # Search products
 @products_bp.route("/api/v1.0/products/search", methods=["GET"])
-def search_products():
+@role_required("admin", "staff")
+def search_products(current_user):
     query = {}
 
     name = request.args.get("name")

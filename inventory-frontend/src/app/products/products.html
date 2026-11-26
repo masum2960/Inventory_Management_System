@@ -10,12 +10,14 @@
     </div>
   }
 
+  @if (auth.isAdmin()) {
   <button class="btn btn-success mt-2 mb-3"
           (click)="toggleAddForm()">
     {{ showAddForm ? 'Cancel' : 'Add Product' }}
   </button>
+}
 
-  @if (showAddForm) {
+  @if (auth.isAdmin() && showAddForm) {
     <div class="card mb-4">
       <div class="card-header">
         <h5 class="mb-0">Add New Product</h5>
@@ -114,7 +116,7 @@
   }
 
 
-@if (editingProductId) {
+@if (auth.isAdmin() && editingProductId) {
   <div class="card mb-4">
     <div class="card-header bg-primary text-white">
       Edit Product: {{ editingProductId }}
@@ -349,16 +351,18 @@
       <td>{{ product.stock?.quantity }}</td>
 
       <td>
+        @if (auth.isAdmin()) {
         <button class="btn btn-warning btn-sm me-2"
-                (click)="startEdit(product)">
-          Edit
-        </button>
+          (click)="startEdit(product)">
+            Edit
+         </button>
 
         <button class="btn btn-danger btn-sm"
-                [disabled]="deletingId === product.product_id"
-                (click)="deleteProduct(product)">
-          Delete
-        </button>
+          [disabled]="deletingId === product.product_id"
+          (click)="deleteProduct(product)">
+            Delete
+         </button>
+       }
 
         <button class="btn btn-info btn-sm ms-2"
         (click)="openStockForm(product)">

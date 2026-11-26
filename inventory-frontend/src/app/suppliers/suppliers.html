@@ -4,25 +4,33 @@
   <h2>Suppliers Management</h2>
 
   @if (message) {
-    <div class="alert alert-info mt-3">{{ message }}</div>
+    <div class="alert alert-info mt-3">
+      {{ message }}
+    </div>
   }
 
   @if (errorMessage) {
-    <div class="alert alert-danger">{{ errorMessage }}</div>
+    <div class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
   }
 
-  <button class="btn btn-success my-3"
-          (click)="addSupplier()">
-    Add Supplier
-  </button>
+  @if (auth.isAdmin()) {
+    <button class="btn btn-success my-3"
+            (click)="addSupplier()">
+      Add Supplier
+    </button>
+  }
 
-  @if (showForm) {
+  @if (auth.isAdmin() && showForm) {
     <div class="card mb-4">
+
       <div class="card-header">
         {{ editingId ? 'Edit Supplier' : 'Add Supplier' }}
       </div>
 
       <div class="card-body">
+
         <label class="form-label">Supplier ID</label>
         <input class="form-control mb-3"
                [(ngModel)]="formData.supplier_id"
@@ -33,7 +41,8 @@
                [(ngModel)]="formData.name">
 
         <label class="form-label">Email</label>
-        <input type="email" class="form-control mb-3"
+        <input type="email"
+               class="form-control mb-3"
                [(ngModel)]="formData.email">
 
         <label class="form-label">Phone</label>
@@ -54,12 +63,14 @@
                 (click)="showForm = false">
           Cancel
         </button>
+
       </div>
     </div>
   }
 
   <div class="mb-3">
     <label class="form-label">Search Suppliers</label>
+
     <input type="text"
            class="form-control"
            placeholder="Search by supplier name..."
@@ -77,7 +88,10 @@
           <th>Email</th>
           <th>Phone</th>
           <th>Status</th>
-          <th>Actions</th>
+
+          @if (auth.isAdmin()) {
+            <th>Actions</th>
+          }
         </tr>
       </thead>
 
@@ -89,22 +103,26 @@
             <td>{{ supplier.email }}</td>
             <td>{{ supplier.phone }}</td>
             <td>{{ supplier.status }}</td>
-            <td>
-              <button class="btn btn-warning btn-sm me-2"
-                      (click)="editSupplier(supplier)">
-                Edit
-              </button>
 
-              <button class="btn btn-danger btn-sm"
-                      [disabled]="deletingId === supplier.supplier_id"
-                      (click)="deleteSupplier(supplier)">
-                Delete
-              </button>
-            </td>
+            @if (auth.isAdmin()) {
+              <td>
+                <button class="btn btn-warning btn-sm me-2"
+                        (click)="editSupplier(supplier)">
+                  Edit
+                </button>
+
+                <button class="btn btn-danger btn-sm"
+                        [disabled]="deletingId === supplier.supplier_id"
+                        (click)="deleteSupplier(supplier)">
+                  Delete
+                </button>
+              </td>
+            }
           </tr>
         } @empty {
           <tr>
-            <td colspan="6" class="text-center">
+            <td [attr.colspan]="auth.isAdmin() ? 6 : 5"
+                class="text-center">
               No suppliers found.
             </td>
           </tr>
@@ -114,26 +132,22 @@
     </table>
   </div>
 
-    
-<div class="d-flex justify-content-between align-items-center mt-3 mb-4">
+  <div class="d-flex justify-content-between align-items-center mt-3 mb-4">
 
-  <button class="btn btn-secondary"
-          [disabled]="pageNumber === 1"
-          (click)="previousPage()">
-    Previous
-  </button>
+    <button class="btn btn-secondary"
+            [disabled]="pageNumber === 1"
+            (click)="previousPage()">
+      Previous
+    </button>
 
-  <span>Page {{ pageNumber }}</span>
+    <span>Page {{ pageNumber }}</span>
 
-  <button class="btn btn-primary"
-          [disabled]="pageNumber * pageSize >= filteredSuppliers.length"
-          (click)="nextPage()">
-    Next
-  </button>
+    <button class="btn btn-primary"
+            [disabled]="pageNumber * pageSize >= filteredSuppliers.length"
+            (click)="nextPage()">
+      Next
+    </button>
 
-</div>
-
-
-
+  </div>
 
 </div>

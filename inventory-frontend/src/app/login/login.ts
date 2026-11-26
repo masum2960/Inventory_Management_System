@@ -38,6 +38,7 @@ login() {
   this.auth.login(this.username, this.password)
     .subscribe({
       next: (response) => {
+        this.auth.setRole(response.role);
         console.log('Login response received');
 
         this.loading = false;

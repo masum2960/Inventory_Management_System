@@ -1,70 +1,468 @@
 
-<div class="container mt-4">
+<div class="container-fluid dashboard-page py-4">
+  <div class="dashboard-content">
 
-  <h2 class="mb-4">Inventory Dashboard</h2>
+    <h2 class="dashboard-title mb-4">Dashboard</h2>
 
-  @if (errorMessage) {
-    <div class="alert alert-danger">
-      {{ errorMessage }}
-    </div>
-  }
+    @if (errorMessage) {
+      <div class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+    }
 
-  @if (loading) {
-    <div class="alert alert-info">
-      Loading dashboard data...
-    </div>
-  } @else if (!errorMessage) {
+    @if (loading) {
+      <div class="alert alert-info">
+        Loading dashboard data...
+      </div>
+    } @else if (!errorMessage) {
 
-    <div class="row g-4">
+      <!-- Summary cards -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-3 mb-4">
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card bg-primary text-white">
-          <div class="card-body">
-            <h5>Total Products</h5>
-            <h2>{{ totalProducts }}</h2>
+        <div class="col">
+          <div class="dashboard-stat">
+            <h3>{{ totalProducts | number }}</h3>
+            <p>Products</p>
           </div>
+        </div>
+
+        <div class="col">
+          <div class="dashboard-stat">
+            <h3>{{ totalUnits | number }}</h3>
+            <p>Units in stock</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dashboard-stat">
+            <h3>{{ totalStockValue | currency:'GBP' }}</h3>
+            <p>Stock value at retail price</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dashboard-stat">
+            @if (hasCostData) {
+              <h3>{{ totalCostValue | currency:'GBP' }}</h3>
+            } @else {
+              <h3>—</h3>
+            }
+            <p>Stock value at cost</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dashboard-stat">
+            <h3 class="text-warning">{{ lowStockCount }}</h3>
+            <p>Low stock products</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dashboard-stat">
+            <h3 class="text-danger">{{ outOfStockCount }}</h3>
+            <p>Out of stock</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dashboard-stat">
+            <h3 class="text-warning">{{ suppliersOnHold }}</h3>
+            <p>Suppliers on hold</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Graphs -->
+      <div class="row g-3 mb-4">
+
+        <div class="col-lg-6">
+          <div class="dashboard-panel h-100">
+            <h5>Products by category</h5>
+
+            @for (item of categoryChart; track item.name) {
+              <div class="chart-row">
+                <span class="chart-label">
+                  {{ item.name }}
+                </span>
+
+                <div class="chart-track">
+                  <div class="chart-fill"
+                       [style.width.%]="item.width">
+                  </div>
+                </div>
+
+                <span class="chart-value">
+                  {{ item.value }}
+                </span>
+              </div>
+            } @empty {
+              <p class="text-muted mt-3">
+                No category data available.
+              </p>
+            }
+
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="dashboard-panel h-100">
+            <h5>Stock by warehouse</h5>
+
+            @for (item of warehouseChart; track item.name) {
+              <div class="chart-row">
+                <span class="chart-label">
+                  {{ item.name }}
+                </span>
+
+                <div class="chart-track">
+                  <div class="chart-fill"
+                       [style.width.%]="item.width">
+                  </div>
+                </div>
+
+                <span class="chart-value">
+                  {{ item.value | number }}
+                </span>
+              </div>
+            } @empty {
+              <p class="text-muted mt-3">
+                No warehouse stock data available.
+              </p>
+            }
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Low stock products -->
+      <div class="dashboard-panel mb-4">
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="mb-0">Low stock products</h5>
+          <span class="text-muted small">
+            {{ lowStockCount }} products
+          </span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table dashboard-table">
+
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>SKU</th>
+                <th>In stock</th>
+                <th>Minimum</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              @for (product of lowStockProducts.slice(0, 8); track $index) {
+                <tr>
+                  <td>
+                    <button type="button"
+                            class="btn btn-link p-0 text-start text-decoration-none"
+                            (click)="stockProductClick.emit(product.product_id)">
+                      {{ product.name }}
+                    </button>
+                  </td>
+
+
+                  <td>{{ product.sku ?? '—' }}</td>
+
+                  <td>
+                    {{ product.stock?.quantity ?? '—' }}
+                  </td>
+
+                  <td>
+                    {{
+                      product.stock?.minimum_level ??
+                      product.stock?.min_level ??
+                      product.stock?.reorder_level ??
+                      product.reorder_level ??
+                      '—'
+                    }}
+                  </td>
+
+                  <td>
+                    @if (product.stock?.quantity === 0) {
+                      <span class="status-badge status-out">
+                        Out of stock
+                      </span>
+                    } @else {
+                      <span class="status-badge status-low">
+                        Low stock
+                      </span>
+                    }
+                  </td>
+                </tr>
+              } @empty {
+                <tr>
+                  <td colspan="5"
+                      class="text-center text-muted py-3">
+                    No low-stock product details available.
+                  </td>
+                </tr>
+              }
+            </tbody>
+
+          </table>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card bg-success text-white">
-          <div class="card-body">
-            <h5>Categories</h5>
-            <h2>{{ totalCategories }}</h2>
+      <!-- Sales by Supplier -->
+      <div class="dashboard-panel mb-4">
+
+        <h5>Sales by Supplier</h5>
+
+        <div class="d-flex gap-3 flex-wrap align-items-end mb-3">
+
+          <div>
+            <label class="form-label">From</label>
+            <input type="date"
+                   class="form-control"
+                   [value]="salesFromDate"
+                   (change)="salesFromDate = $any($event.target).value; updateSalesBySupplier()">
           </div>
+
+          <div>
+            <label class="form-label">To</label>
+            <input type="date"
+                   class="form-control"
+                   [value]="salesToDate"
+                   (change)="salesToDate = $any($event.target).value; updateSalesBySupplier()">
+          </div>
+
+          <button class="btn btn-outline-secondary"
+                  (click)="salesFromDate = ''; salesToDate = ''; updateSalesBySupplier()">
+            Clear Dates
+          </button>
+
         </div>
+
+        <div class="table-responsive">
+          <table class="table dashboard-table">
+
+            <thead>
+              <tr>
+                <th>Supplier</th>
+                <th>Orders</th>
+                <th>Units sold</th>
+                <th class="text-end">Revenue</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              @for (sale of pagedSalesBySupplier; track sale.supplier) {
+                <tr>
+                  <td>{{ sale.supplier }}</td>
+
+                  <td>{{ sale.orders }}</td>
+
+                  <td>{{ sale.units | number }}</td>
+
+                  <td class="text-end">
+                    {{ sale.revenue | currency:'GBP' }}
+                  </td>
+                </tr>
+              } @empty {
+                <tr>
+                  <td colspan="4"
+                      class="text-center text-muted py-3">
+                    No sales records found for the selected dates.
+                  </td>
+                </tr>
+              }
+            </tbody>
+
+          </table>
+        </div>
+
+
+<!-- Sales Pagination -->
+<div class="d-flex justify-content-between align-items-center mt-3">
+
+  <button class="btn btn-secondary btn-sm"
+          [disabled]="salesPage === 1"
+          (click)="previousSalesPage()">
+    Previous
+  </button>
+
+  <span class="small">
+    Page {{ salesPage }} of {{ salesTotalPages }}
+  </span>
+
+  <button class="btn btn-primary btn-sm"
+          [disabled]="salesPage === salesTotalPages"
+          (click)="nextSalesPage()">
+    Next
+  </button>
+
+</div>
+
+
+
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card bg-info text-dark">
-          <div class="card-body">
-            <h5>Suppliers</h5>
-            <h2>{{ totalSuppliers }}</h2>
-          </div>
-        </div>
+
+
+
+<!-- Expiring Batches and Recent Stock Movements -->
+<div class="row g-3 mb-4">
+
+  <!-- Expiring Batches -->
+  <div class="col-lg-6">
+    <div class="dashboard-panel h-100">
+
+      <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+        <h5 class="mb-0">Batches expiring within</h5>
+
+        <select class="form-select"
+                style="width: auto;"
+                [value]="expiryDays"
+                (change)="expiryDays = $any($event.target).value; updateExpiringBatches()">
+
+          <option value="90">3 months</option>
+          <option value="180">6 months</option>
+          <option value="365">1 year</option>
+          <option value="730">2 years</option>
+
+        </select>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card bg-warning text-dark">
-          <div class="card-body">
-            <h5>Low Stock Products</h5>
-            <h2>{{ lowStockCount }}</h2>
-          </div>
-        </div>
+      <div class="table-responsive">
+        <table class="table dashboard-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Batch</th>
+              <th>Expires</th>
+              <th>Received Qty</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            @for (batch of expiringBatches; track $index) {
+              <tr>
+                <td>{{ batch.product }}</td>
+                <td>{{ batch.batchNumber }}</td>
+                <td>
+                  {{ batch.expiryDate | date:'dd MMM yyyy' }}
+                </td>
+                <td>{{ batch.receivedQty | number }}</td>
+              </tr>
+            } @empty {
+              <tr>
+                <td colspan="4"
+                    class="text-center text-muted py-3">
+                  No batches expiring in this period.
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-muted small mb-0">
+        Received Qty is the original batch receipt,
+        not the current remaining stock.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Recent Stock Movements -->
+  <div class="col-lg-6">
+    <div class="dashboard-panel h-100">
+
+      <h5>Recent Stock Movements</h5>
+
+      <div class="table-responsive">
+        <table class="table dashboard-table">
+          <thead>
+            <tr>
+              <th>When</th>
+              <th>Product</th>
+              <th>Type</th>
+              <th>Qty</th>
+              <th>By</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            @for (movement of recentMovements; track $index) {
+              <tr>
+                <td>
+                  {{ movement.date | date:'dd MMM yyyy, HH:mm' }}
+                </td>
+                <td>{{ movement.product }}</td>
+                <td>
+                  <span class="badge"
+                        [class.bg-success]="movement.type === 'received'"
+                        [class.bg-primary]="movement.type === 'sold'"
+                        [class.bg-secondary]="movement.type !== 'received' && movement.type !== 'sold'">
+                    {{ movement.type }}
+                  </span>
+                </td>
+                <td>{{ movement.quantity }}</td>
+                <td>{{ movement.by }}</td>
+              </tr>
+            } @empty {
+              <tr>
+                <td colspan="5"
+                    class="text-center text-muted py-3">
+                  No stock movements available.
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
       </div>
 
     </div>
+  </div>
 
-    <div class="card mt-4">
-      <div class="card-body">
-        <h5>Inventory Overview</h5>
-        <p class="mb-0">
-          This dashboard displays live inventory information
-          from the Flask API and MongoDB database.
-        </p>
+</div>
+
+
+      <!-- Categories and Suppliers Overview -->
+      <div class="row g-3 mb-4">
+
+        <div class="col-md-6">
+          <div class="dashboard-panel h-100">
+
+            <h5>Categories Overview</h5>
+
+            <h3>{{ totalCategories }}</h3>
+
+            <p class="text-muted mb-0">
+              Total categories in the database
+            </p>
+
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="dashboard-panel h-100">
+
+            <h5>Suppliers Overview</h5>
+
+            <h3>{{ totalSuppliers }}</h3>
+
+            <p class="text-muted mb-0">
+              Total suppliers in the database
+            </p>
+
+          </div>
+        </div>
+
       </div>
-    </div>
 
-  }
+    }
 
+  </div>
 </div>

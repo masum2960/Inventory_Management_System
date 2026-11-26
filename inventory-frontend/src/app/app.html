@@ -1,9 +1,13 @@
 <nav class="navbar navbar-dark bg-primary position-relative">
   <div class="container-fluid">
 
-    <span class="navbar-brand mb-0">
+    
+    <button type="button"
+        class="navbar-brand text-white bg-transparent border-0 p-0"
+        (click)="showPage('dashboard')">
       Inventory Management
-    </span>
+    </button>
+
 
     <div class="navbar-nav flex-row flex-wrap gap-3 align-items-center">
 
@@ -29,10 +33,12 @@
           Suppliers
         </button>
 
-        <button class="nav-link"
-                (click)="showPage('users')">
-          Users
-        </button>
+        @if (auth.isAdmin()) {
+          <button class="nav-link"
+                  (click)="showPage('users')">
+            Users
+           </button>
+     }
 
         <button class="btn btn-outline-light btn-sm"
                 (click)="logout()">
@@ -45,7 +51,7 @@
   </div>
 </nav>
 
-@if (auth.isLoggedIn() && currentPage === 'dashboard') {
+@if (auth.isLoggedIn() && (currentPage === 'dashboard' || currentPage === 'login')) {
   <app-dashboard></app-dashboard>
 }
 
@@ -61,12 +67,12 @@
   <app-suppliers></app-suppliers>
 }
 
-@if (auth.isLoggedIn() && currentPage === 'users') {
+@if (auth.isAdmin() && currentPage === 'users') {
   <app-users></app-users>
 }
 
 
-@if ((!auth.isLoggedIn() && currentPage !== 'register') || currentPage === 'login') {
+@if (!auth.isLoggedIn() && currentPage !== 'register') {
   <app-login (registerClick)="showPage('register')"></app-login>
 }
 
